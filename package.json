@@ -10,4 +10,12 @@
   "devDependencies": {
     "lighthouse": "^12.8.2"
   }
+
+  "scripts": {
+  "lighthouse:mobile": "...",
+  "lighthouse:desktop": "...",
+  "history": "node scripts/history.js"
 }
+}
+
+
