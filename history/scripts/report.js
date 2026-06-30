@@ -11,6 +11,14 @@ function load(file) {
 const mobile = load("reports/mobile.report.json");
 const desktop = load("reports/desktop.report.json");
 
+console.log("===== MOBILE CATEGORIES =====");
+console.log(mobile.categories);
+
+console.log("===== DESKTOP CATEGORIES =====");
+console.log(desktop.categories);
+
+
+
 function score(data, category) {
   const value = data.categories?.[category]?.score;
 
