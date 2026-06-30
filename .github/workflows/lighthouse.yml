@@ -16,6 +16,13 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install Google Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Verify Chrome
+        run: |
+          google-chrome --version
+
       - name: Install dependencies
         run: npm install
 
@@ -23,9 +30,13 @@ jobs:
         run: mkdir -p reports
 
       - name: Run Lighthouse Mobile
+        env:
+          CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chromium/stable/x64/chrome
         run: npm run lighthouse:mobile
 
       - name: Run Lighthouse Desktop
+        env:
+          CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chromium/stable/x64/chrome
         run: npm run lighthouse:desktop
 
       - name: Upload reports
