@@ -47,6 +47,13 @@ jobs:
       - name: Generate Markdown Report
         run: npm run report
 
+      - name: Send Email
+        env:
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: npm run mail
+
       - name: Commit History & Report
         run: |
           git config user.name "github-actions"
