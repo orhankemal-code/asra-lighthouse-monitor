@@ -8,7 +8,9 @@
     "lighthouse:desktop": "lighthouse https://www.asrapirlanta.com --preset=desktop --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/desktop",
 
     "history": "node history/scripts/history.js",
-    "report": "node history/scripts/report.js"
+    "report": "node history/scripts/report.js",
+    "mail": "node history/scripts/mail.js"
+}
   },
 "devDependencies": {
   "lighthouse": "^12.8.2",
