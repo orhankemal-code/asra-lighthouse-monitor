@@ -44,15 +44,19 @@ jobs:
       - name: Update History
         run: npm run history
 
-      - name: Commit history
+      - name: Generate Markdown Report
+        run: npm run report
+
+      - name: Commit History & Report
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add history/history.csv
+          git add reports/
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update performance history"
+            git commit -m "Daily Lighthouse Report"
             git push
           else
             echo "No changes."
