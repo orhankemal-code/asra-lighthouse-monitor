@@ -1,0 +1,35 @@
+name: Lighthouse Audit
+
+on:
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create reports folder
+        run: mkdir -p reports
+
+      - name: Run Lighthouse Mobile
+        run: npm run lighthouse:mobile
+
+      - name: Run Lighthouse Desktop
+        run: npm run lighthouse:desktop
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: reports/
