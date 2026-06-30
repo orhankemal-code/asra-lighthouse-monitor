@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "lighthouse:mobile": "lighthouse https://www.asrapirlanta.com --form-factor=mobile --screenEmulation.mobile=true --output=json --output=html --output-path=reports/mobile --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\"",
+    "lighthouse:mobile": "lighthouse https://www.asrapirlanta.com --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/mobile",
 
-    "lighthouse:desktop": "lighthouse https://www.asrapirlanta.com --preset=desktop --output=json --output=html --output-path=reports/desktop --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\"",
+    "lighthouse:desktop": "lighthouse https://www.asrapirlanta.com --preset=desktop --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/desktop",
 
     "history": "node history/scripts/history.js",
-
     "report": "node history/scripts/report.js"
   },
   "devDependencies": {
