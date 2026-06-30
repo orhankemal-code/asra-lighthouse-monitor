@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "lighthouse:mobile": "lighthouse https://www.asrapirlanta.com --preset=perf --form-factor=mobile --output=json --output=html --output-path=reports/mobile",
-    "lighthouse:desktop": "lighthouse https://www.asrapirlanta.com --preset=perf --form-factor=desktop --output=json --output=html --output-path=reports/desktop"
+    "lighthouse:mobile": "lighthouse https://www.asrapirlanta.com --preset=perf --form-factor=mobile --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/mobile",
+    "lighthouse:desktop": "lighthouse https://www.asrapirlanta.com --preset=perf --form-factor=desktop --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/desktop"
   },
   "devDependencies": {
     "lighthouse": "^12.8.2"
