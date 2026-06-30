@@ -10,7 +10,8 @@
     "history": "node history/scripts/history.js",
     "report": "node history/scripts/report.js"
   },
-  "devDependencies": {
-    "lighthouse": "^12.8.2"
-  }
+"devDependencies": {
+  "lighthouse": "^12.8.2",
+  "nodemailer": "^6.10.1"
+}
 }
