@@ -3,6 +3,9 @@ name: Lighthouse Audit
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
@@ -20,8 +23,7 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Verify Chrome
-        run: |
-          google-chrome --version
+        run: google-chrome --version
 
       - name: Install dependencies
         run: npm install
@@ -38,6 +40,23 @@ jobs:
         env:
           CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chromium/stable/x64/chrome
         run: npm run lighthouse:desktop
+
+      - name: Update History
+        run: npm run history
+
+      - name: Commit history
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add history/history.csv
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update performance history"
+            git push
+          else
+            echo "No changes."
+          fi
 
       - name: Upload reports
         uses: actions/upload-artifact@v4
