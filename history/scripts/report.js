@@ -2,28 +2,14 @@ const fs = require("fs");
 
 function load(file) {
   const json = JSON.parse(fs.readFileSync(file, "utf8"));
-
-  // categories üstteyse onu kullan,
-  // lighthouseResult içindeyse onu kullan.
   return json.lighthouseResult || json;
 }
 
 const mobile = load("reports/mobile.report.json");
 const desktop = load("reports/desktop.report.json");
 
-console.log("===== MOBILE CATEGORIES =====");
-console.log(mobile.categories);
-
-console.log("===== DESKTOP CATEGORIES =====");
-console.log(desktop.categories);
-
-
-
 function score(data, category) {
   const value = data.categories?.[category]?.score;
-
-  console.log(`${category}:`, value);
-
   return value != null ? Math.round(value * 100) : "-";
 }
 
@@ -31,11 +17,47 @@ function auditDisplay(data, key) {
   return data.audits?.[key]?.displayValue || "-";
 }
 
-function auditValue(data, key) {
-  return data.audits?.[key]?.numericValue || 0;
-}
-
 const today = new Date().toISOString().slice(0, 10);
+
+/*
+|--------------------------------------------------------------------------
+| JSON VERİSİ (Bundan sonra tüm sistem bunu kullanacak)
+|--------------------------------------------------------------------------
+*/
+
+const reportData = {
+  date: today,
+
+  mobile: {
+    performance: score(mobile, "performance"),
+    seo: score(mobile, "seo"),
+    accessibility: score(mobile, "accessibility"),
+    bestPractices: score(mobile, "best-practices"),
+
+    lcp: auditDisplay(mobile, "largest-contentful-paint"),
+    fcp: auditDisplay(mobile, "first-contentful-paint"),
+    cls: auditDisplay(mobile, "cumulative-layout-shift"),
+    inp: auditDisplay(mobile, "interaction-to-next-paint"),
+  },
+
+  desktop: {
+    performance: score(desktop, "performance"),
+    seo: score(desktop, "seo"),
+    accessibility: score(desktop, "accessibility"),
+    bestPractices: score(desktop, "best-practices"),
+
+    lcp: auditDisplay(desktop, "largest-contentful-paint"),
+    fcp: auditDisplay(desktop, "first-contentful-paint"),
+    cls: auditDisplay(desktop, "cumulative-layout-shift"),
+    inp: auditDisplay(desktop, "interaction-to-next-paint"),
+  },
+};
+
+/*
+|--------------------------------------------------------------------------
+| MARKDOWN RAPORU
+|--------------------------------------------------------------------------
+*/
 
 const report = `# Asra Pırlanta Günlük Performans Raporu
 
@@ -45,17 +67,17 @@ const report = `# Asra Pırlanta Günlük Performans Raporu
 
 | Metrik | Sonuç |
 |--------|------:|
-| Performance | ${score(mobile,"performance")} |
-| SEO | ${score(mobile,"seo")} |
-| Accessibility | ${score(mobile,"accessibility")} |
-| Best Practices | ${score(mobile,"best-practices")} |
+| Performance | ${reportData.mobile.performance} |
+| SEO | ${reportData.mobile.seo} |
+| Accessibility | ${reportData.mobile.accessibility} |
+| Best Practices | ${reportData.mobile.bestPractices} |
 
 ### Core Web Vitals
 
-- LCP: ${auditDisplay(mobile,"largest-contentful-paint")}
-- FCP: ${auditDisplay(mobile,"first-contentful-paint")}
-- CLS: ${auditDisplay(mobile,"cumulative-layout-shift")}
-- INP: ${auditDisplay(mobile,"interaction-to-next-paint")}
+- LCP: ${reportData.mobile.lcp}
+- FCP: ${reportData.mobile.fcp}
+- CLS: ${reportData.mobile.cls}
+- INP: ${reportData.mobile.inp}
 
 ---
 
@@ -63,19 +85,31 @@ const report = `# Asra Pırlanta Günlük Performans Raporu
 
 | Metrik | Sonuç |
 |--------|------:|
-| Performance | ${score(desktop,"performance")} |
-| SEO | ${score(desktop,"seo")} |
-| Accessibility | ${score(desktop,"accessibility")} |
-| Best Practices | ${score(desktop,"best-practices")} |
+| Performance | ${reportData.desktop.performance} |
+| SEO | ${reportData.desktop.seo} |
+| Accessibility | ${reportData.desktop.accessibility} |
+| Best Practices | ${reportData.desktop.bestPractices} |
 
 ### Core Web Vitals
 
-- LCP: ${auditDisplay(desktop,"largest-contentful-paint")}
-- FCP: ${auditDisplay(desktop,"first-contentful-paint")}
-- CLS: ${auditDisplay(desktop,"cumulative-layout-shift")}
-- INP: ${auditDisplay(desktop,"interaction-to-next-paint")}
+- LCP: ${reportData.desktop.lcp}
+- FCP: ${reportData.desktop.fcp}
+- CLS: ${reportData.desktop.cls}
+- INP: ${reportData.desktop.inp}
 `;
+
+/*
+|--------------------------------------------------------------------------
+| DOSYALARI OLUŞTUR
+|--------------------------------------------------------------------------
+*/
+
+fs.writeFileSync(
+  `reports/${today}.json`,
+  JSON.stringify(reportData, null, 2)
+);
 
 fs.writeFileSync(`reports/${today}.md`, report);
 
-console.log("✅ Günlük rapor oluşturuldu.");
+console.log("✅ Markdown raporu oluşturuldu.");
+console.log("✅ JSON raporu oluşturuldu.");
