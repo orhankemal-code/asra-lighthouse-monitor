@@ -1,11 +1,112 @@
-{{performance}}
+<!DOCTYPE html>
+<html lang="tr">
 
-{{seo}}
+<head>
+<meta charset="UTF-8">
+<title>Asra Lighthouse Report</title>
 
-{{accessibility}}
+<link rel="stylesheet" href="styles.css">
 
-{{bestPractices}}
+</head>
 
-{{lcp}}
+<body>
 
-{{cls}}
+<div class="container">
+
+    <div class="header">
+
+        <h1>ASRA LIGHTHOUSE</h1>
+
+        <p>Daily Performance Report</p>
+
+        <span>{{date}}</span>
+
+    </div>
+
+    <div class="scores">
+
+        <div class="card">
+
+            <div class="title">
+                Mobile Performance
+            </div>
+
+            <div class="score">
+                {{mobilePerformance}}
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <div class="title">
+                Desktop Performance
+            </div>
+
+            <div class="score">
+                {{desktopPerformance}}
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="metrics">
+
+        <div class="metric">
+
+            <span>LCP</span>
+
+            <strong>{{lcp}}</strong>
+
+        </div>
+
+        <div class="metric">
+
+            <span>CLS</span>
+
+            <strong>{{cls}}</strong>
+
+        </div>
+
+        <div class="metric">
+
+            <span>SEO</span>
+
+            <strong>{{seo}}</strong>
+
+        </div>
+
+        <div class="metric">
+
+            <span>Accessibility</span>
+
+            <strong>{{accessibility}}</strong>
+
+        </div>
+
+        <div class="metric">
+
+            <span>Best Practices</span>
+
+            <strong>{{bestPractices}}</strong>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        Generated automatically by
+
+        <br>
+
+        <b>Asra Digital Operations Center</b>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
