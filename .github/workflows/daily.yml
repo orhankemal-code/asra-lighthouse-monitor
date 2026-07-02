@@ -1,0 +1,39 @@
+name: Asra Lighthouse Daily Monitor
+
+on:
+  schedule:
+    # Her gün Türkiye saati 06:00 (UTC 03:00)
+    - cron: "0 3 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repoyu indir
+        uses: actions/checkout@v4
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Kütüphaneleri yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lighthouse raporunu çalıştır
+        env:
+          PAGESPEED_API_KEY: ${{ secrets.PAGESPEED_API_KEY }}
+          GTMETRIX_API_KEY: ${{ secrets.GTMETRIX_API_KEY }}
+          GTMETRIX_EMAIL: ${{ secrets.GTMETRIX_EMAIL }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          python main.py
