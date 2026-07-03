@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-03",
+  "mobile": {
+    "performance": 30,
+    "seo": 77,
+    "accessibility": 81,
+    "bestPractices": 71,
+    "lcp": "11.0 s",
+    "fcp": "4.3 s",
+    "cls": "0.001",
+    "inp": "-"
+  },
+  "desktop": {
+    "performance": 73,
+    "seo": 77,
+    "accessibility": 79,
+    "bestPractices": 74,
+    "lcp": "3.0 s",
+    "fcp": "1.2 s",
+    "cls": "0.003",
+    "inp": "-"
+  }
+}
