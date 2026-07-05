@@ -3,9 +3,8 @@ name: Lighthouse Audit
 on:
   workflow_dispatch:
 
-  schedule:
-    # Her gün Türkiye saati 08:00 (UTC 05:00)
-    - cron: '0 5 * * *'
+schedule:
+  - cron: '40 13 * * *'
 
 permissions:
   contents: write
