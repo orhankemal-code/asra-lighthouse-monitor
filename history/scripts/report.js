@@ -36,8 +36,8 @@ function status(value) {
   return "bad";
 }
 
-function readLastHistory() {
-  if (!fs.existsSync(HISTORY_FILE)) return null;
+function readHistoryRows() {
+  if (!fs.existsSync(HISTORY_FILE)) return [];
 
   const rows = fs
     .readFileSync(HISTORY_FILE, "utf8")
@@ -45,15 +45,23 @@ function readLastHistory() {
     .split("\n")
     .filter(Boolean);
 
-  if (rows.length <= 1) return null;
+  if (rows.length <= 1) return [];
 
-  const last = rows[rows.length - 1].split(",");
+  return rows.slice(1).map((row) => {
+    const cols = row.split(",");
 
-  return {
-    date: last[0],
-    mobilePerformance: Number(last[1]),
-    desktopPerformance: Number(last[2])
-  };
+    return {
+      date: cols[0],
+      mobilePerformance: Number(cols[1]),
+      desktopPerformance: Number(cols[2])
+    };
+  });
+}
+
+function readLastHistory() {
+  const rows = readHistoryRows();
+  if (!rows.length) return null;
+  return rows[rows.length - 1];
 }
 
 function delta(current, previous) {
@@ -137,6 +145,45 @@ function createHealth(report) {
   };
 }
 
+function createBars(values) {
+  if (!values.length) return "Henüz trend verisi yok";
+
+  return values
+    .map((value) => {
+      if (value >= 90) return "▇";
+      if (value >= 75) return "▆";
+      if (value >= 60) return "▅";
+      if (value >= 45) return "▄";
+      if (value >= 30) return "▃";
+      return "▂";
+    })
+    .join(" ");
+}
+
+function createTrend(historyRows, currentMobile, currentDesktop) {
+  const lastSix = historyRows.slice(-6);
+
+  const mobileValues = [
+    ...lastSix.map((row) => row.mobilePerformance),
+    currentMobile
+  ].filter((value) => !Number.isNaN(value));
+
+  const desktopValues = [
+    ...lastSix.map((row) => row.desktopPerformance),
+    currentDesktop
+  ].filter((value) => !Number.isNaN(value));
+
+  const mobileText = mobileValues.join(" → ");
+  const desktopText = desktopValues.join(" → ");
+
+  return {
+    mobileTrendText: mobileText || "Henüz veri yok",
+    desktopTrendText: desktopText || "Henüz veri yok",
+    mobileTrendBars: createBars(mobileValues),
+    desktopTrendBars: createBars(desktopValues)
+  };
+}
+
 function createAiComment(report) {
   const mobilePerf = report.mobile.performance;
   const desktopPerf = report.desktop.performance;
@@ -147,34 +194,34 @@ function createAiComment(report) {
   const notes = [];
 
   if (mobilePerf < 50) {
-    notes.push("Mobil performans düşük seviyede; reklam trafiği ve satış dönüşümü açısından öncelikli risk alanı.");
+    notes.push("⚠ Mobil performans düşük seviyede; reklam trafiği ve satış dönüşümü açısından öncelikli risk alanı.");
   } else if (mobilePerf < 70) {
-    notes.push("Mobil performans orta seviyede; iyileştirme yapılırsa kullanıcı deneyimi belirgin şekilde artar.");
+    notes.push("⚠ Mobil performans orta seviyede; iyileştirme yapılırsa kullanıcı deneyimi belirgin şekilde artar.");
   } else {
-    notes.push("Mobil performans kabul edilebilir seviyede; istikrar korunmalı.");
+    notes.push("✓ Mobil performans kabul edilebilir seviyede; istikrar korunmalı.");
   }
 
   if (desktopPerf >= 75) {
-    notes.push("Desktop tarafı mobil tarafa göre daha sağlıklı görünüyor.");
+    notes.push("✓ Desktop tarafı mobil tarafa göre daha sağlıklı görünüyor.");
   } else {
-    notes.push("Desktop tarafında da performans iyileştirme alanı var.");
+    notes.push("⚠ Desktop tarafında da performans iyileştirme alanı var.");
   }
 
   if (mobileLcp !== null && mobileLcp > 4) {
-    notes.push("Mobile LCP yüksek; ana görsel, banner, font ve render-blocking kaynaklar incelenmeli.");
+    notes.push("⚠ Mobile LCP yüksek; ana görsel, banner, font ve render-blocking kaynaklar incelenmeli.");
   }
 
   if (mobileFcp !== null && mobileFcp > 3) {
-    notes.push("FCP gecikiyor; ilk ekrana gelen CSS/JS yükleri azaltılmalı.");
+    notes.push("⚠ FCP gecikiyor; ilk ekrana gelen CSS/JS yükleri azaltılmalı.");
   }
 
   if (mobileCls <= 0.1) {
-    notes.push("CLS iyi seviyede; sayfa açılırken görsel kayması ciddi bir problem oluşturmuyor.");
+    notes.push("✓ CLS iyi seviyede; sayfa açılırken görsel kayması ciddi bir problem oluşturmuyor.");
   } else {
-    notes.push("CLS tarafında kayma var; görsel boyutları ve layout sabitlemeleri kontrol edilmeli.");
+    notes.push("⚠ CLS tarafında kayma var; görsel boyutları ve layout sabitlemeleri kontrol edilmeli.");
   }
 
-  return notes.join(" ");
+  return notes.join("<br>");
 }
 
 function createActions(report) {
@@ -231,6 +278,7 @@ ensureDir(REPORTS_DIR);
 const mobileRaw = loadJson(path.join(REPORTS_DIR, "mobile.report.json"));
 const desktopRaw = loadJson(path.join(REPORTS_DIR, "desktop.report.json"));
 
+const historyRows = readHistoryRows();
 const previous = readLastHistory();
 
 const mobilePerformance = score(mobileRaw, "performance");
@@ -301,6 +349,7 @@ report.desktop.performanceDeltaText = desktopDelta.text;
 report.desktop.performanceDeltaClass = desktopDelta.className;
 
 Object.assign(report, createHealth(report));
+Object.assign(report, createTrend(historyRows, report.mobile.performance, report.desktop.performance));
 
 report.aiComment = createAiComment(report);
 
@@ -338,8 +387,12 @@ Genel Site Sağlığı: ${report.overallScore}/100 - ${report.healthLabel}
 - CLS: ${report.desktop.cls}
 - Speed Index: ${report.desktop.speedIndex}
 
+## Son 7 Gün Trend
+Mobile: ${report.mobileTrendText}
+Desktop: ${report.desktopTrendText}
+
 ## AI Analizi
-${report.aiComment}
+${report.aiComment.replace(/<br>/g, "\n")}
 
 ## Öncelikli Aksiyonlar
 1. ${report.actionOne}
@@ -349,4 +402,4 @@ ${report.aiComment}
 
 fs.writeFileSync(path.join(REPORTS_DIR, `${today}.md`), markdown, "utf8");
 
-console.log("Premium V3 rapor oluşturuldu:", `reports/${today}.json`);
+console.log("Premium V4 rapor oluşturuldu:", `reports/${today}.json`);
