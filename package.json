@@ -4,10 +4,19 @@
   "private": true,
   "scripts": {
     "lighthouse:mobile": "lighthouse https://www.asrapirlanta.com --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/mobile",
+
     "lighthouse:desktop": "lighthouse https://www.asrapirlanta.com --preset=desktop --chrome-flags=\"--headless --no-sandbox --disable-gpu --disable-dev-shm-usage\" --output=json --output=html --output-path=reports/desktop",
+
     "history": "node history/scripts/history.js",
     "report": "node history/scripts/report.js",
-    "mail": "node history/scripts/mail.js"
+    "mail": "node history/scripts/mail.js",
+
+    "competitor:scan": "node competitors/scripts/scan.js",
+    "competitor:report": "node competitors/scripts/report.js",
+    "competitor:mail": "node competitors/scripts/mail.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
   },
   "devDependencies": {
     "lighthouse": "^12.8.2",
