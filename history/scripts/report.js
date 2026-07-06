@@ -48,7 +48,12 @@ function aiComment(score) {
 
 function createReport(data) {
 
-    let html = fs.readFileSync("./email/template.html", "utf8");
+    const path = require("path");
+
+const html = fs.readFileSync(
+    path.join(__dirname, "../../email/template.html"),
+    "utf8"
+);
 
     html = html.replaceAll("{{date}}", new Date().toLocaleDateString("tr-TR"));
 
