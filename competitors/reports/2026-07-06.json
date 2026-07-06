@@ -1,9 +1,9 @@
 {
   "date": "2026-07-06",
-  "generatedAt": "2026-07-06T14:22:40.810Z",
-  "totalSites": 8,
-  "changedSites": 7,
-  "failedSites": 2,
+  "generatedAt": "2026-07-06T14:35:14.403Z",
+  "totalSites": 6,
+  "changedSites": 2,
+  "failedSites": 0,
   "sites": [
     {
       "name": "Asra Pırlanta",
@@ -63,8 +63,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -100,7 +100,8 @@
         "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak."
       ],
       "percentCampaigns": [
-        "%50"
+        "%50",
+        "%55"
       ],
       "bannerImages": [
         {
@@ -136,10 +137,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %55.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -220,8 +221,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %40.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -296,8 +297,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "Banner/slider alanlarını daha yoğun kullanıyor.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -380,99 +381,111 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %40, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
       "name": "Ariş Pırlanta",
-      "url": "https://www.aris.com.tr",
-      "ok": false,
-      "error": "fetch failed",
-      "title": "",
-      "description": "",
-      "h1": "",
-      "campaignTexts": [],
-      "percentCampaigns": [],
-      "bannerImages": [],
-      "hasPrevious": true,
-      "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
-      "strength": "Site taraması başarısız olduğu için güçlü yön tespit edilemedi.",
-      "weakness": "Teknik erişim veya bot koruması nedeniyle veri alınamadı."
-    },
-    {
-      "name": "Atasay",
-      "url": "https://www.atasay.com",
-      "ok": false,
-      "error": "HTTP 403",
-      "title": "",
-      "description": "",
-      "h1": "",
-      "campaignTexts": [],
-      "percentCampaigns": [],
-      "bannerImages": [],
-      "hasPrevious": true,
-      "campaignChanged": true,
-      "bannerChanged": true,
-      "pageChanged": true,
-      "newCampaignTexts": [],
-      "strength": "Site taraması başarısız olduğu için güçlü yön tespit edilemedi.",
-      "weakness": "Teknik erişim veya bot koruması nedeniyle veri alınamadı."
-    },
-    {
-      "name": "Altınbaş",
-      "url": "https://www.altinbas.com",
+      "url": "https://www.arispirlanta.com",
       "ok": true,
       "error": "",
-      "title": "Altınbaş : Pırlanta ve Altın Takı Alışverişinin Güvenli Adresi",
-      "description": "Altınbaş'ta aradığınız en şık yüzük, alyans, kolye, küpe, bileklik ve bilezik modelleri, göz alıcı pırlanta ve altın takılara indirimli fiyatlarla ulaşabilirsiniz.",
-      "h1": "",
+      "title": "Ariş Pırlanta",
+      "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
+      "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "campaignTexts": [
-        "25.000 TL ve üzeri alışverişlerinizde Baget Bileklik HEDİYE!",
-        "20.000 TL ve üzeri alışverişlerinizde Yıldız Kolye HEDİYE!",
-        "ÜYE OL Hızlıca üye olabilir ve size özel fırsatlardan yararlanabilirsiniz."
+        "Giriş Yapın Özel fırsatları kaçırmayın Giriş Yap Kayıt Ol Aranıyor...",
+        "Mağazalarımız Sipariş Takip Yeni üye olanlara özel %5 İndirim!",
+        "Sigortalı Ücretsiz Kargo!",
+        "Yeni Sezon Pırlanta Koleksiyonu İndirimi!",
+        "Kaçırmayın ⌘KCtrl+K Aranıyor...",
+        "Kategoriler Ürünler Popüler Aramalar Tektaş Yüzük Pırlanta Kolye Beştaş Yüzük Hesabım Giriş yapın Merhaba!",
+        "İndirim 49.305 TL 34.514 TL Pırlanta Fantezi Prenses Kesim Kolye İNCELE 30%",
+        "İndirim 113.905 TL 79.734 TL L'oval 0.58 Karat Oval Pırlanta Tektaş Yüzük İNCELE 40%",
+        "İndirim 210.045 TL 126.027 TL 1.00 Karat Pırlanta Suyolu Bileklik İNCELE 30%",
+        "İndirim 75.905 TL 53.134 TL L'oval 0.38 Karat Oval Kesim Pırlanta Tektaş Yüzük İNCELE 40%",
+        "İndirim 88.255 TL 52.953 TL Fantezi Dvau Baget Pırlantalı Yüzük İNCELE 109.990 TL 1.00 Karat G Renk Tektaş Pırlanta Yüzük İNCELE 50%",
+        "İndirim 78.660 TL 39.330 TL Prenses Kesim Pırlanta Tektaş Yüzük İNCELE 20%",
+        "İndirim 11.879 TL 9.503 TL ATATÜRK İmzası Altın Kolye İNCELE 30%",
+        "İndirim 85.405 TL 59.784 TL L'oval 0.59 Karat Oval Tektaş Yüzük İNCELE 30%",
+        "İndirim 85.405 TL 59.784 TL 0.52 Karat Pırlanta Kolye İNCELE 20%",
+        "İndirim 18.385 TL 14.708 TL 4 Element Sembolü Figür Altın Kolye İNCELE 40%",
+        "İndirim 100.130 TL 60.078 TL Pırlantalı Siyah Elmas Yüzük İNCELE 40%",
+        "İndirim 118.370 TL 71.022 TL 1.00 Karat Tamtur Pırlanta Alyans İNCELE 30%",
+        "İndirim 85.405 TL 59.784 TL L'oval 0.54 Karat Oval Pırlanta Tektaş Yüzük İNCELE 40%",
+        "İndirim 50.635 TL 30.381 TL Siyah ve Beyaz Pırlanta Yüzük İNCELE 40%"
       ],
       "percentCampaigns": [
-        "%100"
+        "%5",
+        "30%",
+        "40%",
+        "50%",
+        "20%"
       ],
       "bannerImages": [
         {
-          "src": "https://img-altinbas.mncdn.com/img/desktop/tr.png",
-          "alt": "Türkçe",
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-tektas.jpg",
+          "alt": "Pırlanta Yüzük",
           "title": ""
         },
         {
-          "src": "https://img-altinbas.mncdn.com/load3.jpg",
-          "alt": "Alyans Kampanyası 2026",
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-kolye.jpg",
+          "alt": "Pırlanta Kolye",
           "title": ""
         },
         {
-          "src": "https://img-altinbas.mncdn.com/load3.jpg",
-          "alt": "Hediye Yıldız Kolye Kampanyası",
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-kupe.jpg",
+          "alt": "Pırlanta Küpe",
           "title": ""
         },
         {
-          "src": "https://img-altinbas.mncdn.com/load3.jpg",
-          "alt": "Yeni Üyelik Kampanyası 2026",
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-baget.jpg",
+          "alt": "Baget Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-bileklik.jpg",
+          "alt": "Pırlanta Bileklik",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-altin.jpg",
+          "alt": "Altın",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-alyans.jpg",
+          "alt": "Ariş Alyans",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-elmas.jpg",
+          "alt": "Elmas",
           "title": ""
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": true,
       "pageChanged": true,
-      "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %100.",
-      "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
+      "newCampaignTexts": [
+        "Giriş Yapın Özel fırsatları kaçırmayın Giriş Yap Kayıt Ol Aranıyor...",
+        "Mağazalarımız Sipariş Takip Yeni üye olanlara özel %5 İndirim!",
+        "Sigortalı Ücretsiz Kargo!",
+        "Yeni Sezon Pırlanta Koleksiyonu İndirimi!",
+        "Kaçırmayın ⌘KCtrl+K Aranıyor...",
+        "Kategoriler Ürünler Popüler Aramalar Tektaş Yüzük Pırlanta Kolye Beştaş Yüzük Hesabım Giriş yapın Merhaba!",
+        "İndirim 49.305 TL 34.514 TL Pırlanta Fantezi Prenses Kesim Kolye İNCELE 30%",
+        "İndirim 113.905 TL 79.734 TL L'oval 0.58 Karat Oval Pırlanta Tektaş Yüzük İNCELE 40%"
+      ],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, 30%, 40%, 50%, 20%.",
+      "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 7 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>2 site taranamadı; bot koruması, erişim engeli veya geçici bağlantı problemi olabilir.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Blue Diamond, Lizay Pırlanta, D Diamond, Atasay, Altınbaş tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%50); Blue Diamond (%50, %40); D Diamond (%50, %40, %100); Altınbaş (%100).",
+  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Ariş Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%50, %55); Blue Diamond (%50, %40); D Diamond (%50, %40, %100); Ariş Pırlanta (%5, 30%, 40%).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
