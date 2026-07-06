@@ -1,1 +1,58 @@
 
+{
+  "asra": {
+    "name": "Asra Pırlanta",
+    "url": "https://www.asrapirlanta.com"
+  },
+  "competitors": [
+    {
+      "name": "Zen Pırlanta",
+      "url": "https://www.zenpirlanta.com"
+    },
+    {
+      "name": "Blue Diamond",
+      "url": "https://www.bluediamond.com.tr"
+    },
+    {
+      "name": "Lizay Pırlanta",
+      "url": "https://www.lizaypirlanta.com"
+    },
+    {
+      "name": "D Diamond",
+      "url": "https://www.ddiamond.com.tr"
+    },
+    {
+      "name": "Ariş Pırlanta",
+      "url": "https://www.aris.com.tr"
+    },
+    {
+      "name": "Atasay",
+      "url": "https://www.atasay.com"
+    },
+    {
+      "name": "Altınbaş",
+      "url": "https://www.altinbas.com"
+    }
+  ],
+  "campaignKeywords": [
+    "indirim",
+    "kampanya",
+    "sepette",
+    "fırsat",
+    "taksit",
+    "ücretsiz kargo",
+    "kargo bedava",
+    "hediye",
+    "pırlanta",
+    "yüzük",
+    "kolye",
+    "tektaş",
+    "baget",
+    "sevgililer",
+    "anneler günü",
+    "yeni sezon",
+    "özel fiyat",
+    "kaçırma",
+    "%"
+  ]
+}
