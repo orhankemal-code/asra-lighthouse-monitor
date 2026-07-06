@@ -18,7 +18,7 @@ function loadJson(filePath) {
 
 function score(data, category) {
   const value = data.categories?.[category]?.score;
-  return value !== undefined && value !== null ? Math.round(value * 100) : "-";
+  return value !== undefined && value !== null ? Math.round(value * 100) : 0;
 }
 
 function auditDisplay(data, key) {
@@ -31,7 +31,6 @@ function auditNumeric(data, key) {
 }
 
 function status(value) {
-  if (value === "-") return "bad";
   if (value >= 90) return "good";
   if (value >= 50) return "mid";
   return "bad";
@@ -73,7 +72,7 @@ function delta(current, previous) {
     return {
       previous,
       value: diff,
-      text: `+${diff} puan yükseldi`,
+      text: `↑ +${diff} puan yükseldi`,
       className: "delta-up"
     };
   }
@@ -82,7 +81,7 @@ function delta(current, previous) {
     return {
       previous,
       value: diff,
-      text: `${diff} puan düştü`,
+      text: `↓ ${diff} puan düştü`,
       className: "delta-down"
     };
   }
@@ -90,28 +89,135 @@ function delta(current, previous) {
   return {
     previous,
     value: 0,
-    text: "Değişim yok",
+    text: "→ Değişim yok",
     className: "delta-flat"
   };
 }
 
+function secondsFromMs(ms) {
+  if (ms === null || ms === undefined) return null;
+  return ms / 1000;
+}
+
+function createHealth(report) {
+  const overall = Math.round(
+    report.mobile.performance * 0.4 +
+    report.desktop.performance * 0.25 +
+    report.mobile.seo * 0.15 +
+    report.mobile.accessibility * 0.1 +
+    report.mobile.bestPractices * 0.1
+  );
+
+  if (overall >= 80) {
+    return {
+      overallScore: overall,
+      healthStatus: "good",
+      healthLabel: "GOOD",
+      healthText:
+        "Genel teknik sağlık iyi seviyede. Düzenli takip ve küçük optimizasyonlarla skor istikrarı korunmalı."
+    };
+  }
+
+  if (overall >= 60) {
+    return {
+      overallScore: overall,
+      healthStatus: "mid",
+      healthLabel: "WARNING",
+      healthText:
+        "Genel sağlık orta seviyede. Mobil performans ve Core Web Vitals tarafında iyileştirme yapılması önerilir."
+    };
+  }
+
+  return {
+    overallScore: overall,
+    healthStatus: "bad",
+    healthLabel: "CRITICAL",
+    healthText:
+      "Genel sağlık kritik seviyede. Özellikle mobil performans, LCP ve sayfa açılış hızı öncelikli aksiyon gerektiriyor."
+  };
+}
+
 function createAiComment(report) {
-  const mobile = report.mobile.performance;
-  const desktop = report.desktop.performance;
+  const mobilePerf = report.mobile.performance;
+  const desktopPerf = report.desktop.performance;
+  const mobileLcp = secondsFromMs(report.mobile.lcpMs);
+  const mobileFcp = secondsFromMs(report.mobile.fcpMs);
+  const mobileCls = Number(report.mobile.clsValue || 0);
 
-  if (mobile < 50 && desktop < 70) {
-    return "Mobil performans kritik seviyede. Özellikle LCP, görsel optimizasyonu, kullanılmayan JavaScript ve render-blocking kaynaklar öncelikli incelenmeli. Masaüstü daha iyi görünse de mobil skor satış ve reklam trafiği açısından daha öncelikli iyileştirme alanı.";
+  const notes = [];
+
+  if (mobilePerf < 50) {
+    notes.push("Mobil performans düşük seviyede; reklam trafiği ve satış dönüşümü açısından öncelikli risk alanı.");
+  } else if (mobilePerf < 70) {
+    notes.push("Mobil performans orta seviyede; iyileştirme yapılırsa kullanıcı deneyimi belirgin şekilde artar.");
+  } else {
+    notes.push("Mobil performans kabul edilebilir seviyede; istikrar korunmalı.");
   }
 
-  if (mobile < 50) {
-    return "Mobil performans düşük. Reklam trafiğinin büyük kısmı mobilden geldiği için LCP, Speed Index ve ağır görsel dosyaları öncelikli optimize edilmeli. Masaüstü tarafı daha sağlıklı fakat mobil deneyim satış dönüşümünü doğrudan etkileyebilir.";
+  if (desktopPerf >= 75) {
+    notes.push("Desktop tarafı mobil tarafa göre daha sağlıklı görünüyor.");
+  } else {
+    notes.push("Desktop tarafında da performans iyileştirme alanı var.");
   }
 
-  if (mobile >= 70 && desktop >= 80) {
-    return "Genel tablo olumlu. Mobil ve masaüstü skorları kullanılabilir seviyede. Bundan sonraki odak, LCP süresini kısaltmak, görselleri hafifletmek ve skor istikrarını günlük olarak korumak olmalı.";
+  if (mobileLcp !== null && mobileLcp > 4) {
+    notes.push("Mobile LCP yüksek; ana görsel, banner, font ve render-blocking kaynaklar incelenmeli.");
   }
 
-  return "Performans orta seviyede. Büyük bir kırılma görünmüyor ancak mobil tarafta hız optimizasyonu hâlâ önemli. Görseller, üçüncü parti scriptler ve sayfa açılışındaki kritik kaynaklar düzenli takip edilmeli.";
+  if (mobileFcp !== null && mobileFcp > 3) {
+    notes.push("FCP gecikiyor; ilk ekrana gelen CSS/JS yükleri azaltılmalı.");
+  }
+
+  if (mobileCls <= 0.1) {
+    notes.push("CLS iyi seviyede; sayfa açılırken görsel kayması ciddi bir problem oluşturmuyor.");
+  } else {
+    notes.push("CLS tarafında kayma var; görsel boyutları ve layout sabitlemeleri kontrol edilmeli.");
+  }
+
+  return notes.join(" ");
+}
+
+function createActions(report) {
+  const actions = [];
+
+  const mobileLcp = secondsFromMs(report.mobile.lcpMs);
+  const mobileFcp = secondsFromMs(report.mobile.fcpMs);
+
+  if (mobileLcp !== null && mobileLcp > 4) {
+    actions.push("Mobil LCP için ana banner/görseller WebP veya AVIF formatında optimize edilmeli.");
+  }
+
+  if (mobileFcp !== null && mobileFcp > 3) {
+    actions.push("İlk açılışta yüklenen CSS ve JavaScript dosyaları azaltılmalı veya ertelenmeli.");
+  }
+
+  if (report.mobile.performance < 50) {
+    actions.push("Mobil performans için kullanılmayan JavaScript, üçüncü parti scriptler ve ağır uygulama kaynakları kontrol edilmeli.");
+  }
+
+  if (report.mobile.seo < 80) {
+    actions.push("SEO skorunu etkileyen başlık, meta açıklama, canonical ve link kontrolleri gözden geçirilmeli.");
+  }
+
+  if (report.mobile.accessibility < 85) {
+    actions.push("Accessibility için kontrast, alt metin ve form label kontrolleri yapılmalı.");
+  }
+
+  if (actions.length === 0) {
+    actions.push("Skorlar genel olarak stabil; günlük takip sürdürülmeli.");
+    actions.push("Görsel boyutları ve cache ayarları düzenli kontrol edilmeli.");
+    actions.push("Yeni site değişikliklerinden sonra Lighthouse tekrar izlenmeli.");
+  }
+
+  while (actions.length < 3) {
+    actions.push("Performans trendi birkaç gün daha izlenerek kalıcı düşüş olup olmadığı kontrol edilmeli.");
+  }
+
+  return {
+    actionOne: actions[0],
+    actionTwo: actions[1],
+    actionThree: actions[2]
+  };
 }
 
 function ensureDir(dir) {
@@ -131,12 +237,12 @@ const mobilePerformance = score(mobileRaw, "performance");
 const desktopPerformance = score(desktopRaw, "performance");
 
 const mobileDelta = delta(
-  Number(mobilePerformance),
+  mobilePerformance,
   previous ? previous.mobilePerformance : null
 );
 
 const desktopDelta = delta(
-  Number(desktopPerformance),
+  desktopPerformance,
   previous ? previous.desktopPerformance : null
 );
 
@@ -155,12 +261,7 @@ const report = {
     lcpMs: auditNumeric(mobileRaw, "largest-contentful-paint"),
     fcpMs: auditNumeric(mobileRaw, "first-contentful-paint"),
     clsValue: auditNumeric(mobileRaw, "cumulative-layout-shift"),
-    speedIndexMs: auditNumeric(mobileRaw, "speed-index"),
-    performanceStatus: status(mobilePerformance),
-    previousPerformance: mobileDelta.previous,
-    performanceDelta: mobileDelta.value,
-    performanceDeltaText: mobileDelta.text,
-    performanceDeltaClass: mobileDelta.className
+    speedIndexMs: auditNumeric(mobileRaw, "speed-index")
   },
 
   desktop: {
@@ -175,16 +276,35 @@ const report = {
     lcpMs: auditNumeric(desktopRaw, "largest-contentful-paint"),
     fcpMs: auditNumeric(desktopRaw, "first-contentful-paint"),
     clsValue: auditNumeric(desktopRaw, "cumulative-layout-shift"),
-    speedIndexMs: auditNumeric(desktopRaw, "speed-index"),
-    performanceStatus: status(desktopPerformance),
-    previousPerformance: desktopDelta.previous,
-    performanceDelta: desktopDelta.value,
-    performanceDeltaText: desktopDelta.text,
-    performanceDeltaClass: desktopDelta.className
+    speedIndexMs: auditNumeric(desktopRaw, "speed-index")
   }
 };
 
+report.mobile.performanceStatus = status(report.mobile.performance);
+report.mobile.seoStatus = status(report.mobile.seo);
+report.mobile.accessibilityStatus = status(report.mobile.accessibility);
+report.mobile.bestPracticesStatus = status(report.mobile.bestPractices);
+
+report.desktop.performanceStatus = status(report.desktop.performance);
+report.desktop.seoStatus = status(report.desktop.seo);
+report.desktop.accessibilityStatus = status(report.desktop.accessibility);
+report.desktop.bestPracticesStatus = status(report.desktop.bestPractices);
+
+report.mobile.previousPerformance = mobileDelta.previous;
+report.mobile.performanceDelta = mobileDelta.value;
+report.mobile.performanceDeltaText = mobileDelta.text;
+report.mobile.performanceDeltaClass = mobileDelta.className;
+
+report.desktop.previousPerformance = desktopDelta.previous;
+report.desktop.performanceDelta = desktopDelta.value;
+report.desktop.performanceDeltaText = desktopDelta.text;
+report.desktop.performanceDeltaClass = desktopDelta.className;
+
+Object.assign(report, createHealth(report));
+
 report.aiComment = createAiComment(report);
+
+Object.assign(report, createActions(report));
 
 fs.writeFileSync(
   path.join(REPORTS_DIR, `${today}.json`),
@@ -192,9 +312,11 @@ fs.writeFileSync(
   "utf8"
 );
 
-const markdown = `# Asra Pırlanta Günlük Lighthouse Raporu
+const markdown = `# Asra Pırlanta Digital Morning Report
 
 Tarih: ${today}
+
+Genel Site Sağlığı: ${report.overallScore}/100 - ${report.healthLabel}
 
 ## Mobile
 - Performance: ${report.mobile.performance}
@@ -216,10 +338,15 @@ Tarih: ${today}
 - CLS: ${report.desktop.cls}
 - Speed Index: ${report.desktop.speedIndex}
 
-## AI Yorumu
+## AI Analizi
 ${report.aiComment}
+
+## Öncelikli Aksiyonlar
+1. ${report.actionOne}
+2. ${report.actionTwo}
+3. ${report.actionThree}
 `;
 
 fs.writeFileSync(path.join(REPORTS_DIR, `${today}.md`), markdown, "utf8");
 
-console.log("Premium V2 rapor oluşturuldu:", `reports/${today}.json`);
+console.log("Premium V3 rapor oluşturuldu:", `reports/${today}.json`);
