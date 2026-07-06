@@ -1,0 +1,68 @@
+name: Competitor Daily Report
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Her gün 09:10 Türkiye saati = 06:10 UTC
+    - cron: '10 6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  competitor-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Create competitor folders
+        run: |
+          mkdir -p competitors/data
+          mkdir -p competitors/reports
+
+      - name: Scan competitors
+        run: npm run competitor:scan
+
+      - name: Generate competitor report
+        run: npm run competitor:report
+
+      - name: Send competitor email
+        env:
+          SMTP_USER: ${{ secrets.MAIL_USER }}
+          SMTP_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: npm run competitor:mail
+
+      - name: Commit competitor data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add competitors/data/
+          git add competitors/reports/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily competitor report"
+            git push
+          else
+            echo "No competitor changes."
+          fi
+
+      - name: Upload competitor reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: competitor-reports
+          path: |
+            competitors/data/
+            competitors/reports/
