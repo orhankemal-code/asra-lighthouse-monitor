@@ -1,9 +1,9 @@
 {
   "date": "2026-07-06",
-  "generatedAt": "2026-07-06T14:04:53.974Z",
+  "generatedAt": "2026-07-06T14:22:40.810Z",
   "totalSites": 8,
-  "changedSites": 3,
-  "failedSites": 1,
+  "changedSites": 7,
+  "failedSites": 2,
   "sites": [
     {
       "name": "Asra Pırlanta",
@@ -37,20 +37,33 @@
       "bannerImages": [
         {
           "src": "https://www.asrapirlanta.com/anasayfa/asra_safir_1920x570_banner.webp",
-          "alt": "ASRA Pırlanta"
+          "alt": "ASRA Pırlanta",
+          "title": ""
         },
         {
           "src": "https://www.asrapirlanta.com/anasayfa/ASRA_BANNER_900x750_PIRLANTA_2.jpg",
-          "alt": "Asra Pırlanta"
+          "alt": "Asra Pırlanta",
+          "title": ""
         },
         {
           "src": "https://www.asrapirlanta.com/anasayfa/ASRA_BANNER_900x750_ALTIN_2.jpg",
-          "alt": "Asra Pırlanta"
+          "alt": "Asra Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAIIAAACWCAYAAAASRFBwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAEU3SURBVHhe7Z0HuF1F9fYlQSAQEoqAdBCkg0JCkyaCggiCFCO9BUFBhBDpHaQoCkoHASE0pXeMSAmk3dya3BSSQHrvvcJ867fPfk/W2XdOuTchyP/zfZ6XcKftffZeM7PWmjWzv2YIK4J/+9vfApg5c2ZYf/31m+R37949yfe48cYbm5Q78MAD09wQzjnnnCb5nm+//XZS7pNPPgmtW7dO0q644ookrRjOPffcJu14vvHGG2nJ0ujZs2e+zj333JOmlsbIkSPD17/+9aTO7373uzS1NObNmxc22WSTpM7xxx+fpobw05/+NH/95eQLxgSxzGaznCD06dMnyfdYXkF47bXXknJDhw7Np11++eVJ",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/asra_safir_800x827_banner.webp",
+          "alt": "(max-width: 767px)",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10.",
@@ -92,21 +105,39 @@
       "bannerImages": [
         {
           "src": "https://img-zenpirlanta.mncdn.com/anasayfa/tasarim-tektas-pirlanta-yuzukler-mobile-15.10-750x750.jpg",
-          "alt": "Tasarım Tektaş Pırlanta Yüzükler"
+          "alt": "Tasarım Tektaş Pırlanta Yüzükler",
+          "title": ""
         },
         {
           "src": "https://img-zenpirlanta.mncdn.com/img/home-banner-alt-v3.jpg",
-          "alt": "Parmakta kaç karat nasıl görünür?"
+          "alt": "Parmakta kaç karat nasıl görünür?",
+          "title": ""
         },
         {
           "src": "https://img-zenpirlanta.mncdn.com/img/home-banner-alt-v1.jpg",
-          "alt": "Ürünümün Garanti Kaydını Nasıl Yapabilirim?"
+          "alt": "Ürünümün Garanti Kaydını Nasıl Yapabilirim?",
+          "title": ""
+        },
+        {
+          "src": "https://img-zenpirlanta.mncdn.com/mnresize/200/200/resim/kategori/forevermark-banner-bileklik.jpg?v=1.1.1",
+          "alt": "(min-width:991px)",
+          "title": ""
+        },
+        {
+          "src": "https://img-zenpirlanta.mncdn.com/mnresize/200/200/resim/kategori/forevermark-banner-bileklik.jpg?v=1.1.1",
+          "alt": "(max-width:990px)",
+          "title": ""
+        },
+        {
+          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/tasarim-tektas-pirlanta-yuzukler-mobile-15.10-750x750.jpg?v=3",
+          "alt": "(max-width:768px)",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -147,50 +178,50 @@
       ],
       "bannerImages": [
         {
+          "src": "https://img.bluediamond.com.tr/img/yenilogo.png",
+          "alt": "Blue Diamond",
+          "title": ""
+        },
+        {
           "src": "https://img.bluediamond.com.tr/anasayfa/desktoptest.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin."
+          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
+          "title": ""
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektas-firsatlari-24.06.26-mobile.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin."
+          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
+          "title": ""
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/oval-pirlantalar-mobile03.07.26.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin."
+          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
+          "title": ""
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/tamtur-mobile-06.07.26.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin."
+          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
+          "title": ""
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/tasarim-pirlanta-kolye-16.06.26-mobile.jpg?v1",
-          "alt": "Blue Diamond"
+          "alt": "Blue Diamond",
+          "title": ""
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile.jpg?v1",
-          "alt": "Blue Diamond"
+          "alt": "Blue Diamond",
+          "title": ""
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/lotus-mobile-03.07.26.jpg?v1",
-          "alt": "Blue Diamond"
-        },
-        {
-          "src": "https://img.bluediamond.com.tr/anasayfa/su-yolu-mobile-24.06.2026.jpg?v1",
-          "alt": "Blue Diamond"
-        },
-        {
-          "src": "https://img.bluediamond.com.tr/anasayfa/erkek-yuzukler-mobile-12.06.2026.jpg?v1",
-          "alt": "Blue Diamond"
-        },
-        {
-          "src": "https://img.bluediamond.com.tr/anasayfa/hizli-kargo-blue-diamond-mobile.jpg?v1",
-          "alt": "Blue Diamond"
+          "alt": "Blue Diamond",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %40.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -223,34 +254,50 @@
       "percentCampaigns": [],
       "bannerImages": [
         {
-          "src": "",
-          "alt": "Yaz Kampanyası Banner"
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/p-1920x726-tr-91.jpg?282",
+          "alt": "Mutluluğa Evet Pırlanta 18.05.2026",
+          "title": ""
         },
         {
-          "src": "/theme/standart/images/lazy_load_yukleniyor.gif",
-          "alt": "Yaz Kampanyası Banner"
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/yaz-firsatiii-tr-95.jpg?282",
+          "alt": "Yaz Kampanyası Banner",
+          "title": ""
         },
         {
-          "src": "",
-          "alt": "Kampanya Tektaş 16.06.2026"
+          "src": "https://www.lizaypirlanta.com/theme/standart/images/lazy_load_yukleniyor.gif",
+          "alt": "Yaz Kampanyası Banner",
+          "title": ""
         },
         {
-          "src": "/theme/standart/images/lazy_load_yukleniyor.gif",
-          "alt": "Kampanya Tektaş 16.06.2026"
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/a-1920x726-tr-92.jpg?282",
+          "alt": "Mutluluğa Evet Altın 18.05.2026",
+          "title": ""
         },
         {
-          "src": "",
-          "alt": "Banner"
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-tr-79.jpg?282",
+          "alt": "Extra Setler 19.02.2026",
+          "title": ""
         },
         {
-          "src": "/theme/standart/images/lazy_load_yukleniyor.gif",
-          "alt": "Banner"
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/tektas-revize-16062026-tr-94.jpg?282",
+          "alt": "Kampanya Tektaş 16.06.2026",
+          "title": ""
+        },
+        {
+          "src": "https://www.lizaypirlanta.com/theme/standart/images/lazy_load_yukleniyor.gif",
+          "alt": "Kampanya Tektaş 16.06.2026",
+          "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-pirlanta-kupeler-banner-tr-7.jpg?286",
+          "alt": "Pırlanta Küpeler 10.11.2025",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "Banner/slider alanlarını daha yoğun kullanıyor.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -291,53 +338,49 @@
       ],
       "bannerImages": [
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-kaçırılmayacak-pirlanta-firsatlari-banner-desk-indirimkmpnya.jpg",
-          "alt": "Büyük Fırsat Günleri"
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-ka%C3%A7%C4%B1r%C4%B1lmayacak-pirlanta-firsatlari-banner-desk-indirimkmpnya.jpg",
+          "alt": "Büyük Fırsat Günleri",
+          "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650tektas-pirlanta-yüzükler-indirim-güncel-banner-dd.jpg",
-          "alt": "Tektkaş Pırlanta Yüzükler Özel Fiyatlarıyla!"
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650tektas-pirlanta-y%C3%BCz%C3%BCkler-indirim-g%C3%BCncel-banner-dd.jpg",
+          "alt": "Tektkaş Pırlanta Yüzükler Özel Fiyatlarıyla!",
+          "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-ana-banner-desk-güncel-fiyat-su-yolu-dd.jpg",
-          "alt": "Su Yolu Bileklik"
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-ana-banner-desk-g%C3%BCncel-fiyat-su-yolu-dd.jpg",
+          "alt": "Su Yolu Bileklik",
+          "title": ""
         },
         {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-mobil-banner-dd-firsat-esraerol-hediye-kmpny.jpg",
-          "alt": "hızlı-gönderi"
+          "alt": "hızlı-gönderi",
+          "title": ""
         },
         {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-dd-mobil-kampanya-banner-esra-erol-firsat.jpg",
-          "alt": "Pırlantalı İnci Kolye Hediye"
+          "alt": "Pırlantalı İnci Kolye Hediye",
+          "title": ""
         },
         {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-indirim-kampanya-mobil-firsat-kmpnya-mobil-dd.jpg",
-          "alt": "Oval Tektaş Pırlanta Yüzükler"
+          "alt": "Oval Tektaş Pırlanta Yüzükler",
+          "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-safir-set-güncel-mobil-banner-desk-dd.jpg",
-          "alt": "Renkli Taş Pırlantalar"
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-safir-set-g%C3%BCncel-mobil-banner-desk-dd.jpg",
+          "alt": "Renkli Taş Pırlantalar",
+          "title": ""
         },
         {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/mobil-suyolu-esra-erol-banner-indirim.jpg",
-          "alt": "Su Yolu Bileklik"
-        },
-        {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-dd-esra-erol-banner-mobil-indirim-kampanya-firsat (1).jpg",
-          "alt": "Vintage Koleksiyonunu keşfet!"
-        },
-        {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-mobil-indirim-desk-firsat-kampanya-esra-erol-dd.jpg",
-          "alt": "Tektaş Pırlanta Yüzükler"
-        },
-        {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-d-diamond-erkek-koleksiyonu-güncel-banner-mobil-dd.jpg",
-          "alt": "D Diamond Erkek Koleksiyonu"
+          "alt": "Su Yolu Bileklik",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %40, %100.",
@@ -365,70 +408,21 @@
     {
       "name": "Atasay",
       "url": "https://www.atasay.com",
-      "ok": true,
-      "error": "",
-      "title": "Tak Tak Konuşuyoruz - Atasay.com",
-      "description": "Özel tasarımlarıyla altın ve pırlanta yüzükler, kolye, küpeler, bileklik ve bilezikler ve alyanslar atasay.com güvencesiyle sizi bekliyor!",
+      "ok": false,
+      "error": "HTTP 403",
+      "title": "",
+      "description": "",
       "h1": "",
       "campaignTexts": [],
       "percentCampaigns": [],
-      "bannerImages": [
-        {
-          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-mobile.svg",
-          "alt": "mobile-logo"
-        },
-        {
-          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-desktop.svg",
-          "alt": "desktop-logo"
-        },
-        {
-          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-desktop.svg",
-          "alt": "logo-desktop"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/07/04/8cf61c74-1845-42bb-8dc7-b7fb2550468d.jpg",
-          "alt": "home_slider_multibanner1"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/07/01/eed30f78-dc4b-47f7-b9fb-8c2d87ed359d.jpg",
-          "alt": "home_slider_multibanner2"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/06/02/52819d14-fcb1-4ec6-aa11-f14103abb105.jpg",
-          "alt": "home_slider_multibanner3"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/06/18/545bdd44-cc17-4bbf-97d1-1f8b35bacba2.jpg",
-          "alt": "home_slider_multibanner4"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner1"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner2"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner3"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner1"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner2"
-        }
-      ],
+      "bannerImages": [],
       "hasPrevious": true,
       "campaignChanged": true,
       "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "Banner/slider alanlarını daha yoğun kullanıyor.",
-      "weakness": "Kampanya metni tespit edilemedi; ana sayfa mesajı zayıf görünüyor."
+      "strength": "Site taraması başarısız olduğu için güçlü yön tespit edilemedi.",
+      "weakness": "Teknik erişim veya bot koruması nedeniyle veri alınamadı."
     },
     {
       "name": "Altınbaş",
@@ -449,32 +443,36 @@
       "bannerImages": [
         {
           "src": "https://img-altinbas.mncdn.com/img/desktop/tr.png",
-          "alt": "Türkçe"
+          "alt": "Türkçe",
+          "title": ""
         },
         {
           "src": "https://img-altinbas.mncdn.com/load3.jpg",
-          "alt": "Alyans Kampanyası 2026"
+          "alt": "Alyans Kampanyası 2026",
+          "title": ""
         },
         {
           "src": "https://img-altinbas.mncdn.com/load3.jpg",
-          "alt": "Hediye Yıldız Kolye Kampanyası"
+          "alt": "Hediye Yıldız Kolye Kampanyası",
+          "title": ""
         },
         {
           "src": "https://img-altinbas.mncdn.com/load3.jpg",
-          "alt": "Yeni Üyelik Kampanyası 2026"
+          "alt": "Yeni Üyelik Kampanyası 2026",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %100.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>1 site taranamadı; bot koruması, erişim engeli veya geçici bağlantı problemi olabilir.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Atasay tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "aiComment": "Bugün 7 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>2 site taranamadı; bot koruması, erişim engeli veya geçici bağlantı problemi olabilir.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Zen Pırlanta, Blue Diamond, Lizay Pırlanta, D Diamond, Atasay, Altınbaş tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
   "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%50); Blue Diamond (%50, %40); D Diamond (%50, %40, %100); Altınbaş (%100).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
