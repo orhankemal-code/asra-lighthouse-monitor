@@ -1,23 +1,42 @@
 {
   "date": "2026-07-06",
   "mobile": {
-    "performance": 32,
+    "performance": 37,
     "seo": 77,
     "accessibility": 81,
     "bestPractices": 71,
-    "lcp": "8.8 s",
-    "fcp": "4.0 s",
+    "lcp": "14.3 s",
+    "fcp": "3.3 s",
     "cls": "0",
-    "inp": "-"
+    "speedIndex": "8.4 s",
+    "lcpMs": 14304.196999999998,
+    "fcpMs": 3299.7999999999997,
+    "clsValue": 0,
+    "speedIndexMs": 8362.700943146712,
+    "performanceStatus": "bad",
+    "previousPerformance": 34,
+    "performanceDelta": 3,
+    "performanceDeltaText": "+3 puan yükseldi",
+    "performanceDeltaClass": "delta-up"
   },
   "desktop": {
-    "performance": 74,
+    "performance": 76,
     "seo": 77,
     "accessibility": 79,
     "bestPractices": 74,
-    "lcp": "2.9 s",
-    "fcp": "1.4 s",
+    "lcp": "3.0 s",
+    "fcp": "1.2 s",
     "cls": "0.002",
-    "inp": "-"
-  }
+    "speedIndex": "2.2 s",
+    "lcpMs": 3032.5395,
+    "fcpMs": 1199.027,
+    "clsValue": 0.0019040960931276734,
+    "speedIndexMs": 2158.3354269287984,
+    "performanceStatus": "mid",
+    "previousPerformance": 80,
+    "performanceDelta": -4,
+    "performanceDeltaText": "-4 puan düştü",
+    "performanceDeltaClass": "delta-down"
+  },
+  "aiComment": "Mobil performans düşük. Reklam trafiğinin büyük kısmı mobilden geldiği için LCP, Speed Index ve ağır görsel dosyaları öncelikli optimize edilmeli. Masaüstü tarafı daha sağlıklı fakat mobil deneyim satış dönüşümünü doğrudan etkileyebilir."
 }
