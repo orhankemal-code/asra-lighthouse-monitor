@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Her gün 09:00 (Türkiye) = 06:00 UTC
+    # Her gün 09:00 Türkiye saati = 06:00 UTC
     - cron: '0 6 * * *'
 
 permissions:
@@ -45,18 +45,18 @@ jobs:
           CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chromium/stable/x64/chrome
         run: npm run lighthouse:desktop
 
-      - name: Update History
-        run: npm run history
-
-      - name: Generate Markdown Report
+      - name: Generate Premium Report
         run: npm run report
 
-      - name: Send Email
+      - name: Send Premium Email
         env:
-          MAIL_USER: ${{ secrets.MAIL_USER }}
-          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          SMTP_USER: ${{ secrets.MAIL_USER }}
+          SMTP_PASS: ${{ secrets.MAIL_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: npm run mail
+
+      - name: Update History
+        run: npm run history
 
       - name: Commit History & Report
         run: |
