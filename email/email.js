@@ -15,22 +15,40 @@ function getValue(object, keyPath) {
     if (acc && Object.prototype.hasOwnProperty.call(acc, key)) {
       return acc[key];
     }
-
     return "";
   }, object);
 }
 
 function replacePlaceholders(template, data) {
   return template.replace(/{{\s*([^}]+)\s*}}/g, (_, key) => {
-    if (key.trim() === "css") {
+
+    key = key.trim();
+
+    // CSS dosyası escape edilmez
+    if (key === "css") {
       return data.css || "";
     }
 
-    return escapeHtml(getValue(data, key.trim()));
+    const value = getValue(data, key);
+
+    // HTML içermesine izin verilen alanlar
+    const htmlFields = [
+      "aiComment",
+      "mobileTrendBars",
+      "desktopTrendBars"
+    ];
+
+    if (htmlFields.includes(key)) {
+      return value || "";
+    }
+
+    return escapeHtml(value);
+
   });
 }
 
 function buildEmailHtml(report) {
+
   const templatePath = path.join(EMAIL_DIR, "template.html");
   const stylesPath = path.join(EMAIL_DIR, "styles.css");
 
