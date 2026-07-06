@@ -1,115 +1,96 @@
 const fs = require("fs");
 
-function load(file) {
-  const json = JSON.parse(fs.readFileSync(file, "utf8"));
-  return json.lighthouseResult || json;
+function scoreColor(score) {
+    score = Number(score);
+
+    if (score >= 90) return "#00C853";
+    if (score >= 50) return "#FFB300";
+    return "#FF5252";
 }
 
-const mobile = load("reports/mobile.report.json");
-const desktop = load("reports/desktop.report.json");
+function scoreText(score) {
+    score = Number(score);
 
-function score(data, category) {
-  const value = data.categories?.[category]?.score;
-  return value != null ? Math.round(value * 100) : "-";
+    if (score >= 90) return "Mükemmel";
+    if (score >= 75) return "İyi";
+    if (score >= 50) return "Geliştirilmeli";
+    return "Kritik";
 }
 
-function auditDisplay(data, key) {
-  return data.audits?.[key]?.displayValue || "-";
+function formatTime(value) {
+    if (value === undefined || value === null) return "-";
+    return `${Number(value).toFixed(1)} sn`;
 }
 
-const today = new Date().toISOString().slice(0, 10);
+function formatCls(value) {
+    if (value === undefined || value === null) return "-";
+    return Number(value).toFixed(2);
+}
 
-/*
-|--------------------------------------------------------------------------
-| JSON VERİSİ (Bundan sonra tüm sistem bunu kullanacak)
-|--------------------------------------------------------------------------
-*/
+function aiComment(score) {
 
-const reportData = {
-  date: today,
+    score = Number(score);
 
-  mobile: {
-    performance: score(mobile, "performance"),
-    seo: score(mobile, "seo"),
-    accessibility: score(mobile, "accessibility"),
-    bestPractices: score(mobile, "best-practices"),
+    if (score >= 90) {
+        return "Web sitesi performansı oldukça güçlü görünüyor. Kullanıcı deneyimi ve arama motoru açısından önemli bir risk bulunmuyor.";
+    }
 
-    lcp: auditDisplay(mobile, "largest-contentful-paint"),
-    fcp: auditDisplay(mobile, "first-contentful-paint"),
-    cls: auditDisplay(mobile, "cumulative-layout-shift"),
-    inp: auditDisplay(mobile, "interaction-to-next-paint"),
-  },
+    if (score >= 75) {
+        return "Genel performans iyi seviyede. Özellikle LCP ve kullanılmayan JavaScript dosyaları optimize edilirse skor daha da yükselebilir.";
+    }
 
-  desktop: {
-    performance: score(desktop, "performance"),
-    seo: score(desktop, "seo"),
-    accessibility: score(desktop, "accessibility"),
-    bestPractices: score(desktop, "best-practices"),
+    if (score >= 50) {
+        return "Performans orta seviyede. Sayfa yüklenme süreleri kullanıcı deneyimini olumsuz etkileyebilir. Görseller ve render süresi optimize edilmelidir.";
+    }
 
-    lcp: auditDisplay(desktop, "largest-contentful-paint"),
-    fcp: auditDisplay(desktop, "first-contentful-paint"),
-    cls: auditDisplay(desktop, "cumulative-layout-shift"),
-    inp: auditDisplay(desktop, "interaction-to-next-paint"),
-  },
-};
+    return "Performans kritik seviyede. Core Web Vitals metrikleri iyileştirilmeli, büyük görseller, JS ve CSS dosyaları optimize edilmelidir.";
+}
 
-/*
-|--------------------------------------------------------------------------
-| MARKDOWN RAPORU
-|--------------------------------------------------------------------------
-*/
+function createReport(data) {
 
-const report = `# Asra Pırlanta Günlük Performans Raporu
+    let html = fs.readFileSync("./email/template.html", "utf8");
 
-**Tarih:** ${today}
+    html = html.replaceAll("{{date}}", new Date().toLocaleDateString("tr-TR"));
 
-## 📱 Mobile
+    // MOBILE
 
-| Metrik | Sonuç |
-|--------|------:|
-| Performance | ${reportData.mobile.performance} |
-| SEO | ${reportData.mobile.seo} |
-| Accessibility | ${reportData.mobile.accessibility} |
-| Best Practices | ${reportData.mobile.bestPractices} |
+    html = html.replaceAll("{{mobilePerformance}}", data.mobile.performance);
+    html = html.replaceAll("{{mobilePerformanceColor}}", scoreColor(data.mobile.performance));
+    html = html.replaceAll("{{mobilePerformanceText}}", scoreText(data.mobile.performance));
 
-### Core Web Vitals
+    html = html.replaceAll("{{mobileLcp}}", formatTime(data.mobile.lcp));
+    html = html.replaceAll("{{mobileFcp}}", formatTime(data.mobile.fcp));
+    html = html.replaceAll("{{mobileCls}}", formatCls(data.mobile.cls));
+    html = html.replaceAll("{{mobileSpeedIndex}}", formatTime(data.mobile.speedIndex));
 
-- LCP: ${reportData.mobile.lcp}
-- FCP: ${reportData.mobile.fcp}
-- CLS: ${reportData.mobile.cls}
-- INP: ${reportData.mobile.inp}
+    html = html.replaceAll("{{mobileBar}}", data.mobile.performance);
 
----
+    // DESKTOP
 
-## 💻 Desktop
+    html = html.replaceAll("{{desktopPerformance}}", data.desktop.performance);
+    html = html.replaceAll("{{desktopPerformanceColor}}", scoreColor(data.desktop.performance));
+    html = html.replaceAll("{{desktopPerformanceText}}", scoreText(data.desktop.performance));
 
-| Metrik | Sonuç |
-|--------|------:|
-| Performance | ${reportData.desktop.performance} |
-| SEO | ${reportData.desktop.seo} |
-| Accessibility | ${reportData.desktop.accessibility} |
-| Best Practices | ${reportData.desktop.bestPractices} |
+    html = html.replaceAll("{{desktopLcp}}", formatTime(data.desktop.lcp));
+    html = html.replaceAll("{{desktopFcp}}", formatTime(data.desktop.fcp));
+    html = html.replaceAll("{{desktopCls}}", formatCls(data.desktop.cls));
+    html = html.replaceAll("{{desktopSpeedIndex}}", formatTime(data.desktop.speedIndex));
 
-### Core Web Vitals
+    html = html.replaceAll("{{desktopBar}}", data.desktop.performance);
 
-- LCP: ${reportData.desktop.lcp}
-- FCP: ${reportData.desktop.fcp}
-- CLS: ${reportData.desktop.cls}
-- INP: ${reportData.desktop.inp}
-`;
+    // AI
 
-/*
-|--------------------------------------------------------------------------
-| DOSYALARI OLUŞTUR
-|--------------------------------------------------------------------------
-*/
+    html = html.replaceAll(
+        "{{aiComment}}",
+        aiComment(
+            (
+                Number(data.mobile.performance) +
+                Number(data.desktop.performance)
+            ) / 2
+        )
+    );
 
-fs.writeFileSync(
-  `reports/${today}.json`,
-  JSON.stringify(reportData, null, 2)
-);
+    return html;
+}
 
-fs.writeFileSync(`reports/${today}.md`, report);
-
-console.log("✅ Markdown raporu oluşturuldu.");
-console.log("✅ JSON raporu oluşturuldu.");
+module.exports = createReport;
