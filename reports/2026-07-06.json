@@ -1,23 +1,23 @@
 {
   "date": "2026-07-06",
   "mobile": {
-    "performance": 34,
+    "performance": 32,
     "seo": 77,
     "accessibility": 81,
     "bestPractices": 71,
-    "lcp": "9.7 s",
-    "fcp": "3.4 s",
+    "lcp": "8.8 s",
+    "fcp": "4.0 s",
     "cls": "0",
     "inp": "-"
   },
   "desktop": {
-    "performance": 80,
+    "performance": 74,
     "seo": 77,
     "accessibility": 79,
     "bestPractices": 74,
-    "lcp": "2.5 s",
-    "fcp": "1.0 s",
-    "cls": "0.003",
+    "lcp": "2.9 s",
+    "fcp": "1.4 s",
+    "cls": "0.002",
     "inp": "-"
   }
 }
