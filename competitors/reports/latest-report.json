@@ -1,9 +1,9 @@
 {
   "date": "2026-07-06",
-  "generatedAt": "2026-07-06T14:03:05.472Z",
+  "generatedAt": "2026-07-06T14:04:53.974Z",
   "totalSites": 8,
-  "changedSites": 0,
-  "failedSites": 2,
+  "changedSites": 3,
+  "failedSites": 1,
   "sites": [
     {
       "name": "Asra Pırlanta",
@@ -32,7 +32,6 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%60",
         "%10"
       ],
       "bannerImages": [
@@ -49,12 +48,12 @@
           "alt": "Asra Pırlanta"
         }
       ],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": false,
+      "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %60, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -104,7 +103,7 @@
           "alt": "Ürünümün Garanti Kaydını Nasıl Yapabilirim?"
         }
       ],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": false,
@@ -188,7 +187,7 @@
           "alt": "Blue Diamond"
         }
       ],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": false,
@@ -248,7 +247,7 @@
           "alt": "Banner"
         }
       ],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": false,
@@ -287,6 +286,7 @@
       ],
       "percentCampaigns": [
         "%50",
+        "%40",
         "%100"
       ],
       "bannerImages": [
@@ -335,12 +335,12 @@
           "alt": "D Diamond Erkek Koleksiyonu"
         }
       ],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": false,
+      "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %40, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -354,7 +354,7 @@
       "campaignTexts": [],
       "percentCampaigns": [],
       "bannerImages": [],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": false,
@@ -365,21 +365,70 @@
     {
       "name": "Atasay",
       "url": "https://www.atasay.com",
-      "ok": false,
-      "error": "HTTP 403",
-      "title": "",
-      "description": "",
+      "ok": true,
+      "error": "",
+      "title": "Tak Tak Konuşuyoruz - Atasay.com",
+      "description": "Özel tasarımlarıyla altın ve pırlanta yüzükler, kolye, küpeler, bileklik ve bilezikler ve alyanslar atasay.com güvencesiyle sizi bekliyor!",
       "h1": "",
       "campaignTexts": [],
       "percentCampaigns": [],
-      "bannerImages": [],
-      "hasPrevious": false,
-      "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerImages": [
+        {
+          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-mobile.svg",
+          "alt": "mobile-logo"
+        },
+        {
+          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-desktop.svg",
+          "alt": "desktop-logo"
+        },
+        {
+          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-desktop.svg",
+          "alt": "logo-desktop"
+        },
+        {
+          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/07/04/8cf61c74-1845-42bb-8dc7-b7fb2550468d.jpg",
+          "alt": "home_slider_multibanner1"
+        },
+        {
+          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/07/01/eed30f78-dc4b-47f7-b9fb-8c2d87ed359d.jpg",
+          "alt": "home_slider_multibanner2"
+        },
+        {
+          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/06/02/52819d14-fcb1-4ec6-aa11-f14103abb105.jpg",
+          "alt": "home_slider_multibanner3"
+        },
+        {
+          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/06/18/545bdd44-cc17-4bbf-97d1-1f8b35bacba2.jpg",
+          "alt": "home_slider_multibanner4"
+        },
+        {
+          "src": "",
+          "alt": "new_home_triobanner1"
+        },
+        {
+          "src": "",
+          "alt": "new_home_triobanner2"
+        },
+        {
+          "src": "",
+          "alt": "new_home_triobanner3"
+        },
+        {
+          "src": "",
+          "alt": "new_home_triobanner1"
+        },
+        {
+          "src": "",
+          "alt": "new_home_triobanner2"
+        }
+      ],
+      "hasPrevious": true,
+      "campaignChanged": true,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "Site taraması başarısız olduğu için güçlü yön tespit edilemedi.",
-      "weakness": "Teknik erişim veya bot koruması nedeniyle veri alınamadı."
+      "strength": "Banner/slider alanlarını daha yoğun kullanıyor.",
+      "weakness": "Kampanya metni tespit edilemedi; ana sayfa mesajı zayıf görünüyor."
     },
     {
       "name": "Altınbaş",
@@ -415,7 +464,7 @@
           "alt": "Yeni Üyelik Kampanyası 2026"
         }
       ],
-      "hasPrevious": false,
+      "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": false,
@@ -424,8 +473,8 @@
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
-  "aiComment": "Bugün rakiplerde belirgin kampanya veya banner değişikliği tespit edilmedi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>2 site taranamadı; bot koruması, erişim engeli veya geçici bağlantı problemi olabilir.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%50); Blue Diamond (%50, %40); D Diamond (%50, %100); Altınbaş (%100).",
-  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
-  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>1 site taranamadı; bot koruması, erişim engeli veya geçici bağlantı problemi olabilir.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Atasay tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%50); Blue Diamond (%50, %40); D Diamond (%50, %40, %100); Altınbaş (%100).",
+  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }

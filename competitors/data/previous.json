@@ -1,12 +1,12 @@
 {
   "date": "2026-07-06",
-  "generatedAt": "2026-07-06T14:04:53.804Z",
+  "generatedAt": "2026-07-06T14:03:05.320Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-07-06T14:04:35.909Z",
+      "scannedAt": "2026-07-06T14:02:47.096Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -29,6 +29,7 @@
       ],
       "percentCampaigns": [
         "%50",
+        "%60",
         "%10"
       ],
       "bannerImages": [
@@ -47,13 +48,13 @@
       ],
       "campaignHash": "6327edf67a492ab13b584bf8315a32790a9f93d505b6f03e1779e2cfc0a33aa3",
       "bannerHash": "5969f5af6c4d692c7ea1bbc608e03a0d88385fe6b7968175ff69acbe7be26cd8",
-      "pageHash": "d376810397e28f37dd7c1c34ddb9f8d7eb2da29a2a919de019f681bb013ff31b"
+      "pageHash": "6cb63220b28ea59c87c73cfb7d319b8c2bd4935c806b544cb1cc0cd9f0fa2198"
     },
     {
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-07-06T14:04:37.076Z",
+      "scannedAt": "2026-07-06T14:02:48.402Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "Zen Pırlanta'da yeni üyelere özel 59990 TL üzeri alışverişte 3000TL indirim çeki! Pırlanta yüzük, alyans, kolye, küpe, bileklik, altın takılar sizleri bekliyor.",
       "h1": "ZEN Pırlanta",
@@ -104,7 +105,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-07-06T14:04:38.100Z",
+      "scannedAt": "2026-07-06T14:02:49.281Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -184,7 +185,7 @@
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-07-06T14:04:39.372Z",
+      "scannedAt": "2026-07-06T14:02:50.906Z",
       "title": "Pırlanta Modelleri ve İndirimli Pırlanta Fiyatları | Lizay Pırlanta",
       "description": "Pırlanta modellerinde indirimi kaçırmayın! Lizay Pırlanta kalitesi ve güvencesi ile en şık pırlantalara, sigortalı gönderim farklı ile sahip olun!",
       "h1": "",
@@ -240,7 +241,7 @@
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-07-06T14:04:40.052Z",
+      "scannedAt": "2026-07-06T14:02:51.781Z",
       "title": "D Diamond - Kaçırılmayacak Pırlanta Fırsatları Net %50 İndirim!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -267,7 +268,6 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%40",
         "%100"
       ],
       "bannerImages": [
@@ -318,13 +318,13 @@
       ],
       "campaignHash": "1897b85c04a95cd3f0181a178a6bef1a367fb07e2d43a69956f8365df339fc9a",
       "bannerHash": "0f6af32b9cb658698942fbfa378e8864958e2102f7326b66f33b8be670dd1ccd",
-      "pageHash": "262182a4d660230327b32074ce2fdccea4b6270d7fdf21f0218e45e9077ba77a"
+      "pageHash": "48ffb28ead7349de9b7d309834965ec30ec19c7908e849b45f1e6aa53a5876d9"
     },
     {
       "name": "Ariş Pırlanta",
       "url": "https://www.aris.com.tr",
       "ok": false,
-      "scannedAt": "2026-07-06T14:04:41.421Z",
+      "scannedAt": "2026-07-06T14:02:53.289Z",
       "error": "fetch failed",
       "title": "",
       "description": "",
@@ -339,72 +339,24 @@
     {
       "name": "Atasay",
       "url": "https://www.atasay.com",
-      "ok": true,
-      "scannedAt": "2026-07-06T14:04:51.868Z",
-      "title": "Tak Tak Konuşuyoruz - Atasay.com",
-      "description": "Özel tasarımlarıyla altın ve pırlanta yüzükler, kolye, küpeler, bileklik ve bilezikler ve alyanslar atasay.com güvencesiyle sizi bekliyor!",
+      "ok": false,
+      "scannedAt": "2026-07-06T14:03:03.726Z",
+      "error": "HTTP 403",
+      "title": "",
+      "description": "",
       "h1": "",
       "campaignTexts": [],
       "percentCampaigns": [],
-      "bannerImages": [
-        {
-          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-mobile.svg",
-          "alt": "mobile-logo"
-        },
-        {
-          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-desktop.svg",
-          "alt": "desktop-logo"
-        },
-        {
-          "src": "https://29d9a0f8.cdn.akinoncloud.com/static_omnishop/atasay446/img/logo-desktop.svg",
-          "alt": "logo-desktop"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/07/04/8cf61c74-1845-42bb-8dc7-b7fb2550468d.jpg",
-          "alt": "home_slider_multibanner1"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/07/01/eed30f78-dc4b-47f7-b9fb-8c2d87ed359d.jpg",
-          "alt": "home_slider_multibanner2"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/06/02/52819d14-fcb1-4ec6-aa11-f14103abb105.jpg",
-          "alt": "home_slider_multibanner3"
-        },
-        {
-          "src": "https://92d339.cdn.akinoncloud.com/cms/2026/06/18/545bdd44-cc17-4bbf-97d1-1f8b35bacba2.jpg",
-          "alt": "home_slider_multibanner4"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner1"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner2"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner3"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner1"
-        },
-        {
-          "src": "",
-          "alt": "new_home_triobanner2"
-        }
-      ],
-      "campaignHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bannerHash": "b9d58cf8ecb11471f49b2c0da4b099017e1dd1f767f5d92d66bdc049f67a6959",
-      "pageHash": "18eb30c5e5dd7cacc3ccb90c535759aea6b18a8644c0f519a8f626492db6be3f"
+      "bannerImages": [],
+      "campaignHash": "",
+      "bannerHash": "",
+      "pageHash": ""
     },
     {
       "name": "Altınbaş",
       "url": "https://www.altinbas.com",
       "ok": true,
-      "scannedAt": "2026-07-06T14:04:52.814Z",
+      "scannedAt": "2026-07-06T14:03:04.336Z",
       "title": "Altınbaş : Pırlanta ve Altın Takı Alışverişinin Güvenli Adresi",
       "description": "Altınbaş'ta aradığınız en şık yüzük, alyans, kolye, küpe, bileklik ve bilezik modelleri, göz alıcı pırlanta ve altın takılara indirimli fiyatlarla ulaşabilirsiniz.",
       "h1": "",
