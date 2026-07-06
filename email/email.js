@@ -1,23 +1,56 @@
-const nodemailer = require("nodemailer");
+const fs = require("fs");
+const path = require("path");
 
-async function sendMail(subject, html) {
+const EMAIL_DIR = __dirname;
 
-    const transporter = nodemailer.createTransport({
-        service: "gmail",
-        auth: {
-            user: process.env.MAIL_USER,
-            pass: process.env.MAIL_PASS,
-        },
-    });
-
-    await transporter.sendMail({
-        from: process.env.MAIL_USER,
-        to: process.env.MAIL_TO,
-        subject,
-        html,
-    });
-
-    console.log("✅ Mail başarıyla gönderildi.");
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
 
-module.exports = sendMail;
+function getValue(object, keyPath) {
+  return keyPath.split(".").reduce((acc, key) => {
+    if (acc && Object.prototype.hasOwnProperty.call(acc, key)) {
+      return acc[key];
+    }
+
+    return "";
+  }, object);
+}
+
+function replacePlaceholders(template, data) {
+  return template.replace(/{{\s*([^}]+)\s*}}/g, (_, key) => {
+    if (key.trim() === "css") {
+      return data.css || "";
+    }
+
+    return escapeHtml(getValue(data, key.trim()));
+  });
+}
+
+function buildEmailHtml(report) {
+  const templatePath = path.join(EMAIL_DIR, "template.html");
+  const stylesPath = path.join(EMAIL_DIR, "styles.css");
+
+  if (!fs.existsSync(templatePath)) {
+    throw new Error(`Template bulunamadı: ${templatePath}`);
+  }
+
+  if (!fs.existsSync(stylesPath)) {
+    throw new Error(`CSS bulunamadı: ${stylesPath}`);
+  }
+
+  const template = fs.readFileSync(templatePath, "utf8");
+  const css = fs.readFileSync(stylesPath, "utf8");
+
+  return replacePlaceholders(template, {
+    ...report,
+    css
+  });
+}
+
+module.exports = {
+  buildEmailHtml
+};
