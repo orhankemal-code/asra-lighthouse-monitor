@@ -1,60 +1,60 @@
 const fs = require("fs");
+const path = require("path");
 
-function readJson(path) {
-  return JSON.parse(fs.readFileSync(path, "utf8"));
+const ROOT = path.join(__dirname, "../..");
+const HISTORY_DIR = path.join(ROOT, "history");
+const HISTORY_FILE = path.join(HISTORY_DIR, "history.csv");
+const REPORTS_DIR = path.join(ROOT, "reports");
+
+const today = new Date().toISOString().slice(0, 10);
+const reportPath = path.join(REPORTS_DIR, `${today}.json`);
+
+if (!fs.existsSync(reportPath)) {
+  console.error("Günlük rapor bulunamadı:", reportPath);
+  process.exit(1);
 }
 
-const mobile = readJson("reports/mobile.report.json");
-const desktop = readJson("reports/desktop.report.json");
+if (!fs.existsSync(HISTORY_DIR)) {
+  fs.mkdirSync(HISTORY_DIR, { recursive: true });
+}
 
-function getScore(data, category) {
-  return Math.round(
-    (data.categories?.[category]?.score ?? 0) * 100
+const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+
+if (!fs.existsSync(HISTORY_FILE)) {
+  fs.writeFileSync(
+    HISTORY_FILE,
+    "date,mobile_performance,desktop_performance,mobile_seo,desktop_seo,mobile_accessibility,desktop_accessibility,mobile_best_practices,desktop_best_practices,mobile_lcp,desktop_lcp,mobile_fcp,desktop_fcp,mobile_cls,desktop_cls,mobile_speed_index,desktop_speed_index\n",
+    "utf8"
   );
 }
 
-function getAudit(data, key) {
-  return data.audits?.[key]?.numericValue ?? "";
-}
+const existing = fs.readFileSync(HISTORY_FILE, "utf8");
 
-const today = new Date().toISOString().slice(0, 10);
+if (existing.includes(`${today},`)) {
+  console.log("Bugünün kaydı zaten history.csv içinde var:", today);
+  process.exit(0);
+}
 
 const row = [
   today,
-
-  getScore(mobile, "performance"),
-  getScore(desktop, "performance"),
-
-  getScore(mobile, "seo"),
-  getScore(desktop, "seo"),
-
-  getScore(mobile, "accessibility"),
-  getScore(desktop, "accessibility"),
-
-  getScore(mobile, "best-practices"),
-  getScore(desktop, "best-practices"),
-
-  getAudit(mobile, "largest-contentful-paint"),
-  getAudit(desktop, "largest-contentful-paint"),
-
-  getAudit(mobile, "cumulative-layout-shift"),
-  getAudit(desktop, "cumulative-layout-shift"),
-
-  getAudit(mobile, "interaction-to-next-paint"),
-  getAudit(desktop, "interaction-to-next-paint")
+  report.mobile.performance,
+  report.desktop.performance,
+  report.mobile.seo,
+  report.desktop.seo,
+  report.mobile.accessibility,
+  report.desktop.accessibility,
+  report.mobile.bestPractices,
+  report.desktop.bestPractices,
+  `"${report.mobile.lcp}"`,
+  `"${report.desktop.lcp}"`,
+  `"${report.mobile.fcp}"`,
+  `"${report.desktop.fcp}"`,
+  `"${report.mobile.cls}"`,
+  `"${report.desktop.cls}"`,
+  `"${report.mobile.speedIndex}"`,
+  `"${report.desktop.speedIndex}"`
 ].join(",");
 
-const historyFile = "history/history.csv";
+fs.appendFileSync(HISTORY_FILE, `${row}\n`, "utf8");
 
-let csv = fs.readFileSync(historyFile, "utf8");
-
-const lines = csv.trim().split("\n");
-
-const exists = lines.some(line => line.startsWith(today));
-
-if (!exists) {
-  fs.appendFileSync(historyFile, "\n" + row);
-  console.log("✅ history.csv güncellendi");
-} else {
-  console.log("Bugünkü kayıt zaten mevcut.");
-}
+console.log("History güncellendi:", HISTORY_FILE);
