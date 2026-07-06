@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asra Lighthouse Premium Mail V3</title>
+  <title>Asra Lighthouse Premium Mail V4</title>
   <style>
     {{css}}
   </style>
@@ -22,7 +22,7 @@
                 <div class="eyebrow">ASRA PIRLANTA</div>
                 <h1>Digital Morning Report</h1>
                 <p class="hero-text">
-                  Lighthouse performans, Core Web Vitals ve günlük teknik sağlık özeti.
+                  Günlük Lighthouse performans, Core Web Vitals, trend ve teknik sağlık özeti.
                 </p>
 
                 <table role="presentation" cellspacing="0" cellpadding="0" border="0">
@@ -35,7 +35,7 @@
             </tr>
 
             <tr>
-              <td class="section">
+              <td class="section first-section">
                 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="health-card">
                   <tr>
                     <td>
@@ -49,7 +49,7 @@
             </tr>
 
             <tr>
-              <td class="section-title">Skor Kartları</td>
+              <td class="section-title">📊 Skor Kartları</td>
             </tr>
 
             <tr>
@@ -57,7 +57,7 @@
                 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                   <tr>
                     <td class="device-card">
-                      <div class="device-label">Mobile</div>
+                      <div class="device-label">📱 Mobile</div>
 
                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
@@ -78,37 +78,25 @@
                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="bar-table">
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>Performance</span>
-                              <strong>{{mobile.performance}}</strong>
-                            </div>
+                            <div class="metric-row"><span>Performance</span><strong>{{mobile.performance}}</strong></div>
                             <div class="bar"><div class="fill fill-{{mobile.performanceStatus}}" style="width:{{mobile.performance}}%;"></div></div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>SEO</span>
-                              <strong>{{mobile.seo}}</strong>
-                            </div>
+                            <div class="metric-row"><span>SEO</span><strong>{{mobile.seo}}</strong></div>
                             <div class="bar"><div class="fill fill-{{mobile.seoStatus}}" style="width:{{mobile.seo}}%;"></div></div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>Accessibility</span>
-                              <strong>{{mobile.accessibility}}</strong>
-                            </div>
+                            <div class="metric-row"><span>Accessibility</span><strong>{{mobile.accessibility}}</strong></div>
                             <div class="bar"><div class="fill fill-{{mobile.accessibilityStatus}}" style="width:{{mobile.accessibility}}%;"></div></div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>Best Practices</span>
-                              <strong>{{mobile.bestPractices}}</strong>
-                            </div>
+                            <div class="metric-row"><span>Best Practices</span><strong>{{mobile.bestPractices}}</strong></div>
                             <div class="bar"><div class="fill fill-{{mobile.bestPracticesStatus}}" style="width:{{mobile.bestPractices}}%;"></div></div>
                           </td>
                         </tr>
@@ -118,7 +106,7 @@
                     <td class="gap"></td>
 
                     <td class="device-card">
-                      <div class="device-label">Desktop</div>
+                      <div class="device-label">🖥 Desktop</div>
 
                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
@@ -139,37 +127,25 @@
                       <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="bar-table">
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>Performance</span>
-                              <strong>{{desktop.performance}}</strong>
-                            </div>
+                            <div class="metric-row"><span>Performance</span><strong>{{desktop.performance}}</strong></div>
                             <div class="bar"><div class="fill fill-{{desktop.performanceStatus}}" style="width:{{desktop.performance}}%;"></div></div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>SEO</span>
-                              <strong>{{desktop.seo}}</strong>
-                            </div>
+                            <div class="metric-row"><span>SEO</span><strong>{{desktop.seo}}</strong></div>
                             <div class="bar"><div class="fill fill-{{desktop.seoStatus}}" style="width:{{desktop.seo}}%;"></div></div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>Accessibility</span>
-                              <strong>{{desktop.accessibility}}</strong>
-                            </div>
+                            <div class="metric-row"><span>Accessibility</span><strong>{{desktop.accessibility}}</strong></div>
                             <div class="bar"><div class="fill fill-{{desktop.accessibilityStatus}}" style="width:{{desktop.accessibility}}%;"></div></div>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                            <div class="metric-row">
-                              <span>Best Practices</span>
-                              <strong>{{desktop.bestPractices}}</strong>
-                            </div>
+                            <div class="metric-row"><span>Best Practices</span><strong>{{desktop.bestPractices}}</strong></div>
                             <div class="bar"><div class="fill fill-{{desktop.bestPracticesStatus}}" style="width:{{desktop.bestPractices}}%;"></div></div>
                           </td>
                         </tr>
@@ -181,7 +157,35 @@
             </tr>
 
             <tr>
-              <td class="section-title">Core Web Vitals</td>
+              <td class="section-title">📈 Son 7 Gün Trend</td>
+            </tr>
+
+            <tr>
+              <td class="section">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="trend-card">
+                  <tr>
+                    <td>
+                      <div class="trend-label">Mobile Performance</div>
+                      <div class="trend-numbers">{{mobileTrendText}}</div>
+                      <div class="trend-bars">{{mobileTrendBars}}</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="trend-divider"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="trend-label">Desktop Performance</div>
+                      <div class="trend-numbers">{{desktopTrendText}}</div>
+                      <div class="trend-bars">{{desktopTrendBars}}</div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="section-title">⚡ Core Web Vitals</td>
             </tr>
 
             <tr>
@@ -213,7 +217,7 @@
             </tr>
 
             <tr>
-              <td class="section-title">AI Analizi</td>
+              <td class="section-title">🤖 AI Analizi</td>
             </tr>
 
             <tr>
@@ -221,7 +225,7 @@
                 <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="ai-card">
                   <tr>
                     <td>
-                      <div class="ai-title">Bugünün Yorumu</div>
+                      <div class="ai-title">Bugünün Teknik Yorumu</div>
                       <div class="ai-text">{{aiComment}}</div>
                     </td>
                   </tr>
@@ -230,7 +234,7 @@
             </tr>
 
             <tr>
-              <td class="section-title">Dün ile Karşılaştırma</td>
+              <td class="section-title">🔁 Dün ile Karşılaştırma</td>
             </tr>
 
             <tr>
@@ -257,7 +261,7 @@
             </tr>
 
             <tr>
-              <td class="section-title">Öncelikli Aksiyonlar</td>
+              <td class="section-title">🎯 Öncelikli Aksiyonlar</td>
             </tr>
 
             <tr>
@@ -275,9 +279,34 @@
             </tr>
 
             <tr>
+              <td class="section-title">🧾 Rapor Bilgisi</td>
+            </tr>
+
+            <tr>
+              <td class="section">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="info-card">
+                  <tr>
+                    <td>
+                      <div class="info-label">Çalıştırma</div>
+                      <div class="info-value">GitHub Actions</div>
+                    </td>
+                    <td>
+                      <div class="info-label">Test</div>
+                      <div class="info-value">Lighthouse</div>
+                    </td>
+                    <td>
+                      <div class="info-label">Lokasyon</div>
+                      <div class="info-value">GitHub Runner</div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
               <td class="footer">
                 Bu rapor GitHub Actions üzerinden otomatik oluşturulmuştur.<br />
-                Asra Lighthouse Premium Mail V3
+                Asra Lighthouse Premium Mail V4
               </td>
             </tr>
 
