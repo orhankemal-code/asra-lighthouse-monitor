@@ -42,7 +42,7 @@ async function send() {
   const info = await transporter.sendMail({
     from: `"Asra Lighthouse" <${mailFrom}>`,
     to: mailTo,
-    subject: `Asra Pırlanta Lighthouse Premium Raporu - ${today}`,
+    subject: `Asra Pırlanta Günlük Dijital Durum Raporu - ${today}`,
     html
   });
 
