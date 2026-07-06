@@ -1,4 +1,3 @@
-
 const fs = require("fs");
 const path = require("path");
 const nodemailer = require("nodemailer");
@@ -23,6 +22,34 @@ function escapeHtml(value) {
     .replace(/>/g, "&gt;");
 }
 
+function renderBanners(site) {
+  if (!site.bannerImages || !site.bannerImages.length) {
+    return `<div style="font-size:12px;color:#9ca3af;">Banner bulunamadı</div>`;
+  }
+
+  return site.bannerImages
+    .slice(0, 2)
+    .map((img) => {
+      if (!img.src) return "";
+
+      return `
+        <div style="margin-bottom:10px;">
+          <img 
+            src="${escapeHtml(img.src)}"
+            alt="${escapeHtml(img.alt || site.name)}"
+            style="display:block;width:180px;max-width:180px;border-radius:12px;border:1px solid #e5e7eb;background:#f3f4f6;"
+          >
+          ${
+            img.alt
+              ? `<div style="font-size:11px;line-height:1.4;color:#6b7280;margin-top:5px;">${escapeHtml(img.alt)}</div>`
+              : ""
+          }
+        </div>
+      `;
+    })
+    .join("");
+}
+
 function siteRows(sites) {
   return sites
     .map((site) => {
@@ -34,16 +61,22 @@ function siteRows(sites) {
 
       const campaigns =
         site.campaignTexts && site.campaignTexts.length
-          ? site.campaignTexts.slice(0, 3).map(escapeHtml).join("<br>")
+          ? site.campaignTexts.slice(0, 3).map(escapeHtml).join("<br><br>")
           : "-";
+
+      const banners = renderBanners(site);
 
       return `
         <tr>
-          <td>${status}</td>
-          <td><strong>${escapeHtml(site.name)}</strong></td>
-          <td>${changed}</td>
-          <td>${escapeHtml(site.percentCampaigns.join(", ") || "-")}</td>
-          <td>${campaigns}</td>
+          <td style="padding:14px;border-top:1px solid #e5e7eb;vertical-align:top;">${status}</td>
+          <td style="padding:14px;border-top:1px solid #e5e7eb;vertical-align:top;">
+            <strong>${escapeHtml(site.name)}</strong>
+            <div style="font-size:11px;color:#6b7280;margin-top:4px;">${escapeHtml(site.url)}</div>
+          </td>
+          <td style="padding:14px;border-top:1px solid #e5e7eb;vertical-align:top;">${changed}</td>
+          <td style="padding:14px;border-top:1px solid #e5e7eb;vertical-align:top;">${escapeHtml(site.percentCampaigns.join(", ") || "-")}</td>
+          <td style="padding:14px;border-top:1px solid #e5e7eb;vertical-align:top;font-size:12px;line-height:1.5;">${campaigns}</td>
+          <td style="padding:14px;border-top:1px solid #e5e7eb;vertical-align:top;">${banners}</td>
         </tr>
       `;
     })
@@ -59,14 +92,14 @@ const html = `
 </head>
 <body style="margin:0;padding:0;background:#f5f5f7;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#111827;">
   <center style="width:100%;background:#f5f5f7;padding:32px 12px;">
-    <table width="720" cellpadding="0" cellspacing="0" border="0" style="width:720px;max-width:720px;background:#ffffff;border-radius:28px;overflow:hidden;">
+    <table width="920" cellpadding="0" cellspacing="0" border="0" style="width:920px;max-width:920px;background:#ffffff;border-radius:28px;overflow:hidden;">
       
       <tr>
         <td style="padding:42px;background:linear-gradient(135deg,#111827,#1e3a8a,#2563eb);color:#ffffff;">
           <div style="font-size:12px;letter-spacing:2px;font-weight:800;opacity:.8;">ASRA PIRLANTA</div>
           <h1 style="margin:12px 0 10px;font-size:34px;line-height:1.15;">Rakip Kampanya Analizi</h1>
           <p style="margin:0;font-size:15px;line-height:1.6;opacity:.88;">
-            Rakip ana sayfa kampanyaları, banner değişiklikleri ve günlük aksiyon önerileri.
+            Rakip ana sayfa kampanyaları, banner görselleri, değişiklikler ve günlük aksiyon önerileri.
           </p>
           <div style="display:inline-block;margin-top:22px;padding:9px 14px;border-radius:999px;background:rgba(255,255,255,.16);font-size:12px;font-weight:800;">
             ${escapeHtml(report.date)}
@@ -112,7 +145,7 @@ const html = `
 
       <tr>
         <td style="padding:30px 34px 14px;font-size:18px;font-weight:900;">
-          🏆 Rakip Tablosu
+          🏆 Rakip Tablosu + Bannerlar
         </td>
       </tr>
 
@@ -125,6 +158,7 @@ const html = `
               <th align="left" style="padding:12px;font-size:12px;">Değişim</th>
               <th align="left" style="padding:12px;font-size:12px;">%</th>
               <th align="left" style="padding:12px;font-size:12px;">Kampanya Metni</th>
+              <th align="left" style="padding:12px;font-size:12px;">Banner</th>
             </tr>
             ${siteRows(report.sites)}
           </table>
@@ -154,7 +188,7 @@ const html = `
       <tr>
         <td style="padding:28px 34px 38px;text-align:center;font-size:12px;line-height:1.6;color:#8a8a8e;">
           Bu rapor GitHub Actions üzerinden otomatik oluşturulmuştur.<br>
-          Asra Competitive Intelligence • Modül 1
+          Asra Competitive Intelligence • Modül 1 Banner Destekli
         </td>
       </tr>
 
@@ -174,7 +208,7 @@ if (!smtpUser || !smtpPass || !mailTo) {
   process.exit(1);
 }
 
-const subject = `🏆 Asra Rakip Analizi • ${report.changedSites} değişiklik • ${today}`;
+const subject = `🏆 Asra Rakip Analizi • ${report.changedSites} değişiklik • Bannerlı • ${today}`;
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
