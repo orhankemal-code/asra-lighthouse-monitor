@@ -15,17 +15,44 @@ if (!fs.existsSync(reportPath)) {
 }
 
 const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+
 const html = buildEmailHtml(report);
+
+/*
+|--------------------------------------------------------------------------
+| Mail Başlığı
+|--------------------------------------------------------------------------
+*/
+
+let icon = "🟢";
+
+if (report.overallScore < 60) {
+  icon = "🔴";
+} else if (report.overallScore < 80) {
+  icon = "🟡";
+}
+
+const subject =
+  `${icon} Asra Pırlanta Günlük Dijital Durum Raporu • ` +
+  `Site Sağlığı ${report.overallScore}/100 • ` +
+  `📱 ${report.mobile.performance}  🖥 ${report.desktop.performance}`;
+
+/*
+|--------------------------------------------------------------------------
+| SMTP
+|--------------------------------------------------------------------------
+*/
 
 const smtpUser = process.env.SMTP_USER || process.env.GMAIL_USER;
 const smtpPass = process.env.SMTP_PASS || process.env.GMAIL_APP_PASSWORD;
+
 const mailTo = process.env.MAIL_TO || smtpUser;
 const mailFrom = process.env.MAIL_FROM || smtpUser;
 
 if (!smtpUser || !smtpPass || !mailTo) {
-  console.error("Mail ayarları eksik. Gerekli env değerleri:");
-  console.error("SMTP_USER veya GMAIL_USER");
-  console.error("SMTP_PASS veya GMAIL_APP_PASSWORD");
+  console.error("Mail ayarları eksik.");
+  console.error("SMTP_USER");
+  console.error("SMTP_PASS");
   console.error("MAIL_TO");
   process.exit(1);
 }
@@ -38,18 +65,25 @@ const transporter = nodemailer.createTransport({
   }
 });
 
+/*
+|--------------------------------------------------------------------------
+| Mail Gönder
+|--------------------------------------------------------------------------
+*/
+
 async function send() {
-  const info = await transporter.sendMail({
-    from: `"Asra Lighthouse" <${mailFrom}>`,
+
+  await transporter.sendMail({
+    from: `"Asra Digital Morning Report" <${mailFrom}>`,
     to: mailTo,
-    subject: `Asra Pırlanta Günlük Dijital Durum Raporu - ${today}`,
+    subject,
     html
   });
 
-  console.log("Premium Mail V2 gönderildi:", info.messageId);
+  console.log("✅ Premium Mail V4 gönderildi.");
 }
 
-send().catch((error) => {
-  console.error("Mail gönderilemedi:", error);
+send().catch((err) => {
+  console.error(err);
   process.exit(1);
 });
