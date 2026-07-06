@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Asra Lighthouse Premium Mail V2</title>
+  <title>Asra Lighthouse Premium Mail V3</title>
   <style>
     {{css}}
   </style>
@@ -19,22 +19,29 @@
 
             <tr>
               <td class="hero">
-                <div class="eyebrow">ASRA Pırlanta</div>
-                <h1>Günlük Lighthouse Raporu</h1>
+                <div class="eyebrow">ASRA PIRLANTA</div>
+                <h1>Digital Morning Report</h1>
                 <p class="hero-text">
-                  Mobil ve masaüstü performans, SEO, erişilebilirlik ve teknik kalite özeti.
+                  Lighthouse performans, Core Web Vitals ve günlük teknik sağlık özeti.
                 </p>
-                <div class="date-pill">{{date}}</div>
+
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td class="date-pill">{{date}}</td>
+                    <td class="health-pill health-{{healthStatus}}">{{healthLabel}}</td>
+                  </tr>
+                </table>
               </td>
             </tr>
 
             <tr>
               <td class="section">
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="health-card">
                   <tr>
-                    <td class="summary-card">
-                      <div class="summary-title">AI Yorumu</div>
-                      <div class="summary-text">{{aiComment}}</div>
+                    <td>
+                      <div class="small-label">Genel Site Sağlığı</div>
+                      <div class="health-score">{{overallScore}} / 100</div>
+                      <div class="health-desc">{{healthText}}</div>
                     </td>
                   </tr>
                 </table>
@@ -47,64 +54,124 @@
 
             <tr>
               <td class="section">
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                   <tr>
-                    <td class="device-card left-card">
+                    <td class="device-card">
                       <div class="device-label">Mobile</div>
-                      <div class="main-score score-{{mobile.performanceStatus}}">
-                        {{mobile.performance}}
-                      </div>
-                      <div class="delta {{mobile.performanceDeltaClass}}">
-                        Dün: {{mobile.previousPerformance}} | {{mobile.performanceDeltaText}}
-                      </div>
 
-                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" class="metric-table">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                          <td>Performance</td>
-                          <td>{{mobile.performance}}</td>
+                          <td class="score-circle-wrap">
+                            <div class="score-circle score-{{mobile.performanceStatus}}">
+                              {{mobile.performance}}
+                            </div>
+                          </td>
+                          <td class="device-summary">
+                            <div class="score-title">Performance</div>
+                            <div class="delta {{mobile.performanceDeltaClass}}">
+                              {{mobile.performanceDeltaText}}
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="bar-table">
+                        <tr>
+                          <td>
+                            <div class="metric-row">
+                              <span>Performance</span>
+                              <strong>{{mobile.performance}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{mobile.performanceStatus}}" style="width:{{mobile.performance}}%;"></div></div>
+                          </td>
                         </tr>
                         <tr>
-                          <td>SEO</td>
-                          <td>{{mobile.seo}}</td>
+                          <td>
+                            <div class="metric-row">
+                              <span>SEO</span>
+                              <strong>{{mobile.seo}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{mobile.seoStatus}}" style="width:{{mobile.seo}}%;"></div></div>
+                          </td>
                         </tr>
                         <tr>
-                          <td>Accessibility</td>
-                          <td>{{mobile.accessibility}}</td>
+                          <td>
+                            <div class="metric-row">
+                              <span>Accessibility</span>
+                              <strong>{{mobile.accessibility}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{mobile.accessibilityStatus}}" style="width:{{mobile.accessibility}}%;"></div></div>
+                          </td>
                         </tr>
                         <tr>
-                          <td>Best Practices</td>
-                          <td>{{mobile.bestPractices}}</td>
+                          <td>
+                            <div class="metric-row">
+                              <span>Best Practices</span>
+                              <strong>{{mobile.bestPractices}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{mobile.bestPracticesStatus}}" style="width:{{mobile.bestPractices}}%;"></div></div>
+                          </td>
                         </tr>
                       </table>
                     </td>
 
                     <td class="gap"></td>
 
-                    <td class="device-card right-card">
+                    <td class="device-card">
                       <div class="device-label">Desktop</div>
-                      <div class="main-score score-{{desktop.performanceStatus}}">
-                        {{desktop.performance}}
-                      </div>
-                      <div class="delta {{desktop.performanceDeltaClass}}">
-                        Dün: {{desktop.previousPerformance}} | {{desktop.performanceDeltaText}}
-                      </div>
 
-                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" class="metric-table">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                          <td>Performance</td>
-                          <td>{{desktop.performance}}</td>
+                          <td class="score-circle-wrap">
+                            <div class="score-circle score-{{desktop.performanceStatus}}">
+                              {{desktop.performance}}
+                            </div>
+                          </td>
+                          <td class="device-summary">
+                            <div class="score-title">Performance</div>
+                            <div class="delta {{desktop.performanceDeltaClass}}">
+                              {{desktop.performanceDeltaText}}
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="bar-table">
+                        <tr>
+                          <td>
+                            <div class="metric-row">
+                              <span>Performance</span>
+                              <strong>{{desktop.performance}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{desktop.performanceStatus}}" style="width:{{desktop.performance}}%;"></div></div>
+                          </td>
                         </tr>
                         <tr>
-                          <td>SEO</td>
-                          <td>{{desktop.seo}}</td>
+                          <td>
+                            <div class="metric-row">
+                              <span>SEO</span>
+                              <strong>{{desktop.seo}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{desktop.seoStatus}}" style="width:{{desktop.seo}}%;"></div></div>
+                          </td>
                         </tr>
                         <tr>
-                          <td>Accessibility</td>
-                          <td>{{desktop.accessibility}}</td>
+                          <td>
+                            <div class="metric-row">
+                              <span>Accessibility</span>
+                              <strong>{{desktop.accessibility}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{desktop.accessibilityStatus}}" style="width:{{desktop.accessibility}}%;"></div></div>
+                          </td>
                         </tr>
                         <tr>
-                          <td>Best Practices</td>
-                          <td>{{desktop.bestPractices}}</td>
+                          <td>
+                            <div class="metric-row">
+                              <span>Best Practices</span>
+                              <strong>{{desktop.bestPractices}}</strong>
+                            </div>
+                            <div class="bar"><div class="fill fill-{{desktop.bestPracticesStatus}}" style="width:{{desktop.bestPractices}}%;"></div></div>
+                          </td>
                         </tr>
                       </table>
                     </td>
@@ -114,36 +181,49 @@
             </tr>
 
             <tr>
-              <td class="section-title">Core Web Vitals & Teknik Metrikler</td>
+              <td class="section-title">Core Web Vitals</td>
             </tr>
 
             <tr>
               <td class="section">
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" class="data-card">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                   <tr>
-                    <th>Metrik</th>
-                    <th>Mobile</th>
-                    <th>Desktop</th>
+                    <td class="vital-card">
+                      <div class="vital-label">Mobile LCP</div>
+                      <div class="vital-value">{{mobile.lcp}}</div>
+                    </td>
+                    <td class="small-gap"></td>
+                    <td class="vital-card">
+                      <div class="vital-label">Mobile FCP</div>
+                      <div class="vital-value">{{mobile.fcp}}</div>
+                    </td>
+                    <td class="small-gap"></td>
+                    <td class="vital-card">
+                      <div class="vital-label">Mobile CLS</div>
+                      <div class="vital-value">{{mobile.cls}}</div>
+                    </td>
+                    <td class="small-gap"></td>
+                    <td class="vital-card">
+                      <div class="vital-label">Speed Index</div>
+                      <div class="vital-value">{{mobile.speedIndex}}</div>
+                    </td>
                   </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="section-title">AI Analizi</td>
+            </tr>
+
+            <tr>
+              <td class="section">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="ai-card">
                   <tr>
-                    <td>LCP</td>
-                    <td>{{mobile.lcp}}</td>
-                    <td>{{desktop.lcp}}</td>
-                  </tr>
-                  <tr>
-                    <td>FCP</td>
-                    <td>{{mobile.fcp}}</td>
-                    <td>{{desktop.fcp}}</td>
-                  </tr>
-                  <tr>
-                    <td>CLS</td>
-                    <td>{{mobile.cls}}</td>
-                    <td>{{desktop.cls}}</td>
-                  </tr>
-                  <tr>
-                    <td>Speed Index</td>
-                    <td>{{mobile.speedIndex}}</td>
-                    <td>{{desktop.speedIndex}}</td>
+                    <td>
+                      <div class="ai-title">Bugünün Yorumu</div>
+                      <div class="ai-text">{{aiComment}}</div>
+                    </td>
                   </tr>
                 </table>
               </td>
@@ -155,19 +235,39 @@
 
             <tr>
               <td class="section">
-                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" class="compare-card">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="compare-card">
                   <tr>
                     <td>
                       <div class="compare-title">Mobile Performance</div>
                       <div class="compare-value {{mobile.performanceDeltaClass}}">
                         {{mobile.performanceDeltaText}}
                       </div>
+                      <div class="compare-sub">Dün: {{mobile.previousPerformance}} / Bugün: {{mobile.performance}}</div>
                     </td>
                     <td>
                       <div class="compare-title">Desktop Performance</div>
                       <div class="compare-value {{desktop.performanceDeltaClass}}">
                         {{desktop.performanceDeltaText}}
                       </div>
+                      <div class="compare-sub">Dün: {{desktop.previousPerformance}} / Bugün: {{desktop.performance}}</div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="section-title">Öncelikli Aksiyonlar</td>
+            </tr>
+
+            <tr>
+              <td class="section">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="action-card">
+                  <tr>
+                    <td>
+                      <div class="action-item">1. {{actionOne}}</div>
+                      <div class="action-item">2. {{actionTwo}}</div>
+                      <div class="action-item">3. {{actionThree}}</div>
                     </td>
                   </tr>
                 </table>
@@ -177,7 +277,7 @@
             <tr>
               <td class="footer">
                 Bu rapor GitHub Actions üzerinden otomatik oluşturulmuştur.<br />
-                Asra Lighthouse Premium Mail V2
+                Asra Lighthouse Premium Mail V3
               </td>
             </tr>
 
