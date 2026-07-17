@@ -1,12 +1,12 @@
 {
-  "date": "2026-07-15",
-  "generatedAt": "2026-07-15T11:53:59.643Z",
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-16T11:57:18.910Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-07-15T11:53:48.136Z",
+      "scannedAt": "2026-07-16T11:57:03.086Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -29,17 +29,12 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%10"
+        "%60"
       ],
       "bannerImages": [
         {
           "src": "https://www.asrapirlanta.com/anasayfa/asra_15_temmuz_kampanya_1920x570_banner.webp",
           "alt": "15 temmuz-15 ağustos",
-          "title": ""
-        },
-        {
-          "src": "https://www.asrapirlanta.com/anasayfa/asra_safir_1920x570_banner.webp",
-          "alt": "ASRA Pırlanta",
           "title": ""
         },
         {
@@ -61,22 +56,17 @@
           "src": "https://www.asrapirlanta.com/anasayfa/asra_15_temmuz_kampanya_800x927_banner.webp",
           "alt": "(max-width: 767px)",
           "title": ""
-        },
-        {
-          "src": "https://www.asrapirlanta.com/anasayfa/asra_safir_800x827_banner.webp",
-          "alt": "(max-width: 767px)",
-          "title": ""
         }
       ],
       "campaignHash": "6327edf67a492ab13b584bf8315a32790a9f93d505b6f03e1779e2cfc0a33aa3",
-      "bannerHash": "36466c7360add834a25a29e977ad3d4b610e7d2b77e563ec7bbcb9f17415caab",
-      "pageHash": "f9cf7876a8f23076b44d2ec1fcd1eb313dc535575a7497459342e84d36d52884"
+      "bannerHash": "f966116db8d949c9b6f877fcb5e7d32f51341c21fac9cac591eab01ef76e16c0",
+      "pageHash": "bfdeb5287dfcc0355ec730041594783a8425014e5b2383a5d0dd471886064177"
     },
     {
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-07-15T11:53:49.433Z",
+      "scannedAt": "2026-07-16T11:57:04.259Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "Zen Pırlanta'da yeni üyelere özel 59990 TL üzeri alışverişte 3000TL indirim çeki! Pırlanta yüzük, alyans, kolye, küpe, bileklik, altın takılar sizleri bekliyor.",
       "h1": "ZEN Pırlanta",
@@ -135,7 +125,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-07-15T11:53:50.723Z",
+      "scannedAt": "2026-07-16T11:57:05.363Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -215,7 +205,7 @@
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-07-15T11:53:52.342Z",
+      "scannedAt": "2026-07-16T11:57:06.595Z",
       "title": "Pırlanta Modelleri ve İndirimli Pırlanta Fiyatları | Lizay Pırlanta",
       "description": "Pırlanta modellerinde indirimi kaçırmayın! Lizay Pırlanta kalitesi ve güvencesi ile en şık pırlantalara, sigortalı gönderim farklı ile sahip olun!",
       "h1": "",
@@ -287,7 +277,7 @@
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-07-15T11:53:53.148Z",
+      "scannedAt": "2026-07-16T11:57:07.273Z",
       "title": "D Diamond - Kaçırılmayacak Pırlanta Fırsatları Net %50 İndirim!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -361,85 +351,18 @@
     {
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
-      "ok": true,
-      "scannedAt": "2026-07-15T11:53:54.940Z",
-      "title": "Ariş Pırlanta",
-      "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
-      "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
-      "campaignTexts": [
-        "Giriş Yapın Özel fırsatları kaçırmayın Giriş Yap Kayıt Ol Aranıyor...",
-        "Mağazalarımız Sipariş Takip Yeni üye olanlara özel %5 İndirim!",
-        "Sigortalı Ücretsiz Kargo!",
-        "Yeni Sezon Pırlanta Koleksiyonu İndirimi!",
-        "Kaçırmayın ⌘KCtrl+K Aranıyor...",
-        "Kategoriler Ürünler Popüler Aramalar Tektaş Yüzük Pırlanta Kolye Beştaş Yüzük Hesabım Giriş yapın Merhaba!",
-        "İndirim 49.305 TL 34.514 TL Pırlanta Fantezi Prenses Kesim Kolye İNCELE 30%",
-        "İndirim 113.905 TL 79.734 TL L'oval 0.58 Karat Oval Pırlanta Tektaş Yüzük İNCELE 40%",
-        "İndirim 210.045 TL 126.027 TL 1.00 Karat Pırlanta Suyolu Bileklik İNCELE 20%",
-        "İndirim 14.848 TL 11.879 TL Altın Kolye BARIŞ (Denkyemfunefu) İNCELE 30%",
-        "İndirim 75.905 TL 53.134 TL L'oval 0.38 Karat Oval Kesim Pırlanta Tektaş Yüzük İNCELE 40%",
-        "İndirim 88.255 TL 52.953 TL Fantezi Dvau Baget Pırlantalı Yüzük İNCELE 109.900 TL 1.00 Karat G Renk Tektaş Pırlanta Yüzük İNCELE 50%",
-        "İndirim 78.660 TL 39.330 TL Prenses Kesim Pırlanta Tektaş Yüzük İNCELE 20%",
-        "İndirim 11.879 TL 9.503 TL ATATÜRK İmzası Altın Kolye İNCELE 30%",
-        "İndirim 85.405 TL 59.784 TL L'oval 0.59 Karat Oval Tektaş Yüzük İNCELE 30%",
-        "İndirim 85.405 TL 59.784 TL 0.52 Karat Pırlanta Kolye İNCELE 20%",
-        "İndirim 18.385 TL 14.708 TL 4 Element Sembolü Figür Altın Kolye İNCELE 40%",
-        "İndirim 100.130 TL 60.078 TL Pırlantalı Siyah Elmas Yüzük İNCELE 40%",
-        "İndirim 118.370 TL 71.022 TL 1.00 Karat Tamtur Pırlanta Alyans İNCELE 30%",
-        "İndirim 85.405 TL 59.784 TL L'oval 0.54 Karat Oval Pırlanta Tektaş Yüzük İNCELE 40%"
-      ],
-      "percentCampaigns": [
-        "%5",
-        "30%",
-        "40%",
-        "20%",
-        "50%"
-      ],
-      "bannerImages": [
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-tektas.jpg",
-          "alt": "Pırlanta Yüzük",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-kolye.jpg",
-          "alt": "Pırlanta Kolye",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-kupe.jpg",
-          "alt": "Pırlanta Küpe",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-baget.jpg",
-          "alt": "Baget Pırlanta",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-bileklik.jpg",
-          "alt": "Pırlanta Bileklik",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-altin.jpg",
-          "alt": "Altın",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-alyans.jpg",
-          "alt": "Ariş Alyans",
-          "title": ""
-        },
-        {
-          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-elmas.jpg",
-          "alt": "Elmas",
-          "title": ""
-        }
-      ],
-      "campaignHash": "b518e86fba303c2bb9b0d3c65bb3d040c630d8e7c2fb28ea42fe2e46d08f2375",
-      "bannerHash": "d3d6298dbb34a04776f7d5af101675d7f3b835087d746cb7bad857193af406bb",
-      "pageHash": "4070474f6cc98f8c16dcd4e38dbb3ae2acde691433397663dafdef57b5d2a778"
+      "ok": false,
+      "scannedAt": "2026-07-16T11:57:08.472Z",
+      "error": "fetch failed",
+      "title": "",
+      "description": "",
+      "h1": "",
+      "campaignTexts": [],
+      "percentCampaigns": [],
+      "bannerImages": [],
+      "campaignHash": "",
+      "bannerHash": "",
+      "pageHash": ""
     }
   ]
 }
