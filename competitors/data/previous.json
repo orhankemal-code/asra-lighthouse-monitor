@@ -1,12 +1,12 @@
 {
-  "date": "2026-08-23",
-  "generatedAt": "2026-08-23T06:57:28.179Z",
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T07:16:15.960Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-23T06:57:16.494Z",
+      "scannedAt": "2026-08-24T07:16:05.132Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -29,6 +29,7 @@
       ],
       "percentCampaigns": [
         "%50",
+        "%10",
         "%60"
       ],
       "bannerImages": [
@@ -75,13 +76,13 @@
       ],
       "campaignHash": "6327edf67a492ab13b584bf8315a32790a9f93d505b6f03e1779e2cfc0a33aa3",
       "bannerHash": "d50782fe8ed4ac3a7074a140a46586154890364495c4dcd620a7f0c4207105ed",
-      "pageHash": "c9a034c539c74a20c2612dfaeedbd2eacae18164eff1070065c74bb7df258bfa"
+      "pageHash": "1bd9c687af43dc66b8813d31c606d9aa2dc132c582c0407461837d7c2253c004"
     },
     {
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-23T06:57:17.762Z",
+      "scannedAt": "2026-08-24T07:16:06.406Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -160,7 +161,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-08-23T06:57:19.012Z",
+      "scannedAt": "2026-08-24T07:16:07.618Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -237,11 +238,14 @@
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-23T06:57:20.553Z",
+      "scannedAt": "2026-08-24T07:16:09.212Z",
       "title": "Pırlanta Modelleri ve İndirimli Pırlanta Fiyatları | Lizay Pırlanta",
       "description": "Pırlanta modellerinde indirimi kaçırmayın! Lizay Pırlanta kalitesi ve güvencesi ile en şık pırlantalara, sigortalı gönderim farklı ile sahip olun!",
       "h1": "",
       "campaignTexts": [
+        "Aynı altın kolye ucu, ince bir venedik zincirde zarif ve minimal dururken, kalın bir gurmet zincirde ağır ve iddialı bir görünüme bürünebilir.",
+        "Bu nedenle takı seçiminde kolye ucu kadar, onu taşıyan zincirin kalınlığı, örgü tipi, uzunluğu ve ayarı da belirleyici olur.",
+        "Devamını Oku 24.08.2026 Altın Tesbih Hediyesi Hangi Özel Günde?",
         "Bir hediyeyi unutulmaz kılan şey çoğu zaman fiyatı değil, taşıdığı anlamdır.",
         "Devamını Oku 19.08.2026 Külçe Altın Kolye Nedir, Kimler İçin Uygun?",
         "Külçe altın kolye, tam olarak bu iki niteliği bir araya getirdiği için son yıllarda hem günlük kullanımda hem de birikim aracı olarak dikkat çekmektedir.",
@@ -251,28 +255,23 @@
       "percentCampaigns": [],
       "bannerImages": [
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/yaz-firsatiii-tr-95.jpg?282",
-          "alt": "Yaz Kampanyası Banner",
-          "title": ""
-        },
-        {
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1920x726-slider-tr-98.jpg?282",
           "alt": "Tektaş 04.08.2026",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-tr-79.jpg?282",
-          "alt": "Extra Setler 19.02.2026",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-1-tr-102.jpg?282",
+          "alt": "Setler İndirim - 24.08.2026",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/p-1920x726c-tr-96.jpg?282",
-          "alt": "Ömürlük Evet 07.07.2026 p",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/p-1920x726-tr-100.jpg?282",
+          "alt": "Ömürlük Evet P - 24.08.2026",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/a-1920x726-tr-99.jpg?282",
-          "alt": "ömürlük evet 10-08-2026",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/a-1920x726-1-tr-101.jpg?282",
+          "alt": "Ömürlük Evet - A - 24.08.2026",
           "title": ""
         },
         {
@@ -289,22 +288,27 @@
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-pirlanta-bileklikler-banner-tr-9.jpg?286",
           "alt": "Pırlanta Bileklikler 10.11.2025",
           "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-safir-banner-tr-9.jpg?512",
+          "alt": "Safir Koleksiyonu 10.11.2025",
+          "title": ""
         }
       ],
-      "campaignHash": "af767e4e703b1982682ad804a71fd07499ee5bae826a1ed875a1be1956397a9b",
-      "bannerHash": "eed8eb4c7442375b3e0058754b7a2b4619609142e02b56563c0f56eb58a1591c",
-      "pageHash": "718f494f1166c2906f8212f4e91acb4eb2f5367951e62b1544b92de501f00e86"
+      "campaignHash": "e6aa56858264c0d2d65bb371e6b8e26ceeb65711ae7e109d2f924c28dbf9514f",
+      "bannerHash": "b70a900646aa82019a31abe89a74667d2a032799e4036afc62db9fe06e3d454a",
+      "pageHash": "cd169e954f25f93e01f53dc03a5da88e843e6568e2a353696ab0c7f0e1e4128d"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-08-23T06:57:21.363Z",
-      "title": "D Diamond - Büyük Fırsat Günleri",
+      "scannedAt": "2026-08-24T07:16:10.059Z",
+      "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
       "campaignTexts": [
-        "Yukarı Çık BÜYÜK FIRSAT GÜNLERİ İNDİRİMDE SON Büyük Fırsat Günleri Tüm Pırlantalarda Net %50 İndirim!",
+        "Yukarı Çık Büyük Fırsat Günleri Tüm Pırlantalarda Net %50 İndirim!",
         "Pırlanta Kalp Kolye Hediye!",
         "Online Özel İlk Üyeliğe 500 TL İndirim Çeki Hediye!",
         "IŞIKLI YÜZÜK KUTUSU Bütün yüzük siparişleriniz online’a özel hediye paketi içerisinde, ışıklı yüzük kutusunda gönderilmektedir.",
@@ -326,17 +330,17 @@
       ],
       "bannerImages": [
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-dd-son-g%C3%BCn-banner-desk-kampanya-dd-ee.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-kiymetini-bilenkere-deskkampanya-firsat-indirim-esra-erol-sat%C4%B1nal.jpg",
           "alt": "Büyük Fırsat Günleri",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-tektas-ozel-fiyat-g%C3%BCncel-banner-dd-indirim-.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-4-indirim-tekta%C5%9F-firsat-kampanya-banner-desk.jpg",
           "alt": "Tektkaş Pırlanta Yüzükler Özel Fiyatlarıyla!",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-su-yolubileklikler-g%C3%BCncel-banner-indirim-firsat-desk.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-su-yolu-firat-indirim-kampanya-banner-desk.jpg",
           "alt": "Su Yolu Bileklik",
           "title": ""
         },
@@ -346,7 +350,7 @@
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-ayni-g%C3%BCn-kargo-dd-esra-erol-indirim-gncl-banner-.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-mobil-satin-al-kampanya-banner-mobil-dd-ddddd.jpg",
           "alt": "hızlı-gönderi",
           "title": ""
         },
@@ -356,25 +360,25 @@
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-oval-yuzukler-firsat-banner-mobil-dd-gncl-banner-esra-erol.jpg",
-          "alt": "Oval Tektaş Pırlanta Yüzükler",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-desk-banner-esra-erold--dd-indirim-kampanya.jpg",
+          "alt": "Tasarım Pırlanta Kolyeler",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-lotus-esra-erol-firsat-g%C3%BCncel-banner-mobil-firsat.jpg",
-          "alt": "Lotus Pırlanta Koleksiyonu",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-oval-tektas-banner-mobil-dd-esra-erol-baslayan-fiyatlarla-indirim.jpg",
+          "alt": "Oval Tektaş Pırlanta Yüzükler",
           "title": ""
         }
       ],
-      "campaignHash": "ae71dc74e92ba67f1a8368303da37fa469be137507ac7798c1b1b243ea825f52",
-      "bannerHash": "7211ee1174fad7ee7894bf7560a4fe540f68fad4247c1072541ec77702f4ee09",
-      "pageHash": "77471194233ec6387341bdf7f8cf6c3bd8bfc6a80320d1f229a498ce306a5570"
+      "campaignHash": "88c19387572173c696d57f37a082a5883cdd667e57880dfff7702939f474d94e",
+      "bannerHash": "2ef4e6309a15c5c722953af719a722ebcef348ce57fa1718988a34ba687ebdfd",
+      "pageHash": "3710020e4b01e78b224ccb65a2a59b055ba5b105d7096f6abfec46d3f6c73e3b"
     },
     {
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-23T06:57:23.223Z",
+      "scannedAt": "2026-08-24T07:16:11.881Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
