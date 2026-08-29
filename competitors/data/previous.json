@@ -1,28 +1,88 @@
 {
-  "date": "2026-08-27",
-  "generatedAt": "2026-08-27T17:36:30.917Z",
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T18:36:22.026Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
-      "ok": false,
-      "scannedAt": "2026-08-27T17:35:34.077Z",
-      "error": "HTTP 520",
-      "title": "",
-      "description": "",
-      "h1": "",
-      "campaignTexts": [],
-      "percentCampaigns": [],
-      "bannerImages": [],
-      "campaignHash": "",
-      "bannerHash": "",
-      "pageHash": ""
+      "ok": true,
+      "scannedAt": "2026-08-28T18:36:09.657Z",
+      "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
+      "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
+      "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
+      "campaignTexts": [
+        "Mağazalarımız Tüm ürünlerde ücretsiz sigortalı kargo Tüm ürünlerde ücretsiz sigortalı kargo 30.000₺ ve üzeri alışverişe Hediye!",
+        "30.000₺ ve üzeri alışverişe Hediye!",
+        "Yüzüklerden bilekliklere, kolyelerden setlere kadar uzanan seçenekler, sertifikalı kaliteyle ve online alışveriş kolaylığıyla sizlere ulaşıyor.",
+        "Emsalsiz Tasarımlar Asra Pırlanta’da Koleksiyonlarımız, modern çizgilerin yanı sıra vintage esintilerle de dikkat çekiyor.",
+        "Sevdiklerinize şık bir hediye arıyorsanız ya da kendiniz için özel bir seçim yapmak istiyorsanız, zengin seçeneklerimiz tam size göre.",
+        "Özgün tasarımlar, taksit avantajları ve sigortalı kargo gibi hizmetlerle kullanıcı memnuniyetini ön planda tutuyoruz.",
+        "Ürün sayfalarında tüm detaylara şeffaf bir şekilde ulaşabilir, indirimli fırsatlarla bütçenize uygun alışveriş yapabilirsiniz.",
+        "Güvenilir Alışveriş Deneyimi Asra Pırlanta, yüzük, kolye, küpe, bileklik, alyans ve set gibi geniş bir yelpazeyle ihtiyaçlarınıza cevap veriyor.",
+        "Sevdiklerinize unutulmaz bir hediye sunmak ya da kendinizi ödüllendirmek için bu zarif seçenekleri tercih edebilirsiniz.",
+        "İster günlük kullanımda ister özel bir akşamda, Asra Pırlanta ile şıklığı her anınıza taşıyabilirsiniz.",
+        "Yıl boyunca sunulan kampanyalarla herkesin erişebileceği seçenekler sağlıyoruz.",
+        "Yeni üyelere özel indirimler ve kişiselleştirilebilir hediye notlarıyla alışveriş deneyiminizi daha da özel hale getirebilirsiniz.",
+        "Asra Pırlanta ile zarafeti keşfedin; ücretsiz sigortalı kargo ve ek avantajlarla dilediğiniz ürünü güvenle sepete ekleyin!",
+        "Burçlara Göre Pırlanta Seçimi Gerçek Pırlanta Nasıl Anlaşılır?",
+        "08503775505 [email protected] Asra Pırlanta © 2026 Tüm Hakları Saklıdır."
+      ],
+      "percentCampaigns": [
+        "%50",
+        "%70",
+        "%60"
+      ],
+      "bannerImages": [
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/safir-set-web-banner.webp",
+          "alt": "ASRA Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/1920x570-web-banner-altin-tektas.jpg.webp",
+          "alt": "ASRA Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/safir-web-banner-alternatif-1.webp",
+          "alt": "ASRA Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/ASRA_BANNER_900x750_PIRLANTA_2.jpg",
+          "alt": "Asra Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/ASRA_BANNER_900x750_ALTIN_2.jpg",
+          "alt": "Asra Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/hediye-web-banner.jpg.webp",
+          "alt": "O An",
+          "title": ""
+        },
+        {
+          "src": "data:image/jpeg;base64, iVBORw0KGgoAAAANSUhEUgAAAIIAAACWCAYAAAASRFBwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAEU3SURBVHhe7Z0HuF1F9fYlQSAQEoqAdBCkg0JCkyaCggiCFCO9BUFBhBDpHaQoCkoHASE0pXeMSAmk3dya3BSSQHrvvcJ867fPfk/W2XdOuTchyP/zfZ6XcKftffZeM7PWmjWzv2YIK4J/+9vfApg5c2ZYf/31m+R37949yfe48cYbm5Q78MAD09wQzjnnnCb5nm+//XZS7pNPPgmtW7dO0q644ookrRjOPffcJu14vvHGG2nJ0ujZs2e+zj333JOmlsbIkSPD17/+9aTO7373uzS1NObNmxc22WSTpM7xxx+fpobw05/+NH/95eQLxgSxzGaznCD06dMnyfdYXkF47bXXknJDhw7Np11++eVJ",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/safir-set-mobil-banner.webp",
+          "alt": "(max-width: 767px)",
+          "title": ""
+        }
+      ],
+      "campaignHash": "9d629958b704f3d2fcb76297c5abe674e6b4fafdd724f099294811cdb9fdfb2d",
+      "bannerHash": "6b9ce25a1e77f5b96acc67b782d123b51873882f3d0cb7abc2a16f8e74730499",
+      "pageHash": "c1022896f34ce81c5801e52b5eab98a2a5fb0bc45410dfb1f5569c4120341868"
     },
     {
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-27T17:36:16.657Z",
+      "scannedAt": "2026-08-28T18:36:11.095Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -101,7 +161,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-08-27T17:36:17.999Z",
+      "scannedAt": "2026-08-28T18:36:12.496Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -178,11 +238,12 @@
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-27T17:36:24.823Z",
+      "scannedAt": "2026-08-28T18:36:14.311Z",
       "title": "Pırlanta Modelleri ve İndirimli Pırlanta Fiyatları | Lizay Pırlanta",
       "description": "Pırlanta modellerinde indirimi kaçırmayın! Lizay Pırlanta kalitesi ve güvencesi ile en şık pırlantalara, sigortalı gönderim farklı ile sahip olun!",
       "h1": "",
       "campaignTexts": [
+        "Model Seçimi Altın bilezik, Türkiye'de yalnızca bir takı değil; kuşaktan kuşağa aktarılan bir gelenek, düğünlerin vazgeçilmez hediyesi ve pek çok ailenin en güvenilir birikim aracıdır.",
         "Devamını Oku 26.08.2026 Altın Kolye Ucunda Zincirle Uyum Yakalamak Bir takının etkisi çoğu zaman tek başına ne kadar güzel olduğundan değil, üzerinde taşındığı zincirle kurduğu dengeden doğar.",
         "Aynı altın kolye ucu, ince bir venedik zincirde zarif ve minimal dururken, kalın bir gurmet zincirde ağır ve iddialı bir görünüme bürünebilir.",
         "Bu nedenle takı seçiminde kolye ucu kadar, onu taşıyan zincirin kalınlığı, örgü tipi, uzunluğu ve ayarı da belirleyici olur.",
@@ -236,15 +297,15 @@
           "title": ""
         }
       ],
-      "campaignHash": "f432294b4735c0074f657d6795d6ca3c7b37c7cc8ec08eeda792aa6fb8b9cc2a",
+      "campaignHash": "a8a5b8854be47f7246ca8eb1639562904fb4e1e04446f197d0922a0c6814f85c",
       "bannerHash": "c7d3245f89dbebecdcdcefbef3699d1e2183501b05ebf575ae041cb931bda9f8",
-      "pageHash": "aca918c9707ebb6e4115e84d417b0a8550789bac3478d1dea69e50e525850beb"
+      "pageHash": "e74f748161a2e1a899ceef8f00eff31a184fa799088a9ee5b9ab03a81f490290"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-08-27T17:36:25.620Z",
+      "scannedAt": "2026-08-28T18:36:15.340Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -319,7 +380,7 @@
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-08-27T17:36:27.167Z",
+      "scannedAt": "2026-08-28T18:36:17.291Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
