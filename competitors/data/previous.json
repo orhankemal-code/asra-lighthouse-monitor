@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-02",
-  "generatedAt": "2026-09-02T11:11:23.428Z",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T11:07:27.148Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-02T11:11:07.544Z",
+      "scannedAt": "2026-09-03T11:07:19.307Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -78,7 +78,7 @@
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-02T11:11:08.667Z",
+      "scannedAt": "2026-09-03T11:07:20.394Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -157,7 +157,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-02T11:11:09.642Z",
+      "scannedAt": "2026-09-03T11:07:21.159Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -184,7 +184,15 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%5"
+        "%10",
+        "%5",
+        "%6",
+        "%12",
+        "%11",
+        "%9",
+        "%7",
+        "%13",
+        "%14"
       ],
       "bannerImages": [
         {
@@ -230,13 +238,13 @@
       ],
       "campaignHash": "135fbbec706c3e31b6defb4e7c783b7912f38edb0c28e442c9ff95338d6592b3",
       "bannerHash": "ba5a78750eccb9c9c5a45e469410c040dfd927799fadf7b2f559763cd9fac877",
-      "pageHash": "88a4dbd3875dc8eefc5b5b9ca5376f4d40fe498f68ebca8253e6c9d901b7ddbd"
+      "pageHash": "4f232b72adaa9f06736f0a3a8354b1d4acac532ceeeb08fd5bb9ca97f49ae0dc"
     },
     {
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-02T11:11:11.025Z",
+      "scannedAt": "2026-09-03T11:07:22.548Z",
       "title": "Pırlanta Modelleri ve İndirimli Pırlanta Fiyatları | Lizay Pırlanta",
       "description": "Pırlanta modellerinde indirimi kaçırmayın! Lizay Pırlanta kalitesi ve güvencesi ile en şık pırlantalara, sigortalı gönderim farklı ile sahip olun!",
       "h1": "",
@@ -255,11 +263,6 @@
         {
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/ovvaltekts-tr-105.jpg?282",
           "alt": "Oval Tektaş - 24.08.2026",
-          "title": ""
-        },
-        {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-1-tr-102.jpg?282",
-          "alt": "Setler İndirim - 24.08.2026",
           "title": ""
         },
         {
@@ -291,17 +294,22 @@
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-pirlanta-bileklikler-banner-tr-9.jpg?286",
           "alt": "Pırlanta Bileklikler 10.11.2025",
           "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-safir-banner-tr-9.jpg?512",
+          "alt": "Safir Koleksiyonu 10.11.2025",
+          "title": ""
         }
       ],
       "campaignHash": "3bc1418622ce584fd229ad52ddc13c604ee473d19d05e19ed14cda9ce41137b7",
-      "bannerHash": "c7d3245f89dbebecdcdcefbef3699d1e2183501b05ebf575ae041cb931bda9f8",
-      "pageHash": "de4a8faa56171178b942db417067a5ee2ac2ab5c178e91c8854f8afbeeda298a"
+      "bannerHash": "e55b12cbcc7675cd0980e428ee0fd3e976dcdfc3f0891a8b1fc081452626cc17",
+      "pageHash": "7393ae470896687a76c9e5746740fcab02dd8efb325018cb3ce5a58427da7de5"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-02T11:11:11.645Z",
+      "scannedAt": "2026-09-03T11:07:23.063Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -375,18 +383,76 @@
     {
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
-      "ok": false,
-      "scannedAt": "2026-09-02T11:11:13.007Z",
-      "error": "fetch failed",
-      "title": "",
-      "description": "",
-      "h1": "",
-      "campaignTexts": [],
-      "percentCampaigns": [],
-      "bannerImages": [],
-      "campaignHash": "",
-      "bannerHash": "",
-      "pageHash": ""
+      "ok": true,
+      "scannedAt": "2026-09-03T11:07:24.431Z",
+      "title": "Ariş Pırlanta",
+      "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
+      "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
+      "campaignTexts": [
+        "Giriş Yapın Özel fırsatları kaçırmayın Giriş Yap Kayıt Ol Aranıyor...",
+        "Mağazalarımız Sipariş Takip Yeni üye olanlara özel %5 İndirim!",
+        "Sigortalı Ücretsiz Kargo!",
+        "Yeni Sezon Pırlanta Koleksiyonu İndirimi!",
+        "Kaçırmayın ⌘KCtrl+K Aranıyor...",
+        "Kategoriler Ürünler Popüler Aramalar Tektaş Yüzük Pırlanta Kolye Beştaş Yüzük Hesabım Giriş yapın Merhaba!",
+        "Müşteri memnuniyeti odaklı hizmet anlayışımızla, her detayı düşünüyoruz Sigortalı Kargo Siparişiniz Teslimatı tarafınıza yapılana kadar Ariş Pırlanta sorumluluğundadır.",
+        "Kendi Tektaşını Tasarla bölümünden, size özel tektaşınızı tasarlayabilir beğendiğiniz sertifikalı taşı seçebilirsiniz.",
+        "Ücretsiz Bakım Ariş Pırlanta'dan satın almış olduğunuz mücevherlerinizin bakımını ücretsiz yaptırabilirsiniz.",
+        "Ölçü Değişimi Online sitemizden aldığınız yüzüklerde ilk 6 ay içinde yüzük ölçü değişimi yaptırabilirsiniz.",
+        "İlk Alışverişe %5 Tüm indirimlere ek ilk alışverişe özel %5 indirim fırsatı!",
+        "ARİŞ Sertifikası Tüm pırlantalı altın ürünlerimiz özel Ariş Pırlanta sertifikası ile gönderilmektedir.",
+        "Abone Ol Ariş Pırlanta 1906'dan beri pırlanta ve mücevher dünyasında güvenilir adresiniz.",
+        "Yüzük Ölçümü Bilmiyorum?",
+        "© 2024 Ariş Pırlanta YASAL UYARI: Sitemizde bulunan tüm ürün, içerik ve görsellerin hakları Ariş Pırlanta Sanatı'na aittir."
+      ],
+      "percentCampaigns": [
+        "%5"
+      ],
+      "bannerImages": [
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-tektas.jpg",
+          "alt": "Pırlanta Yüzük",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-kolye.jpg",
+          "alt": "Pırlanta Kolye",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-kupe.jpg",
+          "alt": "Pırlanta Küpe",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-baget.jpg",
+          "alt": "Baget Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-bileklik.jpg",
+          "alt": "Pırlanta Bileklik",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-altin.jpg",
+          "alt": "Altın",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-alyans.jpg",
+          "alt": "Ariş Alyans",
+          "title": ""
+        },
+        {
+          "src": "https://www.arispirlanta.com/image/data/kategori-bannerlar/aris-elmas.jpg",
+          "alt": "Elmas",
+          "title": ""
+        }
+      ],
+      "campaignHash": "9b9b166fa9b2071c06c1b888f30aa62d269b39e56d5b3846c46e91e8dad02e23",
+      "bannerHash": "d3d6298dbb34a04776f7d5af101675d7f3b835087d746cb7bad857193af406bb",
+      "pageHash": "4c10899a1db4a46aa20fb5206d8fc461479eb4442d22b9806995aec6bab8c1d4"
     }
   ]
 }
