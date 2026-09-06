@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-04",
-  "generatedAt": "2026-09-04T11:13:14.192Z",
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T10:29:33.907Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-04T11:13:04.637Z",
+      "scannedAt": "2026-09-05T10:29:24.795Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -78,7 +78,7 @@
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-04T11:13:05.791Z",
+      "scannedAt": "2026-09-05T10:29:25.918Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -157,7 +157,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-04T11:13:06.807Z",
+      "scannedAt": "2026-09-05T10:29:26.960Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -184,14 +184,17 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
+        "%12",
         "%5",
-        "%10",
         "%13",
-        "%11",
-        "%8",
         "%7",
-        "%14",
-        "%12"
+        "%11",
+        "%6",
+        "%8",
+        "%15",
+        "%10",
+        "%9",
+        "%14"
       ],
       "bannerImages": [
         {
@@ -237,13 +240,13 @@
       ],
       "campaignHash": "135fbbec706c3e31b6defb4e7c783b7912f38edb0c28e442c9ff95338d6592b3",
       "bannerHash": "ba5a78750eccb9c9c5a45e469410c040dfd927799fadf7b2f559763cd9fac877",
-      "pageHash": "7c5a0c801761f1d4bf36ac194de75c94c8eed0ccfb17b41a2c4a5fcd09aff05d"
+      "pageHash": "68b3a7e6a70524b96430ce058a99d2f1a243e0eba041b46158e6daa04ae222e5"
     },
     {
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-04T11:13:08.388Z",
+      "scannedAt": "2026-09-05T10:29:28.326Z",
       "title": "Pırlanta Modelleri ve İndirimli Pırlanta Fiyatları | Lizay Pırlanta",
       "description": "Pırlanta modellerinde indirimi kaçırmayın! Lizay Pırlanta kalitesi ve güvencesi ile en şık pırlantalara, sigortalı gönderim farklı ile sahip olun!",
       "h1": "",
@@ -308,7 +311,7 @@
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-04T11:13:09.109Z",
+      "scannedAt": "2026-09-05T10:29:29.059Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -383,7 +386,7 @@
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-04T11:13:10.526Z",
+      "scannedAt": "2026-09-05T10:29:30.607Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
