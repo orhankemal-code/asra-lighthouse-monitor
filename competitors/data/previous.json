@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-18",
-  "generatedAt": "2026-09-18T11:06:42.228Z",
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T10:51:30.656Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-18T11:06:33.909Z",
+      "scannedAt": "2026-09-19T10:51:19.871Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -78,7 +78,7 @@
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-18T11:06:34.736Z",
+      "scannedAt": "2026-09-19T10:51:21.049Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -157,7 +157,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-18T11:06:35.317Z",
+      "scannedAt": "2026-09-19T10:51:22.371Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -184,13 +184,14 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%6",
+        "%10",
         "%5",
         "%9",
-        "%13",
-        "%10",
-        "%11",
         "%7",
+        "%12",
+        "%11",
+        "%8",
+        "%13",
         "%14"
       ],
       "bannerImages": [
@@ -200,7 +201,7 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/super-firsat-gunleri-yarin-son-gun-mobile-18.09.26.jpg",
+          "src": "https://img.bluediamond.com.tr/anasayfa/son-gun-mobile-19.09.26.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -236,18 +237,21 @@
         }
       ],
       "campaignHash": "19617011aa7071af01e30b9c8562a80e08c0e659b7d176a9af09ae94996c25a7",
-      "bannerHash": "7eded77e42bc1f42cc53513b2bece5e9d76ac1104c0b445c52e7c95d6669c116",
-      "pageHash": "d77c56a1f2f5b7c067381b99e873a9477d267ac266f32b80f654ec5e77ecc8f3"
+      "bannerHash": "147fe0b4666490bcc74ffa928dec41be16cd34f86fb6ed5d6cf60b5d3da98372",
+      "pageHash": "57141912c7b23c4ada95b36bfcd121dd44e18336013f55828b51372bcf780fa4"
     },
     {
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-18T11:06:36.722Z",
+      "scannedAt": "2026-09-19T10:51:23.875Z",
       "title": "Pırlanta ve Altın Mücevherat Modelleri ve Fiyatları | Lizay Pırlanta",
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Oysa doğru seçilmiş tek bir yüzük, kombinin tamamının algısını değiştirebiliyor.",
+        "Yüzük takmayı düşünüp de vazgeçenlerin en sık söylediği şey aynı: \"Bana fazla iddialı durur.\" Doğrusu, iddialı olan yüzüğün kendisi değil, yanlış seçilmiş olanı.",
+        "Devamını Oku 18.09.2026 Tektaş Yüzük Nereden Alınır?",
         "Lizay Pırlanta ile En Doğru Seçim Tektaş yüzük, bir evlilik teklifinin en çok hatırlanan parçasıdır.",
         "Teklifin yapıldığı yer zamanla anlatılan bir hikâyeye dönüşür; yüzük ise her gün parmakta kalır.",
         "Bu yüzden \"hangi modeli alsam\" sorusundan önce gelen soru genellikle şudur: tektaş yüzük nereden alınır?",
@@ -264,10 +268,7 @@
         "Ama \"kalpli kolye herkese gider\" demek de doğru olmaz.",
         "Anneye alınan bir kalp kolye ile sevgiliye alınan aynı olmamalı, on yaşındaki bir çocuğa alınanla en yakın arkadaşınıza alınan da farklı olmalı.",
         "Devamını Oku 09.09.2026 Prenses Kesim Tektaş: Aşkın Modern Yüzü Bir yüzük seçerken aslında bir taş seçmiyorsunuz.",
-        "Tektaş denince çoğu insanın aklına aynı görüntü gelir: yuvarlak bir taş, ince bir bandın üzerinde.",
-        "Ama bazıları vitrinin önünde durup şu cümleyi kurar: \"Güzel ama bende bir şey uyandırmıyor.\" Devamını Oku 07.09.2026 Vintage Yüzük: Klasik Tarzı Modern Dokunuşlarla Yansıtın Bazı yüzükler sadece güzeldir.",
-        "Vintage yüzükleri diğerlerinden ayıran şey tam olarak budur.",
-        "Yüzük konuşmaya başlar."
+        "Tektaş denince çoğu insanın aklına aynı görüntü gelir: yuvarlak bir taş, ince bir bandın üzerinde."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -312,15 +313,15 @@
           "title": ""
         }
       ],
-      "campaignHash": "f45766c6ce036b819781c74b2089a25e7b2faab7ba0f6e6c206eb0e05c8cc0ba",
+      "campaignHash": "07d2b8d10e96341f878b39954c97dafb09b3b958731ac77531756f2dabd5e22f",
       "bannerHash": "25c92df1a93680ee5b87d2059ca1e6292b5e93d81d4ff653f394d1f0a8a67c57",
-      "pageHash": "180a9e0d057b94ae5191ad9a7dd5d50d16e305688a25a894a8bbbee11202501d"
+      "pageHash": "f0e8476f2a7743b20c5a04160e090564ffe437f3cee92f1ca24f05ccb2c61b5f"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-18T11:06:37.417Z",
+      "scannedAt": "2026-09-19T10:51:24.785Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -395,7 +396,7 @@
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-18T11:06:38.900Z",
+      "scannedAt": "2026-09-19T10:51:26.249Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
