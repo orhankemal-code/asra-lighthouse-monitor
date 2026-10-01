@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-29",
-  "generatedAt": "2026-09-29T12:43:42.489Z",
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T12:27:19.189Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-29T12:43:29.931Z",
+      "scannedAt": "2026-09-30T12:27:10.612Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -35,7 +35,7 @@
           "title": ""
         },
         {
-          "src": "https://www.asrapirlanta.com/anasayfa/lotus-banner-webp.webp",
+          "src": "https://www.asrapirlanta.com/anasayfa/lotus-yuzuk-banner-web.webp",
           "alt": "ASRA Pırlanta",
           "title": ""
         },
@@ -71,14 +71,14 @@
         }
       ],
       "campaignHash": "9d629958b704f3d2fcb76297c5abe674e6b4fafdd724f099294811cdb9fdfb2d",
-      "bannerHash": "b1124fbe6490cdcdd525e3f3d7660c155abf30efb4cb2b4b4963757d79dc8ca3",
-      "pageHash": "05c070c29136f91e102888b5820a75110ae072005fdf91fb00caa8817c206d0e"
+      "bannerHash": "7b541ba1888969c4151a46858925aebccb686675f994d15a31299b31bd8179ab",
+      "pageHash": "7ed172214a744647bfff786d7f8452e6a3b7ee99d899214d0a46c73cf0604600"
     },
     {
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-29T12:43:31.219Z",
+      "scannedAt": "2026-09-30T12:27:11.676Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -157,7 +157,7 @@
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-29T12:43:32.519Z",
+      "scannedAt": "2026-09-30T12:27:12.509Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -236,11 +236,12 @@
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-29T12:43:34.086Z",
+      "scannedAt": "2026-09-30T12:27:13.835Z",
       "title": "Pırlanta ve Altın Mücevherat Modelleri ve Fiyatları | Lizay Pırlanta",
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Ya da tektaş zaten çoktan verildi ve şimdi bir yıl dönümü, doğum günü veya \"sadece seni düşündüm\" dediğiniz sıradan ama özel bir an için bir şey arıyorsunuz.",
         "Devamını Oku 29.09.2026 Erkek Yüzük Modelleri: Güçlü Bir Stil Detayı Erkek stilinde ayrıntı sayısı azdır.",
         "Oysa doğru seçilmiş tek bir yüzük, kombinin tamamının algısını değiştirebiliyor.",
         "Yüzük takmayı düşünüp de vazgeçenlerin en sık söylediği şey aynı: \"Bana fazla iddialı durur.\" Doğrusu, iddialı olan yüzüğün kendisi değil, yanlış seçilmiş olanı.",
@@ -259,8 +260,7 @@
         "Hediye seçmenin en zor tarafı, ne alacağınızı bilememek değil.",
         "Kalpli altın kolyenin bu kadar çok tercih edilmesinin sebebi tam olarak bu.",
         "Ama \"kalpli kolye herkese gider\" demek de doğru olmaz.",
-        "Anneye alınan bir kalp kolye ile sevgiliye alınan aynı olmamalı, on yaşındaki bir çocuğa alınanla en yakın arkadaşınıza alınan da farklı olmalı.",
-        "Devamını Oku 09.09.2026 Prenses Kesim Tektaş: Aşkın Modern Yüzü Bir yüzük seçerken aslında bir taş seçmiyorsunuz."
+        "Anneye alınan bir kalp kolye ile sevgiliye alınan aynı olmamalı, on yaşındaki bir çocuğa alınanla en yakın arkadaşınıza alınan da farklı olmalı."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -305,15 +305,15 @@
           "title": ""
         }
       ],
-      "campaignHash": "b014ed70056404e874e2742b2c39c83defd113d72e33648f408d125ede7aefa9",
+      "campaignHash": "cdc12172c7a6d3b99d1bbe26ccae87d56bc70d25f89c2916aabcaa9d8981030d",
       "bannerHash": "1273ccd7879d2806ea783bdf84f9fe3b27dd87e31e5fb2aa3a97625ac4e54802",
-      "pageHash": "3a1193c6b934e1b91749000856a77f49233190068b8983ae4f7506fe8cd5a25e"
+      "pageHash": "7aa5763f376bf2b9dba3fd32d47fa63c3e01f849cc65da63bfd73cf05dd839cf"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-09-29T12:43:35.090Z",
+      "scannedAt": "2026-09-30T12:27:14.538Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -324,20 +324,20 @@
         "IŞIKLI YÜZÜK KUTUSU Bütün yüzük siparişleriniz online’a özel hediye paketi içerisinde, ışıklı yüzük kutusunda gönderilmektedir.",
         "YÜZÜK ÖLÇÜ DEĞİŞİM HAKKI Online’a özel, ölçüsü uymayan yüzüklerde 6 ay içerisinde 1 defaya mahsus ölçü değişim hakkı bulunmaktadır.",
         "1500 TL İNDİRİM ÇEKİ İlk üyeliğe özel 29.990 TL ve üzeri siparişlerde kullanabileceğiniz 1500 TL indirim çeki hediye.",
-        "Kıymetini Bilenlere 0,56 Karat Pırlanta Blue Topaz Küpe 9.990 TL Kredi kartı ile peşin fiyatına 3.330 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "9.491 TL AYNI GÜN KARGO ÇOK SATAN 0,30 Karat Pırlanta Baget Yüzük 34.990 TL Kredi kartı ile peşin fiyatına 11.663 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "33.241 TL AYNI GÜN KARGO ÇOK SATAN 0,31 Karat Pırlanta Safir Yüzük 13.990 TL Kredi kartı ile peşin fiyatına 4.663 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "13.291 TL 0,48 Karat Tasarım Pırlanta Safir Kolye 12.990 TL Kredi kartı ile peşin fiyatına 4.330 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "12.341 TL TÜMÜ İÇİN TIKLAYINIZ Aynı Gün Kargo AYNI GÜN KARGO Pırlanta Altın Anne Çocuk Ayak İzi Kolye 13.300 TL Kredi kartı ile peşin fiyatına 4.433 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "12.635 TL AYNI GÜN KARGO ÇOK SATAN SON 30 GÜN EN DÜŞÜK FİYATI 0,08 Karat Pırlanta Altın Tasarım Kolye 24.990 TL 23.990 TL Kredi kartı ile peşin fiyatına 7.997 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "22.791 TL AYNI GÜN KARGO ÇOK SATAN 0,02 Karat Tasarım Pırlanta Yüzük 11.490 TL Kredi kartı ile peşin fiyatına 3.830 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
-        "10.916 TL AYNI GÜN KARGO ÇOK SATAN 0,10 Karat Pırlanta Baget Küpe 18.990 TL Kredi kartı ile peşin fiyatına 6.330 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "Kıymetini Bilenlere ÇOK SATAN 0,48 Karat Pırlanta Zümrüt Küpe 20.490 TL Kredi kartı ile peşin fiyatına 6.830 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "19.466 TL AYNI GÜN KARGO SON 30 GÜN EN DÜŞÜK FİYATI 0,20 Karat Prenses Tektaş Pırlanta Yüzük 20.990 TL 19.990 TL Kredi kartı ile peşin fiyatına 6.663 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "18.991 TL 0,04 Karat Pırlanta Tragus Küpe 6.990 TL Kredi kartı ile peşin fiyatına 2.330 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "6.641 TL 0,48 Karat Tasarım Pırlanta Safir Kolye 12.990 TL Kredi kartı ile peşin fiyatına 4.330 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "12.341 TL TÜMÜ İÇİN TIKLAYINIZ Aynı Gün Kargo AYNI GÜN KARGO ÇOK SATAN 0,44 Karat Pırlanta Topaz Yüzük 13.990 TL Kredi kartı ile peşin fiyatına 4.663 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "13.291 TL AYNI GÜN KARGO ÇOK SATAN 0,40 Karat Pırlanta Topaz Yüzük 13.990 TL Kredi kartı ile peşin fiyatına 4.663 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
+        "13.291 TL AYNI GÜN KARGO Pırlanta Altın Melek Kolye 9.990 TL Kredi kartı ile peşin fiyatına 3.330 TL x 3 taksit Havale/EFT ödemelerinde Sepette %5 indirim!",
         "Siparişiniz, mücevherinize ait sertifikası ve varsa hediye notunuzla birlikte özel mücevher kutusunda ücretsiz ve sigortalı olarak gönderilecektir.",
         "Hologramlı Mücevher Sertifikası Tüm mücevherlerimiz D Diamond pırlanta sertifikasına sahiptir..",
         "Alışverişinizi %100 memnuniyetle tamamlamanız D Diamond’un size verdiği güven sözüdür.",
         "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond Türkiye’nin en büyük pırlanta mücevher ihracatçısı olan D Diamond, aşkınıza çok yakışacak seçkin koleksiyonlarıyla kalbinize dokunuyor.",
         "Nesilden nesile aktarılan mücevher geleneği ve usta el işçiliğinin ürünü en seçkin pırlanta mücevherler, D Diamond’ın özel koleksiyonlarında hayat buluyor.",
-        "D Diamond dokunuşlarıyla tasarlanmış baget yüzük, pırlanta yüzük ve tektaş yüzük koleksiyonları, tüm detaylarıyla aşkınıza çok yakışacak!"
+        "D Diamond dokunuşlarıyla tasarlanmış baget yüzük, pırlanta yüzük ve tektaş yüzük koleksiyonları, tüm detaylarıyla aşkınıza çok yakışacak!",
+        "Kaliteli mücevherler, benzersiz detaylı tasarımların yer aldığı göz alıcı koleksiyonlar, eşsiz bir hediye seçeneği olarak ön plana çıkıyor."
       ],
       "percentCampaigns": [
         "%50",
@@ -386,15 +386,15 @@
           "title": ""
         }
       ],
-      "campaignHash": "49cb1a7d49275a46c50d0f7febfe0f948ab8a3bfde09c33d3c2398af50b008f6",
+      "campaignHash": "fce5f627a714335c42d7dd3d750b1f880b4c87c28af4f08f0fa85e45004211fb",
       "bannerHash": "ff8887ccf89ff2a90b3cb3b36a54678ef74dd347ba44ce6d60fedbe004ce4c93",
-      "pageHash": "84a1dbc3eb35003d677b1e8a08952eeb7647cc97ee308bdf1de9f994b9fc77bd"
+      "pageHash": "3f531bf18cf4a5a5543f3834344ca833575f20873575f25910cac3f0538e1332"
     },
     {
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-09-29T12:43:36.756Z",
+      "scannedAt": "2026-09-30T12:27:16.006Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
