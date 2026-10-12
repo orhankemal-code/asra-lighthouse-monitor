@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-11",
-  "generatedAt": "2026-10-11T12:41:14.058Z",
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T15:13:25.904Z",
   "totalSites": 6,
-  "changedSites": 1,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -113,8 +113,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%10",
-        "%3"
+        "%3",
+        "%10"
       ],
       "bannerImages": [
         {
@@ -160,10 +160,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %3.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %3, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -258,6 +258,8 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
+        "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
         "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar.",
         "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir.",
         "Devamını Oku 05.10.2026 Günlük Kullanım İçin Pırlanta Yüzük Modelleri Pırlanta yüzük denince çoğumuzun aklına özel geceler, davetler ve büyük anlar gelir.",
@@ -265,19 +267,10 @@
         "Ya da tektaş zaten çoktan verildi ve şimdi bir yıl dönümü, doğum günü veya \"sadece seni düşündüm\" dediğiniz sıradan ama özel bir an için bir şey arıyorsunuz.",
         "Devamını Oku 29.09.2026 Erkek Yüzük Modelleri: Güçlü Bir Stil Detayı Erkek stilinde ayrıntı sayısı azdır.",
         "Oysa doğru seçilmiş tek bir yüzük, kombinin tamamının algısını değiştirebiliyor.",
-        "Yüzük takmayı düşünüp de vazgeçenlerin en sık söylediği şey aynı: \"Bana fazla iddialı durur.\" Doğrusu, iddialı olan yüzüğün kendisi değil, yanlış seçilmiş olanı.",
-        "Devamını Oku 18.09.2026 Tektaş Yüzük Nereden Alınır?",
-        "Lizay Pırlanta ile En Doğru Seçim Tektaş yüzük, bir evlilik teklifinin en çok hatırlanan parçasıdır.",
-        "Teklifin yapıldığı yer zamanla anlatılan bir hikâyeye dönüşür; yüzük ise her gün parmakta kalır.",
-        "Bu yüzden \"hangi modeli alsam\" sorusundan önce gelen soru genellikle şudur: tektaş yüzük nereden alınır?"
+        "Yüzük takmayı düşünüp de vazgeçenlerin en sık söylediği şey aynı: \"Bana fazla iddialı durur.\" Doğrusu, iddialı olan yüzüğün kendisi değil, yanlış seçilmiş olanı."
       ],
       "percentCampaigns": [],
       "bannerImages": [
-        {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-web-1-tr-110.jpg?282",
-          "alt": "%10 İndirim 07.10.2026",
-          "title": ""
-        },
         {
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-p-tr-107.jpg?282",
           "alt": "03.09.2026 kamp",
@@ -312,13 +305,21 @@
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-zumrut-banner-tr-7.jpg?512",
           "alt": "Zümrüt Koleksiyonu 10.11.2025",
           "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-yakut-banner-tr-8.jpg?512",
+          "alt": "Yakut Koleksiyonu 10.11.2025",
+          "title": ""
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "campaignChanged": true,
+      "bannerChanged": true,
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
+        "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri."
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -353,12 +354,12 @@
       ],
       "bannerImages": [
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-kiymetini-bilenkere-deskkampanya-firsat-indirim-esra-erol-sat%C4%B1nal.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-k%C4%B1ymetini-bilenkere-g%C3%BCncel-banner-grsel-ileti%C5%9Fim-desk.jpg",
           "alt": "Kıymetini Bilenlere",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-haftan%C4%B1n-firsatlari-banner-dek-firsat-yeni-.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-son-30-g%C3%BCn%C3%BCn-en-d%C3%BCs%C3%BCfiyat%C4%B1-desk-banner-g%C3%BCncel.jpg",
           "alt": "Haftanın Kaçırılmayacak Fırsatları",
           "title": ""
         },
@@ -395,8 +396,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -480,8 +481,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 1 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %3); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Lizay Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %3, %10); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
