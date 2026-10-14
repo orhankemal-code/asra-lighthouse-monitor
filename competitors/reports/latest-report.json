@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T14:04:47.750Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T11:43:43.489Z",
   "totalSites": 6,
   "changedSites": 2,
   "failedSites": 0,
@@ -90,7 +90,7 @@
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
       "campaignTexts": [
-        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
+        "Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
         "Tıklayın Pırlantamın garanti kaydını nasıl yapabilirim?",
         "Tıklayın ZEN Pırlanta Zen Pırlanta, özenle seçilmiş ve eşsiz tasarımlarla buluşturduğu pırlantaları sizlere sunar.",
         "Her pırlanta, ışıltısı, zarafeti ve taşıdığı anlamla sizin kadar özel bir hikâye anlatır.",
@@ -112,9 +112,7 @@
         "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak."
       ],
       "percentCampaigns": [
-        "%5",
-        "%10",
-        "%3"
+        "%5"
       ],
       "bannerImages": [
         {
@@ -159,11 +157,13 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
-      "bannerChanged": true,
+      "campaignChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %3.",
+      "newCampaignTexts": [
+        "Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
+      ],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -243,8 +243,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -258,27 +258,20 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
         "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
         "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
         "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar.",
         "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir.",
         "Devamını Oku 05.10.2026 Günlük Kullanım İçin Pırlanta Yüzük Modelleri Pırlanta yüzük denince çoğumuzun aklına özel geceler, davetler ve büyük anlar gelir.",
         "Oysa pırlantanın en güzel hali, bazen hayatın en sıradan anlarında ortaya çıkar.",
-        "Ya da tektaş zaten çoktan verildi ve şimdi bir yıl dönümü, doğum günü veya \"sadece seni düşündüm\" dediğiniz sıradan ama özel bir an için bir şey arıyorsunuz.",
-        "Devamını Oku 29.09.2026 Erkek Yüzük Modelleri: Güçlü Bir Stil Detayı Erkek stilinde ayrıntı sayısı azdır.",
-        "Oysa doğru seçilmiş tek bir yüzük, kombinin tamamının algısını değiştirebiliyor.",
-        "Yüzük takmayı düşünüp de vazgeçenlerin en sık söylediği şey aynı: \"Bana fazla iddialı durur.\" Doğrusu, iddialı olan yüzüğün kendisi değil, yanlış seçilmiş olanı."
+        "Ya da tektaş zaten çoktan verildi ve şimdi bir yıl dönümü, doğum günü veya \"sadece seni düşündüm\" dediğiniz sıradan ama özel bir an için bir şey arıyorsunuz."
       ],
       "percentCampaigns": [],
       "bannerImages": [
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-p-tr-107.jpg?282",
-          "alt": "03.09.2026 kamp",
-          "title": ""
-        },
-        {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-2-tr-108.jpg?282",
-          "alt": "03.09.2026",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-web-3-tr-111.jpg?282",
+          "alt": "Çarşı Pazar",
           "title": ""
         },
         {
@@ -310,13 +303,20 @@
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-yakut-banner-tr-8.jpg?512",
           "alt": "Yakut Koleksiyonu 10.11.2025",
           "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/513/babalar-gunu-tr-14.jpg?513",
+          "alt": "Babalar Günü",
+          "title": ""
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "campaignChanged": true,
+      "bannerChanged": true,
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor."
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -479,7 +479,7 @@
     }
   ],
   "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Blue Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %3); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Zen Pırlanta, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
