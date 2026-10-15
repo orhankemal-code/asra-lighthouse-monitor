@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-14",
-  "generatedAt": "2026-10-14T11:43:43.489Z",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T11:20:23.086Z",
   "totalSites": 6,
-  "changedSites": 2,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -90,7 +90,7 @@
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
       "campaignTexts": [
-        "Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
+        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
         "Tıklayın Pırlantamın garanti kaydını nasıl yapabilirim?",
         "Tıklayın ZEN Pırlanta Zen Pırlanta, özenle seçilmiş ve eşsiz tasarımlarla buluşturduğu pırlantaları sizlere sunar.",
         "Her pırlanta, ışıltısı, zarafeti ve taşıdığı anlamla sizin kadar özel bir hikâye anlatır.",
@@ -112,7 +112,11 @@
         "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak."
       ],
       "percentCampaigns": [
-        "%5"
+        "%5",
+        "%10",
+        "%14",
+        "%17",
+        "%8"
       ],
       "bannerImages": [
         {
@@ -161,9 +165,9 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [
-        "Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
+        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
       ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %14, %17, %8.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -211,7 +215,7 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektaslar-mobile-02.10.2026.jpg",
+          "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektaslar-mobile-15.10.26.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -243,8 +247,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -311,12 +315,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
-      "bannerChanged": true,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor."
-      ],
+      "campaignChanged": false,
+      "bannerChanged": false,
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -351,18 +353,18 @@
       ],
       "bannerImages": [
         {
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-banner-desk-kampanya-g%C3%BCncel-dd-ss.jpg",
+          "alt": "Tektaş Pırlanta Yüzük Özel Fiyatlarıyla!",
+          "title": ""
+        },
+        {
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-1-karat-su-yolu-banner-desk-ind.jpg",
+          "alt": "Pırlanta Su Yolu Bileklikte Fırsat!",
+          "title": ""
+        },
+        {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-k%C4%B1ymetini-bilenkere-g%C3%BCncel-banner-grsel-ileti%C5%9Fim-desk.jpg",
           "alt": "Kıymetini Bilenlere",
-          "title": ""
-        },
-        {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-son-30-g%C3%BCn%C3%BCn-en-d%C3%BCs%C3%BCfiyat%C4%B1-desk-banner-g%C3%BCncel.jpg",
-          "alt": "Haftanın Kaçırılmayacak Fırsatları",
-          "title": ""
-        },
-        {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-4-indirim-tekta%C5%9F-firsat-kampanya-banner-desk.jpg",
-          "alt": "Tektkaş Pırlanta Yüzükler Özel Fiyatlarıyla!",
           "title": ""
         },
         {
@@ -376,25 +378,25 @@
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-mobil-esra-erol-firsa-esra-erol-dd-pirlanta.jpg",
-          "alt": "Su Yolu Bileklik",
-          "title": ""
-        },
-        {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-eternite-banner-mobil-g%C3%BCncel-dd-esra-erol-indirim.jpg",
           "alt": "Eternite Koleksiyonunu Keşfet",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-desk-banner-esra-erold--dd-indirim-kampanya.jpg",
-          "alt": "Tasarım Pırlanta Kolyeler",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-mobil-dd-esra-erol-firsat.jpg",
+          "alt": "Haftanın Kaçırılmayacak Fırsatları",
+          "title": ""
+        },
+        {
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-mobil-banner-esra-erol-indirim-firsat-g%C3%BCncel-.jpg",
+          "alt": "Tektaş Pırlanta Yüzük Özel Fiyatlarıyla!",
           "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -478,8 +480,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Zen Pırlanta, Blue Diamond, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %14); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
