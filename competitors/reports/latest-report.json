@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-15",
-  "generatedAt": "2026-10-15T11:20:23.086Z",
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T11:14:47.107Z",
   "totalSites": 6,
-  "changedSites": 3,
+  "changedSites": 5,
   "failedSites": 0,
   "sites": [
     {
@@ -33,12 +33,17 @@
       "percentCampaigns": [],
       "bannerImages": [
         {
-          "src": "https://www.asrapirlanta.com/anasayfa/15-eylul-15-ekim-banner-web.webp",
+          "src": "https://www.asrapirlanta.com/anasayfa/lotus-yuzuk-banner-web.webp",
           "alt": "ASRA Pırlanta",
           "title": ""
         },
         {
-          "src": "https://www.asrapirlanta.com/anasayfa/lotus-yuzuk-banner-web.webp",
+          "src": "https://www.asrapirlanta.com/anasayfa/safir-set-guncel-web-banner.webp",
+          "alt": "ASRA Pırlanta",
+          "title": ""
+        },
+        {
+          "src": "https://www.asrapirlanta.com/anasayfa/15-eylul-15-ekim-banner-web.webp",
           "alt": "ASRA Pırlanta",
           "title": ""
         },
@@ -63,11 +68,6 @@
           "title": ""
         },
         {
-          "src": "https://www.asrapirlanta.com/anasayfa/15-eylul-15-ekim-banner-mobil.webp",
-          "alt": "(max-width: 767px)",
-          "title": ""
-        },
-        {
           "src": "https://www.asrapirlanta.com/anasayfa/lotus-yuzuk-banner-mobil.webp",
           "alt": "(max-width: 767px)",
           "title": ""
@@ -75,8 +75,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -113,10 +113,10 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%10",
-        "%14",
-        "%17",
-        "%8"
+        "%8",
+        "%3",
+        "%2",
+        "%10"
       ],
       "bannerImages": [
         {
@@ -161,13 +161,11 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [
-        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
-      ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %14, %17, %8.",
+      "newCampaignTexts": [],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %3, %2, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -201,7 +199,8 @@
         "Her mücevher, özel bir şekilde seçilen pırlantalarla harmanlanan adeta eşsiz bir sanat eseridir."
       ],
       "percentCampaigns": [
-        "%5"
+        "%5",
+        "%12"
       ],
       "bannerImages": [
         {
@@ -216,6 +215,11 @@
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektaslar-mobile-15.10.26.jpg",
+          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
+          "title": ""
+        },
+        {
+          "src": "https://img.bluediamond.com.tr/anasayfa/oval-pirlanta-mobile-16.10.26.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -238,11 +242,6 @@
           "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
-        },
-        {
-          "src": "https://img.bluediamond.com.tr/anasayfa/lotus-mobile-01.10.26.jpg?v1",
-          "alt": "Blue Diamond",
-          "title": ""
         }
       ],
       "hasPrevious": true,
@@ -250,7 +249,7 @@
       "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -262,6 +261,7 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?",
         "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
         "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
         "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
@@ -315,10 +315,12 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?"
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -353,6 +355,11 @@
       ],
       "bannerImages": [
         {
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-k%C4%B1ymetini-bilenkere-g%C3%BCncel-banner-grsel-ileti%C5%9Fim-desk.jpg",
+          "alt": "Kıymetini Bilenlere",
+          "title": ""
+        },
+        {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-banner-desk-kampanya-g%C3%BCncel-dd-ss.jpg",
           "alt": "Tektaş Pırlanta Yüzük Özel Fiyatlarıyla!",
           "title": ""
@@ -360,11 +367,6 @@
         {
           "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-1-karat-su-yolu-banner-desk-ind.jpg",
           "alt": "Pırlanta Su Yolu Bileklikte Fırsat!",
-          "title": ""
-        },
-        {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-k%C4%B1ymetini-bilenkere-g%C3%BCncel-banner-grsel-ileti%C5%9Fim-desk.jpg",
-          "alt": "Kıymetini Bilenlere",
           "title": ""
         },
         {
@@ -480,8 +482,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Blue Diamond, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %14); Blue Diamond (%5); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 5 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Blue Diamond, Lizay Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %8, %3); Blue Diamond (%5, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
