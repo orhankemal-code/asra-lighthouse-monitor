@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-16",
-  "generatedAt": "2026-10-16T11:14:47.107Z",
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T10:33:39.503Z",
   "totalSites": 6,
-  "changedSites": 5,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -75,8 +75,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -112,11 +112,7 @@
         "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak."
       ],
       "percentCampaigns": [
-        "%5",
-        "%8",
-        "%3",
-        "%2",
-        "%10"
+        "%5"
       ],
       "bannerImages": [
         {
@@ -165,7 +161,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %3, %2, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -177,9 +173,11 @@
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
       "campaignTexts": [
+        "Muhteşem Pırlanta Fırsatları!",
         "Tasarım Pırlanta Kolye HEDİYE!",
         "Online Özel Ücretsiz ve Sigortalı Kargo Tüm Pırlanta Yüzükler Işıklı Yüzük Kutusunda!",
         "Online Özel 14 Gün Kayıpsız İade Hologramlı Mücevher Sertifikası Online Özel İlk Üyeliğe 2.500TL Hediye Çeki Göz Kamaştıran Özel Hediye Kutusu!",
+        "İlk 6 Ay Ücretsiz Ölçü Değişimi Hakkı Muhteşem Pırlanta Fırsatları!",
         "ÜYE OL Hızlıca üye olarak ilk siparişinize özel 2.500 TL indirim çekine sahip olabilirsiniz.",
         "Sade, şık ve anlam yüklü bir yüzük.",
         "Tüm siparişleriniz özel taşıma sigortası ve şık hediye seti ilebirlikte tarafınıza ulaştırılır.",
@@ -194,12 +192,14 @@
         "Kadınların hayallerini süsleyen, zarafetin ve lüksün sembolü olan pırlantaları özgün tasarımlarıyla sizlere sunan Blue Diamond ise bu sembolik değeri benimseyerek, mücevher dünyasında öncü bir rol oynamaktadır.",
         "Evlilik teklifleri, özel kutlamalar veya önemli anılar için seçilen pırlanta yüzükler, aşkın ve bağlılığın sembolüdür.",
         "Pırlanta bileklikler veya küpeler ise zarafet ve şıklığı temsil eder.",
-        "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir.",
-        "Blue Diamond, pırlantaların doğal güzelliklerini en iyi şekilde ortaya çıkaran eşsiz tasarımlar sunar.",
-        "Her mücevher, özel bir şekilde seçilen pırlantalarla harmanlanan adeta eşsiz bir sanat eseridir."
+        "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
         "%5",
+        "%8",
+        "%9",
+        "%7",
+        "%10",
         "%12"
       ],
       "bannerImages": [
@@ -209,7 +209,7 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/askin-rengi-blue-mobile-13.10.26.jpg",
+          "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-pirlanta-firsatlari-mobile-16.10.26.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -219,7 +219,7 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/oval-pirlanta-mobile-16.10.26.jpg",
+          "src": "https://img.bluediamond.com.tr/anasayfa/oval-mobile-16.10.26-son.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -245,11 +245,14 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": true,
       "pageChanged": true,
-      "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12.",
+      "newCampaignTexts": [
+        "Muhteşem Pırlanta Fırsatları!",
+        "İlk 6 Ay Ücretsiz Ölçü Değişimi Hakkı Muhteşem Pırlanta Fırsatları!"
+      ],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %9, %7, %10, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -315,12 +318,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?"
-      ],
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -355,17 +356,17 @@
       ],
       "bannerImages": [
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-k%C4%B1ymetini-bilenkere-g%C3%BCncel-banner-grsel-ileti%C5%9Fim-desk.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/K%C4%B1ymetini1920x650-desk-banner-firsat-kampanya-indirim-dd.jpg",
           "alt": "Kıymetini Bilenlere",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-banner-desk-kampanya-g%C3%BCncel-dd-ss.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/son-90-g%C3%BCn%C3%BCn-en-d%C3%BCs%C3%BCk-fiyat%C4%B1-tektas-kampanya.jpg",
           "alt": "Tektaş Pırlanta Yüzük Özel Fiyatlarıyla!",
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-1-karat-su-yolu-banner-desk-ind.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/Suyolu1920-su-yolu-d%C3%BCs%C3%BCk-fiyat-desk-kampanya-firsat.jpg",
           "alt": "Pırlanta Su Yolu Bileklikte Fırsat!",
           "title": ""
         },
@@ -482,8 +483,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 5 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Blue Diamond, Lizay Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %8, %3); Blue Diamond (%5, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Blue Diamond, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5); Blue Diamond (%5, %8, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
