@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T10:33:39.503Z",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T10:56:45.312Z",
   "totalSites": 6,
-  "changedSites": 3,
+  "changedSites": 2,
   "failedSites": 0,
   "sites": [
     {
@@ -112,7 +112,10 @@
         "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak."
       ],
       "percentCampaigns": [
-        "%5"
+        "%5",
+        "%14",
+        "%8",
+        "%3"
       ],
       "bannerImages": [
         {
@@ -161,7 +164,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %8, %3.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -199,7 +202,6 @@
         "%8",
         "%9",
         "%7",
-        "%10",
         "%12"
       ],
       "bannerImages": [
@@ -245,14 +247,11 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
-      "bannerChanged": true,
+      "campaignChanged": false,
+      "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [
-        "Muhteşem Pırlanta Fırsatları!",
-        "İlk 6 Ay Ücretsiz Ölçü Değişimi Hakkı Muhteşem Pırlanta Fırsatları!"
-      ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %9, %7, %10, %12.",
+      "newCampaignTexts": [],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %9, %7, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -398,8 +397,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -483,8 +482,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Blue Diamond, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5); Blue Diamond (%5, %8, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
+  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %8); Blue Diamond (%5, %8, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
+  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
