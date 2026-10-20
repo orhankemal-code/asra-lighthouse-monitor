@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-19",
-  "generatedAt": "2026-10-19T12:59:34.178Z",
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T11:26:58.608Z",
   "totalSites": 6,
-  "changedSites": 4,
+  "changedSites": 2,
   "failedSites": 0,
   "sites": [
     {
@@ -113,10 +113,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%10",
-        "%17",
-        "%14",
-        "%3"
+        "%8",
+        "%17"
       ],
       "bannerImages": [
         {
@@ -162,10 +160,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %17, %14, %3.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %17.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -199,10 +197,11 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%10",
         "%5",
         "%8",
-        "%9"
+        "%9",
+        "%12",
+        "%10"
       ],
       "bannerImages": [
         {
@@ -251,7 +250,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %10, %5, %8, %9.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %9, %12, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -317,12 +316,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
-      "bannerChanged": true,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Nişan yüzüğü deyince zihnimizde beliren ilk görüntü, genellikle ışıl ışıl bir pırlanta yüzük."
-      ],
+      "campaignChanged": false,
+      "bannerChanged": false,
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -399,8 +396,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -484,8 +481,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 4 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Lizay Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %17); Blue Diamond (%10, %5, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
+  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %8, %17); Blue Diamond (%5, %8, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
+  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
