@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T11:26:58.438Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T11:40:24.578Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-20T11:26:50.226Z",
+      "scannedAt": "2026-10-21T11:40:06.661Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -78,7 +78,7 @@
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-20T11:26:51.277Z",
+      "scannedAt": "2026-10-21T11:40:16.013Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -106,8 +106,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%8",
-        "%17"
+        "%14",
+        "%10"
       ],
       "bannerImages": [
         {
@@ -153,13 +153,13 @@
       ],
       "campaignHash": "56b9c2058e1387acc16abb8b0935ce1adee188f08042a739405edf9ccaf33b31",
       "bannerHash": "e74216df0a31bd621b20b594e9a90d0994d6c74dec72ef2c4fb9b640f8dc6ea0",
-      "pageHash": "2cd7c779bcb25eda3e5c6b087713942b203ca6433d4102d8c7c3d41ba3ab4ec1"
+      "pageHash": "4bed7c532925c16693fb6d8c6a5e4175c12792a379d0e41d537878b759dce65d"
     },
     {
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-10-20T11:26:52.310Z",
+      "scannedAt": "2026-10-21T11:40:17.144Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -187,10 +187,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%8",
         "%9",
-        "%12",
-        "%10"
+        "%12"
       ],
       "bannerImages": [
         {
@@ -224,25 +222,25 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/tasarim-pirlanta-kolye-hediye-mobile-05.10.2026.jpg?v1",
+          "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektaslar-mobilefiyatsiz-16.10.26.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
+          "src": "https://img.bluediamond.com.tr/anasayfa/tasarim-pirlanta-kolye-hediye-mobile-05.10.2026.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
         }
       ],
       "campaignHash": "84d8b1ebe0dcb349bffe9d972d0a113af420cb6d0928ffd52939d8e7fca902fc",
-      "bannerHash": "6b730decb77a99f6b0741eadb16e69a0d3017a2b37d91e4762a8bffe896e156e",
-      "pageHash": "6af1618612fba753e0f4c9713cca97954d0bcff70d47a8d674cb2ca8bdc316d8"
+      "bannerHash": "02a46eb1101270040f4bc17862af9e5413f27b77e7204e258ac76fa40efd095d",
+      "pageHash": "5b555dde3d1cb5af16b2e5d1146644ee8e1e2597854f40db388e7e00f352b8a3"
     },
     {
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-20T11:26:53.825Z",
+      "scannedAt": "2026-10-21T11:40:18.537Z",
       "title": "Pırlanta ve Altın Mücevherat Modelleri ve Fiyatları | Lizay Pırlanta",
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
@@ -260,8 +258,13 @@
       "percentCampaigns": [],
       "bannerImages": [
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/cp-1520x575-tr-112.jpg?282",
-          "alt": "Banner",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-p-tr-107.jpg?282",
+          "alt": "03.09.2026 kamp",
+          "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-a-tr-106.jpg?282",
+          "alt": "03.09.2026 başlayan fiyatlarla",
           "title": ""
         },
         {
@@ -293,22 +296,17 @@
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-yakut-banner-tr-8.jpg?512",
           "alt": "Yakut Koleksiyonu 10.11.2025",
           "title": ""
-        },
-        {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/513/babalar-gunu-tr-14.jpg?513",
-          "alt": "Babalar Günü",
-          "title": ""
         }
       ],
       "campaignHash": "ec399b21358f35b358bfc98228ec6f281c63ac170c9f5ae07ba9019367163729",
-      "bannerHash": "b97476dc69a2f07cb0f309a5b0ae15339466b595536ee1de0e482d79edb17db7",
-      "pageHash": "7c6beb788c6d59f9e19aa2fdf3b3a80ab8ca2c776bdbd1c459ec5eb904ef2a7d"
+      "bannerHash": "e0cad8e69ccaff23a20a8f228e1bb8cb8b82de8bdd65c86d248b9d53e39befe1",
+      "pageHash": "b2d551845dd616903ad27405ef21df0502c0ac2e2cf018328af0115eea9c6e23"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-10-20T11:26:54.898Z",
+      "scannedAt": "2026-10-21T11:40:19.272Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -383,7 +381,7 @@
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-20T11:26:56.361Z",
+      "scannedAt": "2026-10-21T11:40:20.785Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",

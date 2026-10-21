@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-20",
-  "generatedAt": "2026-10-20T11:26:58.608Z",
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T11:40:24.712Z",
   "totalSites": 6,
-  "changedSites": 2,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -113,8 +113,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%8",
-        "%17"
+        "%14",
+        "%10"
       ],
       "bannerImages": [
         {
@@ -163,7 +163,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %17.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,10 +198,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%8",
         "%9",
-        "%12",
-        "%10"
+        "%12"
       ],
       "bannerImages": [
         {
@@ -235,22 +233,22 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/tasarim-pirlanta-kolye-hediye-mobile-05.10.2026.jpg?v1",
+          "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektaslar-mobilefiyatsiz-16.10.26.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
+          "src": "https://img.bluediamond.com.tr/anasayfa/tasarim-pirlanta-kolye-hediye-mobile-05.10.2026.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %9, %12, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -275,8 +273,13 @@
       "percentCampaigns": [],
       "bannerImages": [
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/cp-1520x575-tr-112.jpg?282",
-          "alt": "Banner",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-p-tr-107.jpg?282",
+          "alt": "03.09.2026 kamp",
+          "title": ""
+        },
+        {
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/282/1520x575-a-tr-106.jpg?282",
+          "alt": "03.09.2026 başlayan fiyatlarla",
           "title": ""
         },
         {
@@ -308,17 +311,12 @@
           "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-yakut-banner-tr-8.jpg?512",
           "alt": "Yakut Koleksiyonu 10.11.2025",
           "title": ""
-        },
-        {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/513/babalar-gunu-tr-14.jpg?513",
-          "alt": "Babalar Günü",
-          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
-      "pageChanged": false,
+      "bannerChanged": true,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
@@ -481,8 +479,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %8, %17); Blue Diamond (%5, %8, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
-  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Blue Diamond, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %10); Blue Diamond (%5, %9, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
