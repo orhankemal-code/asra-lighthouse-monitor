@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T11:40:24.712Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T11:42:08.106Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -113,7 +113,7 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%14",
+        "%8",
         "%10"
       ],
       "bannerImages": [
@@ -130,11 +130,6 @@
         {
           "src": "https://img-zenpirlanta.mncdn.com/anasayfa/tektas-pirlanta-yuzukler-750x750_mobile_ana_banner.jpg",
           "alt": "Tektaş Pırlanta Yüzük Fırsatları Fiyatlı - Ekim",
-          "title": ""
-        },
-        {
-          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/750x750_mobile_ana_banner%20kopya.jpg",
-          "alt": "Safir Set - EKİM",
           "title": ""
         },
         {
@@ -156,14 +151,19 @@
           "src": "https://img-zenpirlanta.mncdn.com/img/home-banner-alt-v1.jpg",
           "alt": "Ürünümün Garanti Kaydını Nasıl Yapabilirim?",
           "title": ""
+        },
+        {
+          "src": "https://img-zenpirlanta.mncdn.com/mnresize/200/200/resim/kategori/forevermark-banner-bileklik.jpg?v=1.1.1",
+          "alt": "(min-width:991px)",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -199,7 +199,7 @@
       "percentCampaigns": [
         "%5",
         "%9",
-        "%12"
+        "%10"
       ],
       "bannerImages": [
         {
@@ -245,10 +245,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -260,15 +260,14 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Devamını Oku 21.10.2026 Pırlanta Dışında Hangi Nişan Yüzükleri Tercih Edilir?",
         "Nişan yüzüğü deyince zihnimizde beliren ilk görüntü, genellikle ışıl ışıl bir pırlanta yüzük.",
         "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?",
         "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
         "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
         "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
         "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar.",
-        "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir.",
-        "Devamını Oku 05.10.2026 Günlük Kullanım İçin Pırlanta Yüzük Modelleri Pırlanta yüzük denince çoğumuzun aklına özel geceler, davetler ve büyük anlar gelir.",
-        "Oysa pırlantanın en güzel hali, bazen hayatın en sıradan anlarında ortaya çıkar."
+        "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -314,10 +313,12 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
-      "bannerChanged": true,
+      "campaignChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [],
+      "newCampaignTexts": [
+        "Devamını Oku 21.10.2026 Pırlanta Dışında Hangi Nişan Yüzükleri Tercih Edilir?"
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -480,7 +481,7 @@
     }
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Blue Diamond, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %10); Blue Diamond (%5, %9, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Zen Pırlanta, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %8, %10); Blue Diamond (%5, %9, %10); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }

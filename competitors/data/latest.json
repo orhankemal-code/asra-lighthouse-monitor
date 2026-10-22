@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-21",
-  "generatedAt": "2026-10-21T11:40:24.578Z",
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T11:42:07.951Z",
   "results": [
     {
       "name": "Asra Pırlanta",
       "url": "https://www.asrapirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-21T11:40:06.661Z",
+      "scannedAt": "2026-10-22T11:41:59.185Z",
       "title": "Asra | Zarif Pırlanta ve Altın Takı Koleksiyonları",
       "description": "Asra’da modern ve zamansız pırlanta ile altın takı koleksiyonlarını inceleyin. Özgün tasarımlar ve güvenli alışveriş avantajları sizi bekliyor.",
       "h1": "Asra Pırlanta | Eşsiz Pırlanta Modelleri ve Özel Fiyatlar",
@@ -78,7 +78,7 @@
       "name": "Zen Pırlanta",
       "url": "https://www.zenpirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-21T11:40:16.013Z",
+      "scannedAt": "2026-10-22T11:42:00.406Z",
       "title": "ZEN Pırlanta - Yeni Sezon Pırlanta Modelleri Online Mağazada!",
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
@@ -106,7 +106,7 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%14",
+        "%8",
         "%10"
       ],
       "bannerImages": [
@@ -123,11 +123,6 @@
         {
           "src": "https://img-zenpirlanta.mncdn.com/anasayfa/tektas-pirlanta-yuzukler-750x750_mobile_ana_banner.jpg",
           "alt": "Tektaş Pırlanta Yüzük Fırsatları Fiyatlı - Ekim",
-          "title": ""
-        },
-        {
-          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/750x750_mobile_ana_banner%20kopya.jpg",
-          "alt": "Safir Set - EKİM",
           "title": ""
         },
         {
@@ -149,17 +144,22 @@
           "src": "https://img-zenpirlanta.mncdn.com/img/home-banner-alt-v1.jpg",
           "alt": "Ürünümün Garanti Kaydını Nasıl Yapabilirim?",
           "title": ""
+        },
+        {
+          "src": "https://img-zenpirlanta.mncdn.com/mnresize/200/200/resim/kategori/forevermark-banner-bileklik.jpg?v=1.1.1",
+          "alt": "(min-width:991px)",
+          "title": ""
         }
       ],
       "campaignHash": "56b9c2058e1387acc16abb8b0935ce1adee188f08042a739405edf9ccaf33b31",
-      "bannerHash": "e74216df0a31bd621b20b594e9a90d0994d6c74dec72ef2c4fb9b640f8dc6ea0",
-      "pageHash": "4bed7c532925c16693fb6d8c6a5e4175c12792a379d0e41d537878b759dce65d"
+      "bannerHash": "f72759890c4f522cbc8b2024136361a05ee552ea8e88b879e51e5fec4ffcec9f",
+      "pageHash": "3b8eb16b8df90c602673f69f179eb73991f23f39fc523e5d3e9155e659144db8"
     },
     {
       "name": "Blue Diamond",
       "url": "https://www.bluediamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-10-21T11:40:17.144Z",
+      "scannedAt": "2026-10-22T11:42:01.603Z",
       "title": "Blue Diamond - Yeni Sezon Pırlanta Modelleri Bluediamond'da!",
       "description": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
       "h1": "Blue Diamond Işıltısı Her Kadının Hakkı",
@@ -188,7 +188,7 @@
       "percentCampaigns": [
         "%5",
         "%9",
-        "%12"
+        "%10"
       ],
       "bannerImages": [
         {
@@ -234,26 +234,25 @@
       ],
       "campaignHash": "84d8b1ebe0dcb349bffe9d972d0a113af420cb6d0928ffd52939d8e7fca902fc",
       "bannerHash": "02a46eb1101270040f4bc17862af9e5413f27b77e7204e258ac76fa40efd095d",
-      "pageHash": "5b555dde3d1cb5af16b2e5d1146644ee8e1e2597854f40db388e7e00f352b8a3"
+      "pageHash": "84a4a72d0624a5ddc600522eaa191c9f8a0bf8308b4ca0f5c11c5c03be7e269e"
     },
     {
       "name": "Lizay Pırlanta",
       "url": "https://www.lizaypirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-21T11:40:18.537Z",
+      "scannedAt": "2026-10-22T11:42:03.237Z",
       "title": "Pırlanta ve Altın Mücevherat Modelleri ve Fiyatları | Lizay Pırlanta",
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Devamını Oku 21.10.2026 Pırlanta Dışında Hangi Nişan Yüzükleri Tercih Edilir?",
         "Nişan yüzüğü deyince zihnimizde beliren ilk görüntü, genellikle ışıl ışıl bir pırlanta yüzük.",
         "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?",
         "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
         "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
         "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
         "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar.",
-        "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir.",
-        "Devamını Oku 05.10.2026 Günlük Kullanım İçin Pırlanta Yüzük Modelleri Pırlanta yüzük denince çoğumuzun aklına özel geceler, davetler ve büyük anlar gelir.",
-        "Oysa pırlantanın en güzel hali, bazen hayatın en sıradan anlarında ortaya çıkar."
+        "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -298,15 +297,15 @@
           "title": ""
         }
       ],
-      "campaignHash": "ec399b21358f35b358bfc98228ec6f281c63ac170c9f5ae07ba9019367163729",
+      "campaignHash": "701f454abf044dc13d5caec067bebc1c18f8a279b45d252ac1185a5bf1a795f1",
       "bannerHash": "e0cad8e69ccaff23a20a8f228e1bb8cb8b82de8bdd65c86d248b9d53e39befe1",
-      "pageHash": "b2d551845dd616903ad27405ef21df0502c0ac2e2cf018328af0115eea9c6e23"
+      "pageHash": "33806a3166130d27137d85ad120cd93c5a0e53066598fdd0613362fac4f8a73e"
     },
     {
       "name": "D Diamond",
       "url": "https://www.ddiamond.com.tr",
       "ok": true,
-      "scannedAt": "2026-10-21T11:40:19.272Z",
+      "scannedAt": "2026-10-22T11:42:04.018Z",
       "title": "D Diamond - Kıymetini Bilenlere!",
       "description": "Pırlanta modellerinde kaçırılmayacak fırsatlar! En şık pırlanta yüzük, kolye, küpe, bileklik modelleri hızlı teslimat ve indirimli fiyatlar ile D Diamond'da.",
       "h1": "Mücevher Dünyasının Uzman ve Yenilikçi Markası D Diamond",
@@ -381,7 +380,7 @@
       "name": "Ariş Pırlanta",
       "url": "https://www.arispirlanta.com",
       "ok": true,
-      "scannedAt": "2026-10-21T11:40:20.785Z",
+      "scannedAt": "2026-10-22T11:42:05.617Z",
       "title": "Ariş Pırlanta",
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
