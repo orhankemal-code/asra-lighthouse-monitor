@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-22",
-  "generatedAt": "2026-10-22T11:42:08.106Z",
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T11:30:38.855Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -113,7 +113,7 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%8",
+        "%14",
         "%10"
       ],
       "bannerImages": [
@@ -160,10 +160,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -197,9 +197,9 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%5",
         "%9",
-        "%10"
+        "%5",
+        "%12"
       ],
       "bannerImages": [
         {
@@ -248,7 +248,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %9, %5, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -260,14 +260,16 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Kolye ve Bileklik Modelleri Bazı tasarımlar vardır; modaya göre gelip gitmez, her dönemde kendine yeniden yer bulur.",
+        "Bir babanın yıllardır bileğinden çıkarmadığı kalın altın bileklikte de, genç bir kadının boynunda katmanlı kombinin parçası olan ince bir kolyede de aynı karakterle karşımıza çıkar.",
+        "Devamını Oku 23.10.2026 Erkek Bileklik Modelleri: Altın ve Pırlanta Seçenekleri Bir erkeğin tarzı çoğu zaman küçük detaylarda saklıdır.",
         "Devamını Oku 21.10.2026 Pırlanta Dışında Hangi Nişan Yüzükleri Tercih Edilir?",
         "Nişan yüzüğü deyince zihnimizde beliren ilk görüntü, genellikle ışıl ışıl bir pırlanta yüzük.",
         "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?",
         "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
         "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
         "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
-        "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar.",
-        "Devamını Oku 07.10.2026 Pırlanta Yüzüklerde İnce ve Kalın Halka Tercihi Pırlanta yüzük seçerken bütün dikkatimiz genellikle taşa yönelir."
+        "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -282,42 +284,44 @@
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-pirlanta-kupeler-banner-tr-7.jpg?286",
-          "alt": "Pırlanta Küpeler 10.11.2025",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-urunler-kupe-tr-13.jpg?286",
+          "alt": "küpe",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-pirlanta-kolyeler-banner-tr-8.jpg?286",
-          "alt": "Pırlanta Kolyeler 10.11.2025",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-urunler-kolye-tr-14.jpg?286",
+          "alt": "Kolye",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-pirlanta-bileklikler-banner-tr-9.jpg?286",
-          "alt": "Pırlanta Bileklikler 10.11.2025",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/286/450x600-urunler-bileklik-tr-15.jpg?286",
+          "alt": "Bileklik",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-safir-banner-tr-9.jpg?512",
-          "alt": "Safir Koleksiyonu 10.11.2025",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-safir-tr-16.jpg?512",
+          "alt": "safir",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-zumrut-banner-tr-7.jpg?512",
-          "alt": "Zümrüt Koleksiyonu 10.11.2025",
+          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-zumrut-tr-17.jpg?512",
+          "alt": "Banner",
           "title": ""
         },
         {
-          "src": "https://cdn.lizaypirlanta.com/data/banner/_/Data/BlockUploadData/slider/img1/512/450x600-yakut-banner-tr-8.jpg?512",
-          "alt": "Yakut Koleksiyonu 10.11.2025",
+          "src": "https://www.lizaypirlanta.com/theme/standart/images/lazy_load_yukleniyor.gif",
+          "alt": "Banner",
           "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": true,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [
-        "Devamını Oku 21.10.2026 Pırlanta Dışında Hangi Nişan Yüzükleri Tercih Edilir?"
+        "Kolye ve Bileklik Modelleri Bazı tasarımlar vardır; modaya göre gelip gitmez, her dönemde kendine yeniden yer bulur.",
+        "Bir babanın yıllardır bileğinden çıkarmadığı kalın altın bileklikte de, genç bir kadının boynunda katmanlı kombinin parçası olan ince bir kolyede de aynı karakterle karşımıza çıkar.",
+        "Devamını Oku 23.10.2026 Erkek Bileklik Modelleri: Altın ve Pırlanta Seçenekleri Bir erkeğin tarzı çoğu zaman küçük detaylarda saklıdır."
       ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
@@ -481,7 +485,7 @@
     }
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %8, %10); Blue Diamond (%5, %9, %10); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %10); Blue Diamond (%9, %5, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
