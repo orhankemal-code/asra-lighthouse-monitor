@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-24",
-  "generatedAt": "2026-10-24T10:50:33.425Z",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T11:16:25.780Z",
   "totalSites": 6,
   "changedSites": 2,
   "failedSites": 0,
@@ -113,8 +113,9 @@
       ],
       "percentCampaigns": [
         "%5",
+        "%10",
         "%14",
-        "%8"
+        "%23"
       ],
       "bannerImages": [
         {
@@ -163,7 +164,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %8.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %14, %23.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,10 +199,9 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%9",
-        "%6",
+        "%12",
         "%8",
-        "%12"
+        "%10"
       ],
       "bannerImages": [
         {
@@ -250,7 +250,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %6, %8, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12, %8, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -483,7 +483,7 @@
     }
   ],
   "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %8); Blue Diamond (%5, %9, %6); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %14); Blue Diamond (%5, %12, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
   "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
