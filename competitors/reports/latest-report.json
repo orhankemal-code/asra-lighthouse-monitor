@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T11:16:25.780Z",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T12:50:09.020Z",
   "totalSites": 6,
   "changedSites": 2,
   "failedSites": 0,
@@ -114,8 +114,7 @@
       "percentCampaigns": [
         "%5",
         "%10",
-        "%14",
-        "%23"
+        "%17"
       ],
       "bannerImages": [
         {
@@ -164,7 +163,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %14, %23.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %17.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,10 +197,12 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
+        "%9",
         "%5",
         "%12",
-        "%8",
-        "%10"
+        "%7",
+        "%10",
+        "%8"
       ],
       "bannerImages": [
         {
@@ -225,11 +226,6 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/tamtur-zamani-mobile-01.10.26.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
-          "title": ""
-        },
-        {
           "src": "https://img.bluediamond.com.tr/anasayfa/su-yolu-mobile-01.10.26.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
@@ -243,14 +239,19 @@
           "src": "https://img.bluediamond.com.tr/anasayfa/tasarim-pirlanta-kolye-hediye-mobile-05.10.2026.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
+        },
+        {
+          "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
+          "alt": "Blue Diamond",
+          "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12, %8, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %9, %5, %12, %7, %10, %8.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -483,7 +484,7 @@
     }
   ],
   "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %14); Blue Diamond (%5, %12, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
-  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
+  "actionOne": "Blue Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %17); Blue Diamond (%9, %5, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
