@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-27",
-  "generatedAt": "2026-10-27T12:01:49.564Z",
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T12:42:29.984Z",
   "totalSites": 6,
-  "changedSites": 2,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -113,9 +113,7 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%17",
-        "%14",
-        "%10"
+        "%14"
       ],
       "bannerImages": [
         {
@@ -161,10 +159,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %17, %14, %10.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,8 +196,9 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%9",
         "%5",
+        "%9",
+        "%7",
         "%8"
       ],
       "bannerImages": [
@@ -249,7 +248,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %9, %5, %8.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %7, %8.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -268,9 +267,7 @@
         "Nişan yüzüğü deyince zihnimizde beliren ilk görüntü, genellikle ışıl ışıl bir pırlanta yüzük.",
         "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?",
         "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
-        "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta.",
-        "Devamını Oku 12.10.2026 Baget Yüzüklerde Yatay ve Dikey Tasarım Farkı Baget pırlantalar, uzun ve zarif formlarıyla mücevher dünyasının en şık ve en modern taşlarından biri.",
-        "Yuvarlak pırlantanın yoğun ve oyuncu ışıltısından farklı olarak baget, sakin, net ve ayna gibi berrak bir parlaklık sunar."
+        "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -316,9 +313,9 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
@@ -481,8 +478,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %17, %14); Blue Diamond (%9, %5, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14); Blue Diamond (%5, %9, %7); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
