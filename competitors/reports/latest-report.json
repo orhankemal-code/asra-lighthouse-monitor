@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-29",
-  "generatedAt": "2026-10-29T12:52:12.904Z",
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T12:43:52.483Z",
   "totalSites": 6,
-  "changedSites": 2,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -113,8 +113,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%17",
-        "%14"
+        "%14",
+        "%9"
       ],
       "bannerImages": [
         {
@@ -163,7 +163,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %17, %14.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %9.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,7 +198,10 @@
       ],
       "percentCampaigns": [
         "%5",
+        "%6",
         "%8",
+        "%9",
+        "%10",
         "%12"
       ],
       "bannerImages": [
@@ -248,7 +251,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %8, %9, %10, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -260,14 +263,14 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Kolye uçları tam olarak bu ikinci gruba aittir.",
         "Kolye ve Bileklik Modelleri Bazı tasarımlar vardır; modaya göre gelip gitmez, her dönemde kendine yeniden yer bulur.",
         "Bir babanın yıllardır bileğinden çıkarmadığı kalın altın bileklikte de, genç bir kadının boynunda katmanlı kombinin parçası olan ince bir kolyede de aynı karakterle karşımıza çıkar.",
         "Devamını Oku 23.10.2026 Erkek Bileklik Modelleri: Altın ve Pırlanta Seçenekleri Bir erkeğin tarzı çoğu zaman küçük detaylarda saklıdır.",
         "Devamını Oku 21.10.2026 Pırlanta Dışında Hangi Nişan Yüzükleri Tercih Edilir?",
         "Nişan yüzüğü deyince zihnimizde beliren ilk görüntü, genellikle ışıl ışıl bir pırlanta yüzük.",
         "Devamını Oku 16.10.2026 Alyans ve Tektaş Yüzük Birlikte Nasıl Kullanılır?",
-        "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor.",
-        "Tektaş Yüzüklerde Farklı Bir Tasarım Detayı Tektaş yüzük denince çoğumuzun gözünün önüne aynı görüntü gelir: zarif bir halka ve üzerinde tek başına parlayan bir pırlanta."
+        "Evlilik teklifinde parmağınıza takılan tektaş ve düğün günü ona eşlik eden alyans… Bu iki yüzük, hayatınızın iki unutulmaz anını temsil ediyor."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -313,10 +316,12 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Kolye uçları tam olarak bu ikinci gruba aittir."
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -478,8 +483,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %17, %14); Blue Diamond (%5, %8, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
-  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %9); Blue Diamond (%5, %6, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
