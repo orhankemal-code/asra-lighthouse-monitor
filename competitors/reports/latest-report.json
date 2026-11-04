@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "generatedAt": "2026-11-03T14:02:14.526Z",
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T14:22:41.693Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -114,8 +114,9 @@
       "percentCampaigns": [
         "%5",
         "%11",
-        "%17",
-        "%14"
+        "%8",
+        "%14",
+        "%17"
       ],
       "bannerImages": [
         {
@@ -161,10 +162,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %17, %14.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %8, %14, %17.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -200,10 +201,8 @@
       "percentCampaigns": [
         "%9",
         "%5",
-        "%32",
-        "%6",
-        "%10",
-        "%8"
+        "%8",
+        "%12"
       ],
       "bannerImages": [
         {
@@ -252,7 +251,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %9, %5, %32, %6, %10, %8.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %9, %5, %8, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -264,6 +263,7 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Yüzük, Küpe ve Bileklik Modelleri Pırlanta denince gözümüzün önüne hep aynı görüntü gelir: ışığı yakalayıp gökkuşağı renklerine bölen, berrak ve parıl parıl bir taş.",
         "Nazar boncuğu, bizde sevginin en kısa ve en içten cümlesidir: \"Sana bir şey olmasın.\" Devamını Oku 02.11.2026 Kolye Ucu Modelleri: Anlamlı ve Şık Altın Seçenekler Bazı takılar sadece güzel oldukları için takılır.",
         "Kolye uçları tam olarak bu ikinci gruba aittir.",
         "Kolye ve Bileklik Modelleri Bazı tasarımlar vardır; modaya göre gelip gitmez, her dönemde kendine yeniden yer bulur.",
@@ -316,10 +316,12 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Yüzük, Küpe ve Bileklik Modelleri Pırlanta denince gözümüzün önüne hep aynı görüntü gelir: ışığı yakalayıp gökkuşağı renklerine bölen, berrak ve parıl parıl bir taş."
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -396,8 +398,8 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
-      "pageChanged": true,
+      "bannerChanged": false,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -482,7 +484,7 @@
     }
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %17); Blue Diamond (%9, %5, %32); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %8); Blue Diamond (%9, %5, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
