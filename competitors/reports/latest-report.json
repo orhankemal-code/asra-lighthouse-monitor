@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T14:22:41.693Z",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T14:31:38.583Z",
   "totalSites": 6,
-  "changedSites": 3,
+  "changedSites": 2,
   "failedSites": 0,
   "sites": [
     {
@@ -115,7 +115,6 @@
         "%5",
         "%11",
         "%8",
-        "%14",
         "%17"
       ],
       "bannerImages": [
@@ -165,7 +164,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %8, %14, %17.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %8, %17.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -199,9 +198,9 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%9",
         "%5",
-        "%8",
+        "%10",
+        "%9",
         "%12"
       ],
       "bannerImages": [
@@ -251,7 +250,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %9, %5, %8, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %9, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -316,12 +315,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Yüzük, Küpe ve Bileklik Modelleri Pırlanta denince gözümüzün önüne hep aynı görüntü gelir: ışığı yakalayıp gökkuşağı renklerine bölen, berrak ve parıl parıl bir taş."
-      ],
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -483,8 +480,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %8); Blue Diamond (%9, %5, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
+  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %8); Blue Diamond (%5, %10, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
+  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
