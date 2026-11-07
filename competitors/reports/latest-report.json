@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-06",
-  "generatedAt": "2026-11-06T14:09:41.741Z",
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T12:52:36.106Z",
   "totalSites": 6,
-  "changedSites": 3,
+  "changedSites": 2,
   "failedSites": 0,
   "sites": [
     {
@@ -90,7 +90,7 @@
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
       "campaignTexts": [
-        "Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
+        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
         "Tıklayın Pırlantamın garanti kaydını nasıl yapabilirim?",
         "Tıklayın ZEN Pırlanta Zen Pırlanta, özenle seçilmiş ve eşsiz tasarımlarla buluşturduğu pırlantaları sizlere sunar.",
         "Her pırlanta, ışıltısı, zarafeti ve taşıdığı anlamla sizin kadar özel bir hikâye anlatır.",
@@ -163,7 +163,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [
-        "Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
+        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
       ],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %8.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -200,8 +200,6 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%7",
-        "%32",
         "%12"
       ],
       "bannerImages": [
@@ -251,7 +249,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %7, %32, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -317,14 +315,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Üçtaş pırlanta yüzük ise bir hikâyenin tamamını.",
-        "Yan yana dizilmiş üç pırlanta, ilk bakışta yalnızca zarif ve dengeli bir tasarım gibi görünür.",
-        "Devamını Oku 06.11.2026 Siyah Pırlanta Nedir?"
-      ],
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -486,8 +480,8 @@
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %8); Blue Diamond (%5, %7, %32); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Zen Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %8); Blue Diamond (%5, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
