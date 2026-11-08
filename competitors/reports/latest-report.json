@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-07T12:52:36.106Z",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T13:14:56.090Z",
   "totalSites": 6,
   "changedSites": 2,
   "failedSites": 0,
@@ -114,7 +114,7 @@
       "percentCampaigns": [
         "%5",
         "%11",
-        "%8"
+        "%14"
       ],
       "bannerImages": [
         {
@@ -159,13 +159,11 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [
-        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
-      ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %8.",
+      "newCampaignTexts": [],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %14.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -200,7 +198,7 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%12"
+        "%32"
       ],
       "bannerImages": [
         {
@@ -249,7 +247,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %32.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -481,7 +479,7 @@
     }
   ],
   "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %8); Blue Diamond (%5, %12); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %14); Blue Diamond (%5, %32); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
+  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
