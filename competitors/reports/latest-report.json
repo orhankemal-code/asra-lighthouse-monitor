@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "generatedAt": "2026-11-08T13:14:56.090Z",
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T16:03:53.216Z",
   "totalSites": 6,
   "changedSites": 2,
   "failedSites": 0,
@@ -113,7 +113,7 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%11",
+        "%17",
         "%14"
       ],
       "bannerImages": [
@@ -163,7 +163,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %14.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %17, %14.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,7 +198,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%32"
+        "%8",
+        "%50"
       ],
       "bannerImages": [
         {
@@ -247,7 +248,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %32.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %8, %50.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -479,7 +480,7 @@
     }
   ],
   "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %14); Blue Diamond (%5, %32); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %17, %14); Blue Diamond (%5, %8, %50); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
   "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
