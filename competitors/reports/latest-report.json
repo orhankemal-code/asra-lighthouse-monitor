@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "generatedAt": "2026-11-10T14:46:13.064Z",
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T14:07:10.730Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -113,7 +113,8 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%11"
+        "%11",
+        "%17"
       ],
       "bannerImages": [
         {
@@ -162,7 +163,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %17.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -196,8 +197,9 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%8",
         "%5",
+        "%12",
+        "%7",
         "%50"
       ],
       "bannerImages": [
@@ -247,7 +249,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %8, %5, %50.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %12, %7, %50.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -408,7 +410,11 @@
       "description": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "h1": "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
       "campaignTexts": [
+        "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
         "Giriş Yapın Özel fırsatları kaçırmayın Giriş Yap Kayıt Ol Aranıyor...",
+        "Sigortalı Ücretsiz Kargo!",
+        "Yeni Sezon Pırlanta Koleksiyonu İndirimi!",
+        "Kaçırmayın ⌘KCtrl+K Aranıyor...",
         "Kategoriler Ürünler Popüler Aramalar Tektaş Yüzük Pırlanta Kolye Beştaş Yüzük Hesabım Giriş yapın Merhaba!",
         "Müşteri memnuniyeti odaklı hizmet anlayışımızla, her detayı düşünüyoruz Sigortalı Kargo Siparişiniz Teslimatı tarafınıza yapılana kadar Ariş Pırlanta sorumluluğundadır.",
         "Kendi Tektaşını Tasarla bölümünden, size özel tektaşınızı tasarlayabilir beğendiğiniz sertifikalı taşı seçebilirsiniz.",
@@ -469,13 +475,18 @@
       "campaignChanged": true,
       "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [],
+      "newCampaignTexts": [
+        "Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
+        "Sigortalı Ücretsiz Kargo!",
+        "Yeni Sezon Pırlanta Koleksiyonu İndirimi!",
+        "Kaçırmayın ⌘KCtrl+K Aranıyor..."
+      ],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
-      "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
+      "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     }
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
   "actionOne": "Ariş Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11); Blue Diamond (%8, %5, %50); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %11, %17); Blue Diamond (%5, %12, %7); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
