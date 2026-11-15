@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T13:25:05.115Z",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T13:51:19.298Z",
   "totalSites": 6,
-  "changedSites": 3,
+  "changedSites": 2,
   "failedSites": 0,
   "sites": [
     {
@@ -113,11 +113,12 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%10",
-        "%6",
-        "%11",
+        "%7",
         "%8",
-        "%14"
+        "%9",
+        "%10",
+        "%14",
+        "%11"
       ],
       "bannerImages": [
         {
@@ -166,7 +167,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %10, %6, %11, %8, %14.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %7, %8, %9, %10, %14, %11.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -203,8 +204,10 @@
         "%6",
         "%5",
         "%13",
+        "%9",
+        "%7",
         "%8",
-        "%12",
+        "%23",
         "%50"
       ],
       "bannerImages": [
@@ -254,7 +257,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %6, %5, %13, %8, %12, %50.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %6, %5, %13, %9, %7, %8, %23, %50.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -401,7 +404,7 @@
       "hasPrevious": true,
       "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
@@ -484,8 +487,8 @@
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %10, %6); Blue Diamond (%6, %5, %13); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "aiComment": "Bugün 2 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %7, %8); Blue Diamond (%6, %5, %13); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
   "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
