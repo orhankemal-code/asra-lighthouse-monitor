@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-17",
-  "generatedAt": "2026-11-17T15:53:45.602Z",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T15:31:51.860Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -90,6 +90,7 @@
       "description": "En yeni pırlanta modellerini, yeni sezon pırlanta mücevher kataloglarımızı görüntüleyin! ZEN Pırlanta online mağazasını ziyaret edin!",
       "h1": "ZEN Pırlanta",
       "campaignTexts": [
+        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!",
         "Tıklayın Pırlantamın garanti kaydını nasıl yapabilirim?",
         "Tıklayın ZEN Pırlanta Zen Pırlanta, özenle seçilmiş ve eşsiz tasarımlarla buluşturduğu pırlantaları sizlere sunar.",
         "Her pırlanta, ışıltısı, zarafeti ve taşıdığı anlamla sizin kadar özel bir hikâye anlatır.",
@@ -108,16 +109,14 @@
         "Zen Pırlanta, doğadan aldığı ilham ile sizlere en özel, incelikli ve zarif pırlanta mücevherleri eşsiz bir koleksiyon eşliğinde sunmaya devam ediyor.",
         "Yeni Sezon ZEN Pırlanta Ürünleri Sizlerle!",
         "2026 sezonunun en moda ve zarif pırlanta modelleriyle göz alıcı bir şıklık sizleri bekliyor.",
-        "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak.",
-        "Yeni sezon mücevher modelleri arasında yer alan trend yüzükler ve en yeni pırlanta yüzük modelleri, her daim olduğu gibi Zen Pırlanta’nın benzersiz dokunuşlarıyla hayat buluyor."
+        "Yeni sezona özel olarak tasarlanan koleksiyonda modern pırlantalar tarzınızı tamamlarken zarafetinizi bir üst seviyeye taşıyacak."
       ],
       "percentCampaigns": [
-        "%6",
-        "%7",
-        "%14",
-        "%8",
+        "%5",
+        "%15",
+        "%9",
         "%10",
-        "%5"
+        "%7"
       ],
       "bannerImages": [
         {
@@ -163,12 +162,12 @@
       ],
       "hasPrevious": true,
       "campaignChanged": true,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [
-        "Yeni sezon mücevher modelleri arasında yer alan trend yüzükler ve en yeni pırlanta yüzük modelleri, her daim olduğu gibi Zen Pırlanta’nın benzersiz dokunuşlarıyla hayat buluyor."
+        "STAY TURKEY VISIT UNITED STATES Yeni Diamond Card'lı Olanlara İlk Online Alışverişte %5 İndirim!"
       ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %6, %7, %14, %8, %10, %5.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %15, %9, %10, %7.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -202,12 +201,11 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%8",
         "%5",
         "%7",
         "%12",
-        "%10",
-        "%6"
+        "%8",
+        "%9"
       ],
       "bannerImages": [
         {
@@ -256,7 +254,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %8, %5, %7, %12, %10, %6.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %7, %12, %8, %9.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -396,14 +394,14 @@
           "title": ""
         },
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-banner-desk-banner-esra-erold--dd-indirim-kampanya.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/750x750-dd-esra-erol-banner-g%C3%BCncel-indirim-firsat.jpg",
           "alt": "Tasarım Pırlanta Kolyeler",
           "title": ""
         }
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10, %100.",
@@ -488,7 +486,7 @@
     }
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%6, %7, %14); Blue Diamond (%8, %5, %7); D Diamond (%50, %10, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Zen Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %15, %9); Blue Diamond (%5, %7, %12); D Diamond (%50, %10, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
