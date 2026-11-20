@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T15:39:14.267Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T15:19:56.977Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -113,11 +113,11 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%14",
-        "%8",
-        "%9",
         "%6",
-        "%21"
+        "%7",
+        "%10",
+        "%9",
+        "%17"
       ],
       "bannerImages": [
         {
@@ -136,7 +136,7 @@
           "title": ""
         },
         {
-          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/evet-dedim-kalbi-16-09-2026-750x750.jpg?v=3",
+          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/evet-dedim-20-11-2026-750x750_mobile_ana_banner.jpg?v=3",
           "alt": "Evet Dedim Kalbi - AnaBanner",
           "title": ""
         },
@@ -166,7 +166,7 @@
       "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %8, %9, %6, %21.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %7, %10, %9, %17.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -202,8 +202,7 @@
       "percentCampaigns": [
         "%5",
         "%6",
-        "%12",
-        "%7"
+        "%12"
       ],
       "bannerImages": [
         {
@@ -218,6 +217,11 @@
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/oval-tektas-pirlanta-firsatlari-mobile-13.11.26.jpg",
+          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
+          "title": ""
+        },
+        {
+          "src": "https://img.bluediamond.com.tr/anasayfa/ogretmenler-gunu-mobile-20.11.26-.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -240,11 +244,6 @@
           "src": "https://img.bluediamond.com.tr/anasayfa/hediye-mobile-blue-friday-19.11.2026.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
-        },
-        {
-          "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
-          "alt": "Blue Diamond",
-          "title": ""
         }
       ],
       "hasPrevious": true,
@@ -252,7 +251,7 @@
       "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %12, %7.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -352,7 +351,7 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%27",
+        "%9",
         "%100"
       ],
       "bannerImages": [
@@ -402,7 +401,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %27, %100.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %9, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -485,6 +484,6 @@
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
   "actionOne": "Zen Pırlanta, Blue Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %8); Blue Diamond (%5, %6, %12); D Diamond (%50, %27, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %7); Blue Diamond (%5, %6, %12); D Diamond (%50, %9, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
