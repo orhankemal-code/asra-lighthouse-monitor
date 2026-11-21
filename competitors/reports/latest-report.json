@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "generatedAt": "2026-11-20T15:19:56.977Z",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T14:33:11.944Z",
   "totalSites": 6,
   "changedSites": 3,
   "failedSites": 0,
@@ -113,11 +113,12 @@
       ],
       "percentCampaigns": [
         "%5",
-        "%6",
-        "%7",
+        "%17",
         "%10",
-        "%9",
-        "%17"
+        "%15",
+        "%14",
+        "%6",
+        "%8"
       ],
       "bannerImages": [
         {
@@ -163,10 +164,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %7, %10, %9, %17.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %17, %10, %15, %14, %6, %8.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -200,8 +201,10 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%5",
         "%6",
+        "%5",
+        "%7",
+        "%10",
         "%12"
       ],
       "bannerImages": [
@@ -248,10 +251,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %6, %5, %7, %10, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -351,7 +354,7 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%9",
+        "%8",
         "%100"
       ],
       "bannerImages": [
@@ -401,7 +404,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %9, %100.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %8, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -483,7 +486,7 @@
     }
   ],
   "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Blue Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %7); Blue Diamond (%5, %6, %12); D Diamond (%50, %9, %100); Ariş Pırlanta (%5).",
-  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %17, %10); Blue Diamond (%6, %5, %7); D Diamond (%50, %8, %100); Ariş Pırlanta (%5).",
+  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
+  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
