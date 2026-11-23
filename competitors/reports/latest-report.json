@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-22",
-  "generatedAt": "2026-11-22T14:28:39.408Z",
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T17:57:11.060Z",
   "totalSites": 6,
-  "changedSites": 3,
+  "changedSites": 4,
   "failedSites": 0,
   "sites": [
     {
@@ -113,9 +113,11 @@
       ],
       "percentCampaigns": [
         "%5",
+        "%6",
+        "%7",
         "%14",
-        "%17",
-        "%8"
+        "%8",
+        "%9"
       ],
       "bannerImages": [
         {
@@ -164,7 +166,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %14, %17, %8.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %7, %14, %8, %9.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -198,11 +200,14 @@
         "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
       ],
       "percentCampaigns": [
-        "%5",
-        "%9",
         "%8",
-        "%12",
-        "%7"
+        "%5",
+        "%6",
+        "%9",
+        "%7",
+        "%13",
+        "%10",
+        "%12"
       ],
       "bannerImages": [
         {
@@ -211,7 +216,7 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/blue-friday-mobile-13.11.26.jpg",
+          "src": "https://img.bluediamond.com.tr/anasayfa/blue-friday-son-gunler-mobile-23.11.26.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -248,10 +253,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %9, %8, %12, %7.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %8, %5, %6, %9, %7, %13, %10, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -263,6 +268,10 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Y Model Kolye Kombin Rehberi Y kolye en çok V yaka, kruvaze yaka, düğmeleri açık gömlek yakası ve straplez gibi göğüs dekoltesini açık bırakan yakalarla uyum sağlar.",
+        "Y kolye, zincirin göğüste birleşip aşağı doğru tek bir sarkıtla devam ettiği ve Y harfi biçimini oluşturan kolyedir.",
+        "Y kolyenin çizgisi aşağı doğru indiği için yakanın da aşağı doğru açılması, kolye ile kıyafetin aynı yönde durmasını sağlar.",
+        "Devamını Oku 23.11.2026 Üçtaş Pırlanta Yüzük: Anlamı ve Model Önerileri Bazı yüzükler tek bir anı anlatır.",
         "Üçtaş pırlanta yüzük ise bir hikâyenin tamamını.",
         "Yan yana dizilmiş üç pırlanta, ilk bakışta yalnızca zarif ve dengeli bir tasarım gibi görünür.",
         "Devamını Oku 06.11.2026 Siyah Pırlanta Nedir?",
@@ -270,8 +279,7 @@
         "Nazar boncuğu, bizde sevginin en kısa ve en içten cümlesidir: \"Sana bir şey olmasın.\" Devamını Oku 02.11.2026 Kolye Ucu Modelleri: Anlamlı ve Şık Altın Seçenekler Bazı takılar sadece güzel oldukları için takılır.",
         "Kolye uçları tam olarak bu ikinci gruba aittir.",
         "Kolye ve Bileklik Modelleri Bazı tasarımlar vardır; modaya göre gelip gitmez, her dönemde kendine yeniden yer bulur.",
-        "Bir babanın yıllardır bileğinden çıkarmadığı kalın altın bileklikte de, genç bir kadının boynunda katmanlı kombinin parçası olan ince bir kolyede de aynı karakterle karşımıza çıkar.",
-        "Devamını Oku 23.10.2026 Erkek Bileklik Modelleri: Altın ve Pırlanta Seçenekleri Bir erkeğin tarzı çoğu zaman küçük detaylarda saklıdır."
+        "Bir babanın yıllardır bileğinden çıkarmadığı kalın altın bileklikte de, genç bir kadının boynunda katmanlı kombinin parçası olan ince bir kolyede de aynı karakterle karşımıza çıkar."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -317,10 +325,15 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Y Model Kolye Kombin Rehberi Y kolye en çok V yaka, kruvaze yaka, düğmeleri açık gömlek yakası ve straplez gibi göğüs dekoltesini açık bırakan yakalarla uyum sağlar.",
+        "Y kolye, zincirin göğüste birleşip aşağı doğru tek bir sarkıtla devam ettiği ve Y harfi biçimini oluşturan kolyedir.",
+        "Y kolyenin çizgisi aşağı doğru indiği için yakanın da aşağı doğru açılması, kolye ile kıyafetin aynı yönde durmasını sağlar.",
+        "Devamını Oku 23.11.2026 Üçtaş Pırlanta Yüzük: Anlamı ve Model Önerileri Bazı yüzükler tek bir anı anlatır."
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -338,7 +351,8 @@
         "Online Özel İlk Üyeliğe 500 TL İndirim Çeki Hediye!",
         "IŞIKLI YÜZÜK KUTUSU Bütün yüzük siparişleriniz online’a özel hediye paketi içerisinde, ışıklı yüzük kutusunda gönderilmektedir.",
         "YÜZÜK ÖLÇÜ DEĞİŞİM HAKKI Online’a özel, ölçüsü uymayan yüzüklerde 6 ay içerisinde 1 defaya mahsus ölçü değişim hakkı bulunmaktadır.",
-        "1500 TL İNDİRİM ÇEKİ İlk üyeliğe özel 29.990 TL ve üzeri siparişlerde kullanabileceğiniz 1500 TL indirim çeki hediye.",
+        "1500 TL İNDİRİM ÇEKİ Yeni üyelere özel!",
+        "İlk alışverişinizde 29.990 TL ve üzeri alışverişlerinizde 1.500 TL indirim çeki hediye!",
         "Siparişiniz, mücevherinize ait sertifikası ve varsa hediye notunuzla birlikte özel mücevher kutusunda ücretsiz ve sigortalı olarak gönderilecektir.",
         "Hologramlı Mücevher Sertifikası Tüm mücevherlerimiz D Diamond pırlanta sertifikasına sahiptir..",
         "Alışverişinizi %100 memnuniyetle tamamlamanız D Diamond’un size verdiği güven sözüdür.",
@@ -346,16 +360,16 @@
         "Nesilden nesile aktarılan mücevher geleneği ve usta el işçiliğinin ürünü en seçkin pırlanta mücevherler, D Diamond’ın özel koleksiyonlarında hayat buluyor.",
         "D Diamond dokunuşlarıyla tasarlanmış baget yüzük, pırlanta yüzük ve tektaş yüzük koleksiyonları, tüm detaylarıyla aşkınıza çok yakışacak!",
         "Kaliteli mücevherler, benzersiz detaylı tasarımların yer aldığı göz alıcı koleksiyonlar, eşsiz bir hediye seçeneği olarak ön plana çıkıyor.",
-        "Pırlanta yüzük, pırlanta kolye ve baget yüzük başta olmak üzere birçok özgün tasarıma hayat veren D Diamond, mücevher dünyasında kendisine çok özel bir yer ediniyor.",
-        "ÜYE OL Üyelere özel 29.990 TL ve üzeri alışverişlerde geçerli 1500 TL indirim çeki hediye!"
+        "Pırlanta yüzük, pırlanta kolye ve baget yüzük başta olmak üzere birçok özgün tasarıma hayat veren D Diamond, mücevher dünyasında kendisine çok özel bir yer ediniyor."
       ],
       "percentCampaigns": [
         "%50",
+        "%10",
         "%100"
       ],
       "bannerImages": [
         {
-          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-dd-esra-erol-indirim-firsat-g%C3%BCnce-banner-dd.jpg",
+          "src": "https://img-ddiamond.mncdn.com/anasayfa/1920x650-black-friday-son-g%C3%BCnler-indirim-firsat-banner-kmpnya-dd.jpg",
           "alt": "D Diamond Kasım Fırsatları",
           "title": ""
         },
@@ -396,11 +410,14 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
-      "bannerChanged": false,
+      "campaignChanged": true,
+      "bannerChanged": true,
       "pageChanged": true,
-      "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
+      "newCampaignTexts": [
+        "1500 TL İNDİRİM ÇEKİ Yeni üyelere özel!",
+        "İlk alışverişinizde 29.990 TL ve üzeri alışverişlerinizde 1.500 TL indirim çeki hediye!"
+      ],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -481,8 +498,8 @@
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
-  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %14, %17); Blue Diamond (%5, %9, %8); D Diamond (%50, %100); Ariş Pırlanta (%5).",
-  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
-  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
+  "aiComment": "Bugün 4 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Blue Diamond, Lizay Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %7); Blue Diamond (%8, %5, %6); D Diamond (%50, %10, %100); Ariş Pırlanta (%5).",
+  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
