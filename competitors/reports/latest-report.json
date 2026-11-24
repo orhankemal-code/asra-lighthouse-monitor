@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T17:57:11.060Z",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T17:33:11.484Z",
   "totalSites": 6,
   "changedSites": 4,
   "failedSites": 0,
@@ -114,10 +114,10 @@
       "percentCampaigns": [
         "%5",
         "%6",
-        "%7",
-        "%14",
         "%8",
-        "%9"
+        "%9",
+        "%14",
+        "%7"
       ],
       "bannerImages": [
         {
@@ -166,7 +166,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %7, %14, %8, %9.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %8, %9, %14, %7.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -184,6 +184,7 @@
         "Online Özel 14 Gün Kayıpsız İade Hologramlı Mücevher Sertifikası Online Özel İlk Üyeliğe 2.500TL Hediye Çeki Göz Kamaştıran Özel Hediye Kutusu!",
         "İlk 6 Ay Ücretsiz Ölçü Değişimi Hakkı Blue Friday Muhteşem Kasım Fırsatları!",
         "ÜYE OL Hızlıca üye olarak ilk siparişinize özel 2.500 TL indirim çekine sahip olabilirsiniz.",
+        "Günlük kullanım için gerçekten ideal bir model Tektaş yüzüğü aldığımda gözlerindeki mutluluğu görmek her şeye değerdi.",
         "Sade, şık ve anlam yüklü bir yüzük.",
         "Tüm siparişleriniz özel taşıma sigortası ve şık hediye seti ilebirlikte tarafınıza ulaştırılır.",
         "Hologramlı Sertifika Şık Özel Kutu Hediye Notu Ücretsiz Kargo Özel Taşıma Sigortası Bakım Garantisi Siparişiniz Nasıl Gelecek?",
@@ -196,16 +197,13 @@
         "Pırlantalar, duygusal bağları güçlendirir ve unutulmaz anılar yaratır.",
         "Kadınların hayallerini süsleyen, zarafetin ve lüksün sembolü olan pırlantaları özgün tasarımlarıyla sizlere sunan Blue Diamond ise bu sembolik değeri benimseyerek, mücevher dünyasında öncü bir rol oynamaktadır.",
         "Evlilik teklifleri, özel kutlamalar veya önemli anılar için seçilen pırlanta yüzükler, aşkın ve bağlılığın sembolüdür.",
-        "Pırlanta bileklikler veya küpeler ise zarafet ve şıklığı temsil eder.",
-        "Işıltılı görünümü ile dikkat çeken pırlanta kolye, aşkın en saf halidir."
+        "Pırlanta bileklikler veya küpeler ise zarafet ve şıklığı temsil eder."
       ],
       "percentCampaigns": [
-        "%8",
         "%5",
         "%6",
         "%9",
         "%7",
-        "%13",
         "%10",
         "%12"
       ],
@@ -236,11 +234,6 @@
           "title": ""
         },
         {
-          "src": "https://img.bluediamond.com.tr/anasayfa/su-yolu-kmp-mobile-13.11.2026.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
-          "title": ""
-        },
-        {
           "src": "https://img.bluediamond.com.tr/anasayfa/muhtesem-tektaslar-mobilefiyatsiz-16.10.26.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
@@ -249,14 +242,21 @@
           "src": "https://img.bluediamond.com.tr/anasayfa/hediye-mobile-blue-friday-19.11.2026.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
+        },
+        {
+          "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
+          "alt": "Blue Diamond",
+          "title": ""
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": true,
       "pageChanged": true,
-      "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %8, %5, %6, %9, %7, %13, %10, %12.",
+      "newCampaignTexts": [
+        "Günlük kullanım için gerçekten ideal bir model Tektaş yüzüğü aldığımda gözlerindeki mutluluğu görmek her şeye değerdi."
+      ],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %9, %7, %10, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -325,15 +325,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Y Model Kolye Kombin Rehberi Y kolye en çok V yaka, kruvaze yaka, düğmeleri açık gömlek yakası ve straplez gibi göğüs dekoltesini açık bırakan yakalarla uyum sağlar.",
-        "Y kolye, zincirin göğüste birleşip aşağı doğru tek bir sarkıtla devam ettiği ve Y harfi biçimini oluşturan kolyedir.",
-        "Y kolyenin çizgisi aşağı doğru indiği için yakanın da aşağı doğru açılması, kolye ile kıyafetin aynı yönde durmasını sağlar.",
-        "Devamını Oku 23.11.2026 Üçtaş Pırlanta Yüzük: Anlamı ve Model Önerileri Bazı yüzükler tek bir anı anlatır."
-      ],
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -364,7 +359,6 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%10",
         "%100"
       ],
       "bannerImages": [
@@ -410,14 +404,11 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
-      "bannerChanged": true,
+      "campaignChanged": false,
+      "bannerChanged": false,
       "pageChanged": true,
-      "newCampaignTexts": [
-        "1500 TL İNDİRİM ÇEKİ Yeni üyelere özel!",
-        "İlk alışverişinizde 29.990 TL ve üzeri alışverişlerinizde 1.500 TL indirim çeki hediye!"
-      ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10, %100.",
+      "newCampaignTexts": [],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -431,8 +422,6 @@
       "campaignTexts": [
         "Kopyala Tektaş yüzük, alyans, bileklik, kolye, küpe, altın ve pırlanta modellerinde indirimli fiyatlar; sigortalı ve ücretsiz kargo ile Ariş Pırlanta'da.",
         "Giriş Yapın Özel fırsatları kaçırmayın Giriş Yap Kayıt Ol Aranıyor...",
-        "Kaçırmayın Yeni üye olanlara özel %5 İndirim!",
-        "Sigortalı Ücretsiz Kargo!",
         "Kategoriler Ürünler Popüler Aramalar Tektaş Yüzük Pırlanta Kolye Beştaş Yüzük Ara Hesabım Giriş yapın Merhaba!",
         "Müşteri memnuniyeti odaklı hizmet anlayışımızla, her detayı düşünüyoruz Sigortalı Kargo Siparişiniz Teslimatı tarafınıza yapılana kadar Ariş Pırlanta sorumluluğundadır.",
         "Kendi Tektaşını Tasarla bölümünden, size özel tektaşınızı tasarlayabilir beğendiğiniz sertifikalı taşı seçebilirsiniz.",
@@ -490,16 +479,16 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
+      "pageChanged": true,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
   "aiComment": "Bugün 4 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Blue Diamond, Lizay Pırlanta, D Diamond tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %7); Blue Diamond (%8, %5, %6); D Diamond (%50, %10, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Blue Diamond, Ariş Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %8); Blue Diamond (%5, %6, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
