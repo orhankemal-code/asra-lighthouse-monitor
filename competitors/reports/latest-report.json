@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T17:33:11.484Z",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T17:05:34.170Z",
   "totalSites": 6,
   "changedSites": 4,
   "failedSites": 0,
@@ -114,10 +114,12 @@
       "percentCampaigns": [
         "%5",
         "%6",
-        "%8",
+        "%7",
+        "%15",
         "%9",
         "%14",
-        "%7"
+        "%10",
+        "%18"
       ],
       "bannerImages": [
         {
@@ -126,8 +128,8 @@
           "title": ""
         },
         {
-          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/ogretmenler-gunu-19-11-2026-750x750_mobile_ana_banner.jpg?v=3",
-          "alt": "Öğretmenler Günü Saat Kolye",
+          "src": "https://img-zenpirlanta.mncdn.com/anasayfa/cok-sevilen-saaat-kolye-25-11-2026-750x750_mobile_ana_banner.jpg?v=3",
+          "alt": "Çok Sevilen Saat Kolye",
           "title": ""
         },
         {
@@ -163,10 +165,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": false,
+      "bannerChanged": true,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %8, %9, %14, %7.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %7, %15, %9, %14, %10, %18.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -200,11 +202,13 @@
         "Pırlanta bileklikler veya küpeler ise zarafet ve şıklığı temsil eder."
       ],
       "percentCampaigns": [
+        "%11",
         "%5",
-        "%6",
         "%9",
         "%7",
-        "%10",
+        "%6",
+        "%8",
+        "%13",
         "%12"
       ],
       "bannerImages": [
@@ -220,11 +224,6 @@
         },
         {
           "src": "https://img.bluediamond.com.tr/anasayfa/oval-tektas-pirlanta-firsatlari-mobile-13.11.26.jpg",
-          "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
-          "title": ""
-        },
-        {
-          "src": "https://img.bluediamond.com.tr/anasayfa/ogretmenler-gunu-mobile-20.11.26-.jpg",
           "alt": "Pırlanta mücevher alışverişinizde ilk üyeliğe özel 2.500 TL hediye indirim çeki! Yüzük, kolye, küpe, bileklik, pırlanta da Blue Diamond ayrıcalığını keşfedin.",
           "title": ""
         },
@@ -247,16 +246,19 @@
           "src": "https://img.bluediamond.com.tr/anasayfa/hediye-ceki-blue-diamond-mobile-19.09.26.jpg?v1",
           "alt": "Blue Diamond",
           "title": ""
+        },
+        {
+          "src": "https://img.bluediamond.com.tr/anasayfa/erkek-mobile-20.09.26.jpg?v1",
+          "alt": "Blue Diamond",
+          "title": ""
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": true,
       "pageChanged": true,
-      "newCampaignTexts": [
-        "Günlük kullanım için gerçekten ideal bir model Tektaş yüzüğü aldığımda gözlerindeki mutluluğu görmek her şeye değerdi."
-      ],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %9, %7, %10, %12.",
+      "newCampaignTexts": [],
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %11, %5, %9, %7, %6, %8, %13, %12.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -268,6 +270,9 @@
       "description": "Lizay Pırlanta online mağazasında pırlanta ve altın modellerini keşfet. Güvenli alışveriş ve taksit imkanlarıyla hemen al!",
       "h1": "",
       "campaignTexts": [
+        "Anlamı, Avantajları ve Modelleri Markiz kesim yüzük, iki ucu sivri ve ortası geniş, mekik biçimli markiz kesim taş taşıyan yüzüktür.",
+        "Markiz kesim yüzüğün iki temel avantajı, taşın aynı karattaki yuvarlak taştan daha uzun olması ve parmağı daha uzun göstermesidir; markiz yüzük modelleri tektaş, halo, üç taş ve yatay yerleşimli olarak ayrılır.",
+        "Devamını Oku 25.11.2026 Y Kolye Hangi Yakayla Takılır?",
         "Y Model Kolye Kombin Rehberi Y kolye en çok V yaka, kruvaze yaka, düğmeleri açık gömlek yakası ve straplez gibi göğüs dekoltesini açık bırakan yakalarla uyum sağlar.",
         "Y kolye, zincirin göğüste birleşip aşağı doğru tek bir sarkıtla devam ettiği ve Y harfi biçimini oluşturan kolyedir.",
         "Y kolyenin çizgisi aşağı doğru indiği için yakanın da aşağı doğru açılması, kolye ile kıyafetin aynı yönde durmasını sağlar.",
@@ -277,9 +282,7 @@
         "Devamını Oku 06.11.2026 Siyah Pırlanta Nedir?",
         "Yüzük, Küpe ve Bileklik Modelleri Pırlanta denince gözümüzün önüne hep aynı görüntü gelir: ışığı yakalayıp gökkuşağı renklerine bölen, berrak ve parıl parıl bir taş.",
         "Nazar boncuğu, bizde sevginin en kısa ve en içten cümlesidir: \"Sana bir şey olmasın.\" Devamını Oku 02.11.2026 Kolye Ucu Modelleri: Anlamlı ve Şık Altın Seçenekler Bazı takılar sadece güzel oldukları için takılır.",
-        "Kolye uçları tam olarak bu ikinci gruba aittir.",
-        "Kolye ve Bileklik Modelleri Bazı tasarımlar vardır; modaya göre gelip gitmez, her dönemde kendine yeniden yer bulur.",
-        "Bir babanın yıllardır bileğinden çıkarmadığı kalın altın bileklikte de, genç bir kadının boynunda katmanlı kombinin parçası olan ince bir kolyede de aynı karakterle karşımıza çıkar."
+        "Kolye uçları tam olarak bu ikinci gruba aittir."
       ],
       "percentCampaigns": [],
       "bannerImages": [
@@ -325,10 +328,14 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": false,
+      "campaignChanged": true,
       "bannerChanged": false,
-      "pageChanged": false,
-      "newCampaignTexts": [],
+      "pageChanged": true,
+      "newCampaignTexts": [
+        "Anlamı, Avantajları ve Modelleri Markiz kesim yüzük, iki ucu sivri ve ortası geniş, mekik biçimli markiz kesim taş taşıyan yüzüktür.",
+        "Markiz kesim yüzüğün iki temel avantajı, taşın aynı karattaki yuvarlak taştan daha uzun olması ve parmağı daha uzun göstermesidir; markiz yüzük modelleri tektaş, halo, üç taş ve yatay yerleşimli olarak ayrılır.",
+        "Devamını Oku 25.11.2026 Y Kolye Hangi Yakayla Takılır?"
+      ],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -359,6 +366,7 @@
       ],
       "percentCampaigns": [
         "%50",
+        "%10",
         "%100"
       ],
       "bannerImages": [
@@ -408,7 +416,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10, %100.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -479,16 +487,16 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
+      "pageChanged": false,
       "newCampaignTexts": [],
       "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
   "aiComment": "Bugün 4 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Blue Diamond, Ariş Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %8); Blue Diamond (%5, %6, %9); D Diamond (%50, %100); Ariş Pırlanta (%5).",
+  "actionOne": "Zen Pırlanta, Blue Diamond, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
+  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %7); Blue Diamond (%11, %5, %9); D Diamond (%50, %10, %100); Ariş Pırlanta (%5).",
   "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
 }
