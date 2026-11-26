@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-25",
-  "generatedAt": "2026-11-25T17:05:34.170Z",
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T16:46:14.016Z",
   "totalSites": 6,
-  "changedSites": 4,
+  "changedSites": 3,
   "failedSites": 0,
   "sites": [
     {
@@ -114,12 +114,10 @@
       "percentCampaigns": [
         "%5",
         "%6",
-        "%7",
-        "%15",
-        "%9",
         "%14",
-        "%10",
-        "%18"
+        "%17",
+        "%9",
+        "%8"
       ],
       "bannerImages": [
         {
@@ -165,10 +163,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %7, %15, %9, %14, %10, %18.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %6, %14, %17, %9, %8.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -202,14 +200,14 @@
         "Pırlanta bileklikler veya küpeler ise zarafet ve şıklığı temsil eder."
       ],
       "percentCampaigns": [
-        "%11",
         "%5",
+        "%11",
         "%9",
-        "%7",
+        "%12",
         "%6",
         "%8",
-        "%13",
-        "%12"
+        "%10",
+        "%32"
       ],
       "bannerImages": [
         {
@@ -255,10 +253,10 @@
       ],
       "hasPrevious": true,
       "campaignChanged": false,
-      "bannerChanged": true,
+      "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %11, %5, %9, %7, %6, %8, %13, %12.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %5, %11, %9, %12, %6, %8, %10, %32.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -328,14 +326,10 @@
         }
       ],
       "hasPrevious": true,
-      "campaignChanged": true,
+      "campaignChanged": false,
       "bannerChanged": false,
-      "pageChanged": true,
-      "newCampaignTexts": [
-        "Anlamı, Avantajları ve Modelleri Markiz kesim yüzük, iki ucu sivri ve ortası geniş, mekik biçimli markiz kesim taş taşıyan yüzüktür.",
-        "Markiz kesim yüzüğün iki temel avantajı, taşın aynı karattaki yuvarlak taştan daha uzun olması ve parmağı daha uzun göstermesidir; markiz yüzük modelleri tektaş, halo, üç taş ve yatay yerleşimli olarak ayrılır.",
-        "Devamını Oku 25.11.2026 Y Kolye Hangi Yakayla Takılır?"
-      ],
+      "pageChanged": false,
+      "newCampaignTexts": [],
       "strength": "Kampanya görünürlüğü sınırlı görünüyor.",
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     },
@@ -366,8 +360,8 @@
       ],
       "percentCampaigns": [
         "%50",
-        "%10",
-        "%100"
+        "%100",
+        "%10"
       ],
       "bannerImages": [
         {
@@ -416,7 +410,7 @@
       "bannerChanged": false,
       "pageChanged": true,
       "newCampaignTexts": [],
-      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %10, %100.",
+      "strength": "İndirim oranı mesajlarını görünür kullanıyor: %50, %100, %10.",
       "weakness": "Ana sayfada kampanya mesajı daha net verilebilir."
     },
     {
@@ -495,8 +489,8 @@
       "weakness": "Asra'ya göre kampanya metni daha az görünür durumda."
     }
   ],
-  "aiComment": "Bugün 4 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
-  "actionOne": "Zen Pırlanta, Blue Diamond, Lizay Pırlanta tarafında değişiklik var; ana banner ve kampanya metinleri kontrol edilmeli.",
-  "actionTwo": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %7); Blue Diamond (%11, %5, %9); D Diamond (%50, %10, %100); Ariş Pırlanta (%5).",
-  "actionThree": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli."
+  "aiComment": "Bugün 3 sitede kampanya, banner veya önemli sayfa değişikliği tespit edildi.<br>Kampanya mesajı en yoğun görünen site: Zen Pırlanta.<br>Asra tarafında ana banner, sepette avantaj ve indirim mesajı rakiplerle günlük olarak karşılaştırılmalı.",
+  "actionOne": "Rakiplerde indirim oranı vurgusu var: Zen Pırlanta (%5, %6, %14); Blue Diamond (%5, %11, %9); D Diamond (%50, %100, %10); Ariş Pırlanta (%5).",
+  "actionTwo": "Asra ana sayfasında kampanya mesajı ilk ekranda net, kısa ve güçlü görünmeli.",
+  "actionThree": "Rakip banner metinleri günlük izlenerek benzer dönemsel kampanyalara hızlı karşılık verilmeli."
 }
